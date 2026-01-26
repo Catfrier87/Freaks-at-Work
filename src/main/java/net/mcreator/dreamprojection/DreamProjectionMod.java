@@ -20,6 +20,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.dreamprojection.init.DreamProjectionModTabs;
+import net.mcreator.dreamprojection.init.DreamProjectionModItems;
+import net.mcreator.dreamprojection.init.DreamProjectionModEntities;
+
 import javax.annotation.Nullable;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -43,6 +47,9 @@ public class DreamProjectionMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		DreamProjectionModItems.REGISTRY.register(modEventBus);
+		DreamProjectionModEntities.REGISTRY.register(modEventBus);
+		DreamProjectionModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

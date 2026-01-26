@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nightmare:item/meat_chunk"
+    "layer0": "dream_projection:item/meat_chunk"
   }
 }

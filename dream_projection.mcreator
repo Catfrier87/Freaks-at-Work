@@ -1,13 +1,45 @@
 {
   "mod_elements": [
     {
-      "name": "Pp",
-      "type": "tab",
+      "name": "Meat",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pp",
+      "registry_name": "meat",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/MeatItem.java",
+          "src/main/resources/assets/dream_projection/items/meat.json",
+          "src/main/resources/assets/dream_projection/models/item/meat.json"
+        ]
+      }
+    },
+    {
+      "name": "FreakTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freak_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/loot_table/entities/fucker.json"
+        ]
+      }
+    },
+    {
+      "name": "Freak",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/entity/FreakEntity.java",
+          "src/main/resources/assets/dream_projection/models/item/freak_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/items/freak_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/FreakRenderer.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/freak_biome_modifier.json"
+        ]
       }
     }
   ],
@@ -17,12 +49,19 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.dream_projection.pp": "Pp"
+      "item.dream_projection.meat": "Meat",
+      "entity.dream_projection.freak": "Freak",
+      "item.dream_projection.freak_spawn_egg": "Freak Spawn Egg"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
       "src/main/resources/pack.mcmeta"
     ]

@@ -9,16 +9,12 @@
     "customProperties": {},
     "states": [],
     "animations": [],
-    "name": "Chunk of Meat",
-    "rarity": "UNCOMMON",
-    "creativeTabs": [
-      {
-        "value": "FOOD"
-      }
-    ],
+    "name": "Meat",
+    "rarity": "COMMON",
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -46,15 +42,15 @@
       "value": "Arrow"
     },
     "projectileDisableAmmoCheck": false,
-    "isFood": true,
+    "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": true,
+    "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat",
+    "animation": "none",
     "isMusicDisc": false,
     "musicDiscMusic": {
       "value": ""
