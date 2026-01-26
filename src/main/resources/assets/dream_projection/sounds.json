@@ -1,19 +1,10 @@
 {
-  "shock": {
-    "subtitle": "subtitles.shock",
+  "wheat_wind": {
+    "subtitle": "subtitles.wheat_wind",
     "sounds": [
       {
-        "name": "nightmare:corpus",
+        "name": "dream_projection:wheat_ambience",
         "stream": false
-      }
-    ]
-  },
-  "rapture": {
-    "subtitle": "subtitles.rapture",
-    "sounds": [
-      {
-        "name": "nightmare:rapture",
-        "stream": true
       }
     ]
   }

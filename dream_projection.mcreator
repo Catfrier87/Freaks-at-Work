@@ -9,22 +9,72 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Wheatfield",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheatfield",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/biome/wheatfield.json"
+        ]
+      },
+      "path": "~/Nightmares/Wheatfield"
+    },
+    {
+      "name": "TheWheatfield",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_wheatfield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/TheWheatfieldDimension.java",
+          "src/main/resources/data/dream_projection/dimension_type/the_wheatfield.json",
+          "src/main/resources/data/dream_projection/dimension/the_wheatfield.json"
+        ]
+      },
+      "path": "~/Nightmares/Wheatfield"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "wheat_wind",
+      "files": [
+        "wheat_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": "Fracturing Divinity"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.WHEAT",
+      "~Blocks.DIRT#0"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.dream_projection.pp": "Pp"
+      "item_group.dream_projection.pp": "Pp",
+      "biome.dream_projection.wheatfield": "Wheatfield",
+      "subtitles.wheat_wind": "Fracturing Divinity"
     }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
+      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/dream_projection/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/dream_projection.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
