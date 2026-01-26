@@ -39,7 +39,7 @@
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "FALLING_HONEY"
+      "value": "CUSTOM:Wheatfieldbugfuckers"
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,

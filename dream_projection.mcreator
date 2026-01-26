@@ -37,6 +37,20 @@
         ]
       },
       "path": "~/Nightmares/Wheatfield"
+    },
+    {
+      "name": "Wheatfieldbugfuckers",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheatfieldbugfuckers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/particles/wheatfieldbugfuckers.json",
+          "src/main/java/net/mcreator/dreamprojection/client/particle/WheatfieldbugfuckersParticle.java"
+        ]
+      },
+      "path": "~/Nightmares/Wheatfield"
     }
   ],
   "variable_elements": [],
@@ -69,6 +83,8 @@
     "files": [
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
