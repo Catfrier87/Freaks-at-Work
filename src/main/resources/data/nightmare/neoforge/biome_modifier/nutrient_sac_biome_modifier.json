@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": [
-    "nightmare:fear",
-    "nightmare:abyss"
-  ],
-  "features": "nightmare:nutrient_sac",
-  "step": "underground_ores"
-}
