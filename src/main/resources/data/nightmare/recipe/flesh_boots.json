@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": "nightmare:meat",
+    "b": "nightmare:scab"
+  },
+  "result": {
+    "id": "nightmare:corpse_boots",
+    "count": 1
+  }
+}

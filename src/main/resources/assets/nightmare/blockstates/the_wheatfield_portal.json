@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "nightmare:block/the_wheatfield_portal_ew"
+    },
+    "axis=x": {
+      "model": "nightmare:block/the_wheatfield_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_fv": 79,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Abyss"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "seaLevel": 60,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 4,
+    "verticalNoiseSize": 1,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192,
+    "skyType": "NORMAL",
+    "airColor": {
+      "value": -26317,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": true,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": false,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 1,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": {
+      "value": "Blocks.HAY_BLOCK"
+    },
+    "portalParticles": {
+      "value": "NAUTILUS"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "ambient.cave"
+    },
+    "enableIgniter": false,
+    "igniterName": "Wheatfield Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "",
+    "portalTexture": "minecraft:hay_block_top",
+    "enablePortal": true
+  }
+}

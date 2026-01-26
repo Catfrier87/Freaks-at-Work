@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "nightmare:abyss",
+  "features": "nightmare:eyes",
+  "step": "underground_ores"
+}

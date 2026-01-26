@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "a a"
+  ],
+  "key": {
+    "a": "nightmare:meat",
+    "b": "nightmare:tendon"
+  },
+  "result": {
+    "id": "nightmare:corpse_leggings",
+    "count": 1
+  }
+}

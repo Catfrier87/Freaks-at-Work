@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:crying_obsidian",
+    "b": "nightmare:pure_darkness",
+    "c": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "id": "nightmare:void_tool",
+    "count": 1
+  }
+}

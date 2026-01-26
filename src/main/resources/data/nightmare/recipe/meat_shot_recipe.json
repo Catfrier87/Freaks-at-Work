@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:bone",
+    "b": "nightmare:tendon",
+    "c": "nightmare:scab",
+    "d": "nightmare:meat"
+  },
+  "result": {
+    "id": "nightmare:meat_shot",
+    "count": 1
+  }
+}

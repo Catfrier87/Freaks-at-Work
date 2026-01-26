@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Meat"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": "CUSTOM:Pupil"
+      },
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": "CUSTOM:Pupil"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Corpse.helmet"
+    },
+    "name": "flesh_helmet",
+    "namespace": "mod"
+  }
+}

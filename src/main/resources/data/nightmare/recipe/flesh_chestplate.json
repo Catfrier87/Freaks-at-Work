@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": "nightmare:meat",
+    "b": "nightmare:pure_darkness"
+  },
+  "result": {
+    "id": "nightmare:corpse_chestplate",
+    "count": 1
+  }
+}

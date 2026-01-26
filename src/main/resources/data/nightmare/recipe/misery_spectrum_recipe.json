@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " ca",
+    "b a"
+  ],
+  "key": {
+    "a": "nightmare:pure_darkness",
+    "b": "nightmare:meat",
+    "c": "nightmare:pupil"
+  },
+  "result": {
+    "id": "nightmare:misery_spectrum",
+    "count": 1
+  }
+}
