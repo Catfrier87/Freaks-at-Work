@@ -52,6 +52,7 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.FARMLAND",
       "~Blocks.WHEAT",
       "~Blocks.DIRT#0"
     ]

@@ -7,14 +7,10 @@
       "value": "Blocks.WHEAT"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#0"
+      "value": "Blocks.FARMLAND"
     },
     "underwaterBlock": {
       "value": "Blocks.DIRT#0"
-    },
-    "airColor": {
-      "value": -26368,
-      "falpha": 0.0
     },
     "fogColor": {
       "value": -26368,

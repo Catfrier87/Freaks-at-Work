@@ -7,14 +7,14 @@
         "value": "CUSTOM:Wheatfield"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "Blocks.DIRT#0"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
-    "seaLevel": 63,
+    "seaLevel": 50,
     "generateOreVeins": true,
     "generateAquifers": true,
     "horizontalNoiseSize": 4,
@@ -30,7 +30,7 @@
     "ambientLight": 0.0,
     "doesWaterVaporize": false,
     "hasFixedTime": true,
-    "fixedTimeValue": 0,
+    "fixedTimeValue": 12500,
     "coordinateScale": 0.5,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": false,
