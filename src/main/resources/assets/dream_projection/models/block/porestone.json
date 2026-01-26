@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nightmare:block/porestone2",
+    "up": "nightmare:block/porestone2",
+    "north": "nightmare:block/porestone2",
+    "east": "nightmare:block/porestone2",
+    "south": "nightmare:block/porestone2",
+    "west": "nightmare:block/porestone2",
+    "particle": "nightmare:block/porestone2"
+  },
+  "render_type": "solid"
+}

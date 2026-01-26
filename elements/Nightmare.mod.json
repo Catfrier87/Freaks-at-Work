@@ -1,0 +1,72 @@
+{
+  "_fv": 79,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Fear"
+      },
+      {
+        "value": "CUSTOM:Abyss"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Porestone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "seaLevel": 32,
+    "generateOreVeins": false,
+    "generateAquifers": false,
+    "horizontalNoiseSize": 2,
+    "verticalNoiseSize": 4,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192,
+    "skyType": "NONE",
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": true,
+    "hasFog": true,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": {
+      "value": "Blocks.STONE#1"
+    },
+    "portalParticles": {
+      "value": "SPIT"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "entity.warden.heartbeat"
+    },
+    "enableIgniter": true,
+    "igniterName": "Dream Projector",
+    "igniterRarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "texture": "minecraft:red_bundle_open_back",
+    "portalTexture": "portal",
+    "enablePortal": true
+  }
+}

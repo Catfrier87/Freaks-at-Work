@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nightmare:item/spectrum_of_misery"
+  }
+}

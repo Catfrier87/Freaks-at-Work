@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "nightmare:corpse"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "nightmare:corpse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nightmare:block/yuckskin",
+    "up": "nightmare:block/yuckskin",
+    "north": "nightmare:block/yuckskin",
+    "east": "nightmare:block/yuckskin",
+    "south": "nightmare:block/yuckskin",
+    "west": "nightmare:block/yuckskin",
+    "particle": "nightmare:block/yuckskin"
+  },
+  "render_type": "solid"
+}

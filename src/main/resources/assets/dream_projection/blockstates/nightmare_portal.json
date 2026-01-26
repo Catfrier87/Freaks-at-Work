@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "nightmare:block/nightmare_portal_ew"
+    },
+    "axis=x": {
+      "model": "nightmare:block/nightmare_portal_ns"
+    }
+  }
+}

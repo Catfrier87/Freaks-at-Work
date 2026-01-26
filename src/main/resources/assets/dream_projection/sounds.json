@@ -1,0 +1,20 @@
+{
+  "shock": {
+    "subtitle": "subtitles.shock",
+    "sounds": [
+      {
+        "name": "nightmare:corpus",
+        "stream": false
+      }
+    ]
+  },
+  "rapture": {
+    "subtitle": "subtitles.rapture",
+    "sounds": [
+      {
+        "name": "nightmare:rapture",
+        "stream": true
+      }
+    ]
+  }
+}
