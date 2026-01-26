@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "nightmare:item/freak_spawn_egg"
+    "model": "dream_projection:item/freak_spawn_egg"
   }
 }

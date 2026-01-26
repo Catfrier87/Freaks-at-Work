@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "nightmare:item/meat"
+    "model": "dream_projection:item/meat"
   }
 }

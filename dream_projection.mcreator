@@ -1,16 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Pp",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pp",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "Wheatfield",
       "type": "biome",
       "compiles": true,
@@ -51,6 +41,48 @@
         ]
       },
       "path": "~/Nightmares/Wheatfield"
+    },
+    {
+      "name": "Freak",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/freak_biome_modifier.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/FreakRenderer.java",
+          "src/main/java/net/mcreator/dreamprojection/entity/FreakEntity.java",
+          "src/main/resources/assets/dream_projection/models/item/freak_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/items/freak_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "FreakTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freak_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/loot_table/entities/fucker.json"
+        ]
+      }
+    },
+    {
+      "name": "Meat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/meat.json",
+          "src/main/java/net/mcreator/dreamprojection/item/MeatItem.java",
+          "src/main/resources/assets/dream_projection/models/item/meat.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -74,8 +106,6 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.dream_projection.pp": "Pp",
-      "biome.dream_projection.wheatfield": "Wheatfield",
       "subtitles.wheat_wind": "Fracturing Divinity"
     }
   },
@@ -83,8 +113,6 @@
     "files": [
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
