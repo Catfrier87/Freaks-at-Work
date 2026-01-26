@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "nightmare:block/eyes",
-    "up": "nightmare:block/eyes",
-    "north": "nightmare:block/eyes",
-    "east": "nightmare:block/eyes",
-    "south": "nightmare:block/eyes",
-    "west": "nightmare:block/eyes",
-    "particle": "nightmare:block/eyes"
+    "down": "dream_projection:block/eyes",
+    "up": "dream_projection:block/eyes",
+    "north": "dream_projection:block/eyes",
+    "east": "dream_projection:block/eyes",
+    "south": "dream_projection:block/eyes",
+    "west": "dream_projection:block/eyes",
+    "particle": "dream_projection:block/eyes"
   },
   "render_type": "solid"
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nightmare:block/blood_clot"
+      "model": "dream_projection:block/blood_clot"
     }
   }
 }

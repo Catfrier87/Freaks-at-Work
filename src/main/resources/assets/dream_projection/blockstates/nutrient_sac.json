@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nightmare:block/nutrient_sac"
+      "model": "dream_projection:block/nutrient_sac"
     }
   }
 }

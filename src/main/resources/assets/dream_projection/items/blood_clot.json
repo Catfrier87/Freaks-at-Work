@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "nightmare:item/blood_clot"
+    "model": "dream_projection:item/blood_clot"
   }
 }

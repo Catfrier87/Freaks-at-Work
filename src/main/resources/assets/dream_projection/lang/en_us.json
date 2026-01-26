@@ -1,3 +1,15 @@
 {
-  "subtitles.wheat_wind": "Fracturing Divinity"
+  "subtitles.wheat_wind": "Fracturing Divinity",
+  "entity.dream_projection.freak": "Freak",
+  "item.dream_projection.freak_spawn_egg": "Freak Spawn Egg",
+  "item.dream_projection.meat": "Meat",
+  "biome.dream_projection.wheatfield": "Wheatfield",
+  "item.dream_projection.porestone": "Porestone",
+  "item.dream_projection.skin_block": "Skin",
+  "biome.dream_projection.epidermis": "Fear",
+  "item.dream_projection.blood_clot": "Crusted Blood",
+  "item.dream_projection.darkness_block": "Darkness Block",
+  "biome.dream_projection.abyss": "Abyss",
+  "item.dream_projection.eyes": "Eyes",
+  "item.dream_projection.nutrient_sac": "Nutrient Sac"
 }

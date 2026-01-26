@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dream_projection:block/static",
+    "up": "dream_projection:block/static",
+    "north": "dream_projection:block/static",
+    "east": "dream_projection:block/static",
+    "south": "dream_projection:block/static",
+    "west": "dream_projection:block/static",
+    "particle": "dream_projection:block/static"
+  },
+  "render_type": "solid"
+}
