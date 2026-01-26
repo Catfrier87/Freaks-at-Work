@@ -28,7 +28,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dream_projection:meat",
+          "name": "dream_projection:deleted_mod_element",
           "weight": 1,
           "functions": [
             {

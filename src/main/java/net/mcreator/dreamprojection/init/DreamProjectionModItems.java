@@ -16,11 +16,11 @@ import java.util.function.Function;
 
 public class DreamProjectionModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DreamProjectionMod.MODID);
-	public static final DeferredItem<Item> MEAT;
 	public static final DeferredItem<Item> FREAK_SPAWN_EGG;
+	public static final DeferredItem<Item> MEAT;
 	static {
-		MEAT = register("meat", MeatItem::new);
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
+		MEAT = register("meat", MeatItem::new);
 	}
 
 	// Start of user code block custom items

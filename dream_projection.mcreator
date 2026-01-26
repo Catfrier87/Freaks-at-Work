@@ -1,16 +1,18 @@
 {
   "mod_elements": [
     {
-      "name": "Meat",
-      "type": "item",
+      "name": "Freak",
+      "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "meat",
+      "registry_name": "freak",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/MeatItem.java",
-          "src/main/resources/assets/dream_projection/items/meat.json",
-          "src/main/resources/assets/dream_projection/models/item/meat.json"
+          "src/main/java/net/mcreator/dreamprojection/entity/FreakEntity.java",
+          "src/main/resources/assets/dream_projection/models/item/freak_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/items/freak_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/FreakRenderer.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/freak_biome_modifier.json"
         ]
       }
     },
@@ -27,48 +29,92 @@
       }
     },
     {
-      "name": "Freak",
-      "type": "livingentity",
+      "name": "Meat",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "freak",
+      "registry_name": "meat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/entity/FreakEntity.java",
-          "src/main/resources/assets/dream_projection/models/item/freak_spawn_egg.json",
-          "src/main/resources/assets/dream_projection/items/freak_spawn_egg.json",
-          "src/main/java/net/mcreator/dreamprojection/client/renderer/FreakRenderer.java",
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/freak_biome_modifier.json"
+          "src/main/java/net/mcreator/dreamprojection/item/MeatItem.java",
+          "src/main/resources/assets/dream_projection/items/meat.json",
+          "src/main/resources/assets/dream_projection/models/item/meat.json"
         ]
       }
+    },
+    {
+      "name": "Wheatfield",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheatfield",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/biome/wheatfield.json"
+        ]
+      },
+      "path": "~/Nightmares/Wheatfield"
+    },
+    {
+      "name": "TheWheatfield",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_wheatfield",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/dimension_type/the_wheatfield.json",
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/TheWheatfieldDimension.java",
+          "src/main/resources/data/dream_projection/dimension/the_wheatfield.json"
+        ]
+      },
+      "path": "~/Nightmares/Wheatfield"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "wheat_wind",
+      "files": [
+        "wheat_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": "Fracturing Divinity"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.WHEAT",
+      "~Blocks.FARMLAND",
+      "~Blocks.DIRT#0"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.dream_projection.meat": "Meat",
-      "entity.dream_projection.freak": "Freak",
-      "item.dream_projection.freak_spawn_egg": "Freak Spawn Egg"
+      "subtitles.wheat_wind": "Fracturing Divinity"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
       "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Nightmares",
+        "children": [
+          {
+            "name": "Wheatfield",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "dream_projection",

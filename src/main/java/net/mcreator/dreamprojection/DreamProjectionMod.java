@@ -21,6 +21,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dreamprojection.init.DreamProjectionModTabs;
+import net.mcreator.dreamprojection.init.DreamProjectionModSounds;
 import net.mcreator.dreamprojection.init.DreamProjectionModItems;
 import net.mcreator.dreamprojection.init.DreamProjectionModEntities;
 
@@ -47,6 +48,7 @@ public class DreamProjectionMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		DreamProjectionModSounds.REGISTRY.register(modEventBus);
 		DreamProjectionModItems.REGISTRY.register(modEventBus);
 		DreamProjectionModEntities.REGISTRY.register(modEventBus);
 		DreamProjectionModTabs.REGISTRY.register(modEventBus);
