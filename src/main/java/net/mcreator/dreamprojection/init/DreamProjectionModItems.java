@@ -21,20 +21,20 @@ public class DreamProjectionModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DreamProjectionMod.MODID);
 	public static final DeferredItem<Item> FREAK_SPAWN_EGG;
 	public static final DeferredItem<Item> MEAT;
-	public static final DeferredItem<Item> PORESTONE;
+	public static final DeferredItem<Item> EYES;
+	public static final DeferredItem<Item> DARKNESS_BLOCK;
 	public static final DeferredItem<Item> SKIN_BLOCK;
 	public static final DeferredItem<Item> BLOOD_CLOT;
-	public static final DeferredItem<Item> DARKNESS_BLOCK;
-	public static final DeferredItem<Item> EYES;
+	public static final DeferredItem<Item> PORESTONE;
 	public static final DeferredItem<Item> NUTRIENT_SAC;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
-		PORESTONE = block(DreamProjectionModBlocks.PORESTONE);
+		EYES = block(DreamProjectionModBlocks.EYES);
+		DARKNESS_BLOCK = block(DreamProjectionModBlocks.DARKNESS_BLOCK);
 		SKIN_BLOCK = block(DreamProjectionModBlocks.SKIN_BLOCK);
 		BLOOD_CLOT = block(DreamProjectionModBlocks.BLOOD_CLOT);
-		DARKNESS_BLOCK = block(DreamProjectionModBlocks.DARKNESS_BLOCK);
-		EYES = block(DreamProjectionModBlocks.EYES);
+		PORESTONE = block(DreamProjectionModBlocks.PORESTONE);
 		NUTRIENT_SAC = block(DreamProjectionModBlocks.NUTRIENT_SAC);
 	}
 

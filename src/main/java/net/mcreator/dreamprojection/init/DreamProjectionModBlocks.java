@@ -16,18 +16,18 @@ import java.util.function.Function;
 
 public class DreamProjectionModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(DreamProjectionMod.MODID);
-	public static final DeferredBlock<Block> PORESTONE;
+	public static final DeferredBlock<Block> EYES;
+	public static final DeferredBlock<Block> DARKNESS_BLOCK;
 	public static final DeferredBlock<Block> SKIN_BLOCK;
 	public static final DeferredBlock<Block> BLOOD_CLOT;
-	public static final DeferredBlock<Block> DARKNESS_BLOCK;
-	public static final DeferredBlock<Block> EYES;
+	public static final DeferredBlock<Block> PORESTONE;
 	public static final DeferredBlock<Block> NUTRIENT_SAC;
 	static {
-		PORESTONE = register("porestone", PorestoneBlock::new);
+		EYES = register("eyes", EyesBlock::new);
+		DARKNESS_BLOCK = register("darkness_block", DarknessBlockBlock::new);
 		SKIN_BLOCK = register("skin_block", SkinBlockBlock::new);
 		BLOOD_CLOT = register("blood_clot", BloodClotBlock::new);
-		DARKNESS_BLOCK = register("darkness_block", DarknessBlockBlock::new);
-		EYES = register("eyes", EyesBlock::new);
+		PORESTONE = register("porestone", PorestoneBlock::new);
 		NUTRIENT_SAC = register("nutrient_sac", NutrientSacBlock::new);
 	}
 

@@ -71,19 +71,36 @@
       "path": "~/Nightmares/Wheatfield"
     },
     {
-      "name": "Porestone",
+      "name": "Eyes",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "porestone",
+      "registry_name": "eyes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/block/porestone.json",
-          "src/main/resources/assets/dream_projection/blockstates/porestone.json",
-          "src/main/resources/assets/dream_projection/models/item/porestone.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/porestone.json",
-          "src/main/resources/assets/dream_projection/items/porestone.json",
-          "src/main/java/net/mcreator/dreamprojection/block/PorestoneBlock.java"
+          "src/main/java/net/mcreator/dreamprojection/block/EyesBlock.java",
+          "src/main/resources/assets/dream_projection/blockstates/eyes.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/eyes.json",
+          "src/main/resources/assets/dream_projection/models/item/eyes.json",
+          "src/main/resources/assets/dream_projection/items/eyes.json",
+          "src/main/resources/assets/dream_projection/models/block/eyes.json"
+        ]
+      }
+    },
+    {
+      "name": "DarknessBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/block/DarknessBlockBlock.java",
+          "src/main/resources/assets/dream_projection/models/item/darkness_block.json",
+          "src/main/resources/assets/dream_projection/blockstates/darkness_block.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/darkness_block.json",
+          "src/main/resources/assets/dream_projection/items/darkness_block.json",
+          "src/main/resources/assets/dream_projection/models/block/darkness_block.json"
         ]
       }
     },
@@ -137,23 +154,6 @@
       }
     },
     {
-      "name": "DarknessBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkness_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamprojection/block/DarknessBlockBlock.java",
-          "src/main/resources/assets/dream_projection/models/item/darkness_block.json",
-          "src/main/resources/assets/dream_projection/blockstates/darkness_block.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/darkness_block.json",
-          "src/main/resources/assets/dream_projection/items/darkness_block.json",
-          "src/main/resources/assets/dream_projection/models/block/darkness_block.json"
-        ]
-      }
-    },
-    {
       "name": "Abyss",
       "type": "biome",
       "compiles": true,
@@ -166,19 +166,19 @@
       }
     },
     {
-      "name": "Eyes",
+      "name": "Porestone",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "eyes",
+      "registry_name": "porestone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/block/EyesBlock.java",
-          "src/main/resources/assets/dream_projection/blockstates/eyes.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/eyes.json",
-          "src/main/resources/assets/dream_projection/models/item/eyes.json",
-          "src/main/resources/assets/dream_projection/items/eyes.json",
-          "src/main/resources/assets/dream_projection/models/block/eyes.json"
+          "src/main/resources/assets/dream_projection/models/block/porestone.json",
+          "src/main/resources/assets/dream_projection/blockstates/porestone.json",
+          "src/main/resources/assets/dream_projection/models/item/porestone.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/porestone.json",
+          "src/main/resources/assets/dream_projection/items/porestone.json",
+          "src/main/java/net/mcreator/dreamprojection/block/PorestoneBlock.java"
         ]
       }
     },
@@ -190,9 +190,11 @@
       "registry_name": "nutrient_sac",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/loot_table/blocks/nutrient_sac.json",
           "src/main/resources/assets/dream_projection/models/block/nutrient_sac.json",
           "src/main/java/net/mcreator/dreamprojection/block/NutrientSacBlock.java",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/nutrient_sac.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/nutrient_sac.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/nutrient_sac_biome_modifier.json",
           "src/main/resources/assets/dream_projection/items/nutrient_sac.json",
           "src/main/resources/assets/dream_projection/models/item/nutrient_sac.json",
           "src/main/resources/assets/dream_projection/blockstates/nutrient_sac.json"
@@ -210,6 +212,20 @@
           "src/main/resources/data/dream_projection/loot_table/blocks/nutrient_sac.json"
         ]
       }
+    },
+    {
+      "name": "Wheatfieldbugfuckers",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheatfieldbugfuckers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/client/particle/WheatfieldbugfuckersParticle.java",
+          "src/main/resources/assets/dream_projection/particles/wheatfieldbugfuckers.json"
+        ]
+      },
+      "path": "~/Nightmares/Wheatfield"
     }
   ],
   "variable_elements": [],
@@ -229,16 +245,19 @@
       "~Blocks.FARMLAND",
       "~Blocks.DIRT#0"
     ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:BloodClot",
-      "~CUSTOM:Porestone"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:BloodClot",
-      "~CUSTOM:Porestone"
+    "BLOCKS:minecraft:climbable": [
+      "~CUSTOM:DarknessBlock"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SkinBlock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Porestone",
+      "~CUSTOM:BloodClot"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Porestone",
+      "~CUSTOM:BloodClot"
     ]
   },
   "tab_element_order": {},
@@ -261,21 +280,9 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
-      "src/main/resources/dream_projection.mixins.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
-      "src/main/resources/assets/dream_projection/sounds.json"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

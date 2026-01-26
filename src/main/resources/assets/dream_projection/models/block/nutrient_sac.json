@@ -9,5 +9,5 @@
     "west": "dream_projection:block/organ_sac",
     "particle": "dream_projection:block/organ_sac"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

@@ -20,11 +20,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.dreamprojection.init.DreamProjectionModTabs;
-import net.mcreator.dreamprojection.init.DreamProjectionModSounds;
-import net.mcreator.dreamprojection.init.DreamProjectionModItems;
-import net.mcreator.dreamprojection.init.DreamProjectionModEntities;
-import net.mcreator.dreamprojection.init.DreamProjectionModBlocks;
+import net.mcreator.dreamprojection.init.*;
 
 import javax.annotation.Nullable;
 
@@ -54,6 +50,7 @@ public class DreamProjectionMod {
 		DreamProjectionModItems.REGISTRY.register(modEventBus);
 		DreamProjectionModEntities.REGISTRY.register(modEventBus);
 		DreamProjectionModTabs.REGISTRY.register(modEventBus);
+		DreamProjectionModParticleTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
