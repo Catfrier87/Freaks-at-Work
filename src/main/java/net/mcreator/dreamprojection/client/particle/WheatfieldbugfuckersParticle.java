@@ -1,5 +1,13 @@
 package net.mcreator.dreamprojection.client.particle;
 
+import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.client.particle.TextureSheetParticle;
+import net.minecraft.client.particle.SpriteSet;
+import net.minecraft.client.particle.ParticleRenderType;
+import net.minecraft.client.particle.ParticleProvider;
+import net.minecraft.client.particle.Particle;
+import net.minecraft.client.multiplayer.ClientLevel;
+
 public class WheatfieldbugfuckersParticle extends TextureSheetParticle {
 	public static WheatfieldbugfuckersParticleProvider provider(SpriteSet spriteSet) {
 		return new WheatfieldbugfuckersParticleProvider(spriteSet);

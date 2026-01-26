@@ -54,7 +54,7 @@
     "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Scab"
     },
     "dropAmount": 2,
     "xpAmountMin": 1,

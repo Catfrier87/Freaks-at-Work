@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dream_projection:item/scab"
+    "layer0": "dream_projection:item/tendon_bundle"
   }
 }

@@ -226,6 +226,34 @@
         ]
       },
       "path": "~/Nightmares/Wheatfield"
+    },
+    {
+      "name": "Scab",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/scab.json",
+          "src/main/java/net/mcreator/dreamprojection/item/ScabItem.java",
+          "src/main/resources/assets/dream_projection/items/scab.json"
+        ]
+      }
+    },
+    {
+      "name": "Tendons",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tendons",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/tendons.json",
+          "src/main/resources/assets/dream_projection/items/tendons.json",
+          "src/main/java/net/mcreator/dreamprojection/item/TendonsItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -272,17 +300,33 @@
       "item.dream_projection.skin_block": "Skin",
       "biome.dream_projection.epidermis": "Fear",
       "item.dream_projection.blood_clot": "Crusted Blood",
-      "item.dream_projection.darkness_block": "Darkness Block",
+      "item.dream_projection.darkness_block": "Darkness",
       "biome.dream_projection.abyss": "Abyss",
       "item.dream_projection.eyes": "Eyes",
-      "item.dream_projection.nutrient_sac": "Nutrient Sac"
+      "item.dream_projection.nutrient_sac": "Nutrient Sac",
+      "item.dream_projection.scab": "Scab",
+      "item.dream_projection.tendons": "Bundle of Tendons"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
+      "src/main/resources/dream_projection.mixins.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
+      "src/main/resources/assets/dream_projection/sounds.json"
     ]
   },
   "foldersRoot": {

@@ -37,7 +37,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Tendon"
+              "value": "CUSTOM:Tendons"
             },
             "weight": 1,
             "minCount": 2,

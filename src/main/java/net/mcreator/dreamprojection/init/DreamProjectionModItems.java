@@ -12,6 +12,8 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.dreamprojection.item.TendonsItem;
+import net.mcreator.dreamprojection.item.ScabItem;
 import net.mcreator.dreamprojection.item.MeatItem;
 import net.mcreator.dreamprojection.DreamProjectionMod;
 
@@ -27,6 +29,8 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> BLOOD_CLOT;
 	public static final DeferredItem<Item> PORESTONE;
 	public static final DeferredItem<Item> NUTRIENT_SAC;
+	public static final DeferredItem<Item> SCAB;
+	public static final DeferredItem<Item> TENDONS;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -36,6 +40,8 @@ public class DreamProjectionModItems {
 		BLOOD_CLOT = block(DreamProjectionModBlocks.BLOOD_CLOT);
 		PORESTONE = block(DreamProjectionModBlocks.PORESTONE);
 		NUTRIENT_SAC = block(DreamProjectionModBlocks.NUTRIENT_SAC);
+		SCAB = register("scab", ScabItem::new);
+		TENDONS = register("tendons", TendonsItem::new);
 	}
 
 	// Start of user code block custom items

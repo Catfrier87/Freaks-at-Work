@@ -8,8 +8,10 @@
   "item.dream_projection.skin_block": "Skin",
   "biome.dream_projection.epidermis": "Fear",
   "item.dream_projection.blood_clot": "Crusted Blood",
-  "item.dream_projection.darkness_block": "Darkness Block",
+  "item.dream_projection.darkness_block": "Darkness",
   "biome.dream_projection.abyss": "Abyss",
   "item.dream_projection.eyes": "Eyes",
-  "item.dream_projection.nutrient_sac": "Nutrient Sac"
+  "item.dream_projection.nutrient_sac": "Nutrient Sac",
+  "item.dream_projection.scab": "Scab",
+  "item.dream_projection.tendons": "Bundle of Tendons"
 }

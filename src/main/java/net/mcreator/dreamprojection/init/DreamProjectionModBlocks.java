@@ -9,7 +9,11 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.dreamprojection.block.*;
+import net.mcreator.dreamprojection.block.SkinBlockBlock;
+import net.mcreator.dreamprojection.block.PorestoneBlock;
+import net.mcreator.dreamprojection.block.NutrientSacBlock;
+import net.mcreator.dreamprojection.block.DarknessBlockBlock;
+import net.mcreator.dreamprojection.block.BloodClotBlock;
 import net.mcreator.dreamprojection.DreamProjectionMod;
 
 import java.util.function.Function;
