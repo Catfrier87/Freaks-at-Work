@@ -29,7 +29,17 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Nightmares",
+        "children": [
+          {
+            "name": "Wheatfield",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "dream_projection",
