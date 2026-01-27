@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nightmare:block/porestone"
+      "model": "dream_projection:block/porestone"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "nightmare:block/porestone",
+  "parent": "dream_projection:block/porestone",
   "display": {
     "thirdperson": {
       "rotation": [

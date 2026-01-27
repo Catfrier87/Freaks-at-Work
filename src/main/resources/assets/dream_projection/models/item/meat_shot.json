@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nightmare:item/meat_shot"
+    "layer0": "dream_projection:item/meat_shot"
   },
   "display": {
     "thirdperson_righthand": {

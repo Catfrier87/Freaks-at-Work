@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "nightmare:item/nutrient_sac"
+    "model": "dream_projection:item/nutrient_sac"
   }
 }

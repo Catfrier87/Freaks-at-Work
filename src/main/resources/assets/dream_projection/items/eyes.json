@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "nightmare:item/eyes"
+    "model": "dream_projection:item/eyes"
   }
 }

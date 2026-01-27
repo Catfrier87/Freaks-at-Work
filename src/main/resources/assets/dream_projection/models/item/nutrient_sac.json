@@ -1,5 +1,5 @@
 {
-  "parent": "nightmare:block/nutrient_sac",
+  "parent": "dream_projection:block/nutrient_sac",
   "display": {
     "thirdperson": {
       "rotation": [

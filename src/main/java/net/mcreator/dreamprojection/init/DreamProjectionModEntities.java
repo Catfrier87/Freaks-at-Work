@@ -17,7 +17,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.dreamprojection.entity.MeatProjectileEntity;
 import net.mcreator.dreamprojection.entity.FreakEntity;
+import net.mcreator.dreamprojection.entity.ClusterEntity;
 import net.mcreator.dreamprojection.DreamProjectionMod;
 
 @EventBusSubscriber
@@ -27,6 +29,12 @@ public class DreamProjectionModEntities {
 			EntityType.Builder.<FreakEntity>of(FreakEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ClusterEntity>> CLUSTER = register("cluster",
+			EntityType.Builder.<ClusterEntity>of(ClusterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(1f, 1f));
+	public static final DeferredHolder<EntityType<?>, EntityType<MeatProjectileEntity>> MEAT_PROJECTILE = register("meat_projectile",
+			EntityType.Builder.<MeatProjectileEntity>of(MeatProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -37,10 +45,12 @@ public class DreamProjectionModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		FreakEntity.init(event);
+		ClusterEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(FREAK.get(), FreakEntity.createAttributes().build());
+		event.put(CLUSTER.get(), ClusterEntity.createAttributes().build());
 	}
 }

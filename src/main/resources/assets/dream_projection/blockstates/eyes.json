@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nightmare:block/eyes"
+      "model": "dream_projection:block/eyes"
     }
   }
 }

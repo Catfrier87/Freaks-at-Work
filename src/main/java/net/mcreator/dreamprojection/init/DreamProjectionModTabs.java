@@ -22,6 +22,19 @@ public class DreamProjectionModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(DreamProjectionModItems.FREAK_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.CLUSTER_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(DreamProjectionModItems.MEAT_SHOT.get());
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_HELMET.get());
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_CHESTPLATE.get());
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_LEGGINGS.get());
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(DreamProjectionModBlocks.NUTRIENT_SAC.get().asItem());
 		}
 	}
 }
