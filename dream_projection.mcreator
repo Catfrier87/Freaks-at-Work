@@ -532,6 +532,94 @@
           "src/main/java/net/mcreator/dreamprojection/procedures/DeathsDecayProcedure.java"
         ]
       }
+    },
+    {
+      "name": "VoidBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/VoidBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "VoidTool",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/VoidToolItem.java",
+          "src/main/resources/assets/dream_projection/items/void_tool.json",
+          "src/main/resources/assets/dream_projection/models/item/void_tool.json"
+        ]
+      }
+    },
+    {
+      "name": "AbyssSpirit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss_spirit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/abyss_spirit.json",
+          "src/main/resources/assets/dream_projection/models/item/abyss_spirit.json",
+          "src/main/java/net/mcreator/dreamprojection/item/AbyssSpiritItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathsTouchRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deaths_touch_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/deaths_touch_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/deaths_touch_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidToolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_tool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/void_tool_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/void_tool_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -637,7 +725,9 @@
       "item.dream_projection.beast_dimension": "Dream Projector",
       "item.dream_projection.vein_cutter": "Vein Cutter",
       "item.dream_projection.misery_axe": "Spectrum of Misery",
-      "item.dream_projection.deaths_touch": "Death\u0027s Touch"
+      "item.dream_projection.deaths_touch": "Death\u0027s Touch",
+      "item.dream_projection.void_tool": "Void",
+      "item.dream_projection.abyss_spirit": "Abyss Spirit Cage"
     }
   },
   "metadata": {
