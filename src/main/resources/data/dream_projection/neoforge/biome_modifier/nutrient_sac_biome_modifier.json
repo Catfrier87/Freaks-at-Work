@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "dream_projection:abyss",
+  "biomes": "dream_projection:deleted_mod_element",
   "features": "dream_projection:nutrient_sac",
   "step": "underground_ores"
 }

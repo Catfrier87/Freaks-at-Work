@@ -386,6 +386,46 @@
       }
     },
     {
+      "name": "VeinCutter",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vein_cutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/vein_cutter.json",
+          "src/main/resources/assets/dream_projection/items/vein_cutter.json",
+          "src/main/java/net/mcreator/dreamprojection/item/VeinCutterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MiseryAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misery_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/misery_axe_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/misery_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MeatShotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_shot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/meat_shot_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/meat_shot_recipe.json"
+        ]
+      }
+    },
+    {
       "name": "CorpseHelmetRecipe",
       "type": "recipe",
       "compiles": true,
@@ -412,59 +452,6 @@
       }
     },
     {
-      "name": "TendonLeggingsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tendon_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/tendon_leggings_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/tendon_leggings_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "CorpseBootsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "corpse_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/corpse_boots_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/corpse_boots_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "MeatShotRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "meat_shot_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/meat_shot_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/meat_shot_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "VeinCutter",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vein_cutter",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/dream_projection/models/item/vein_cutter.json",
-          "src/main/resources/assets/dream_projection/items/vein_cutter.json",
-          "src/main/java/net/mcreator/dreamprojection/item/VeinCutterItem.java"
-        ]
-      }
-    },
-    {
       "name": "VeinCutterRecipe",
       "type": "recipe",
       "compiles": true,
@@ -474,6 +461,19 @@
         "files": [
           "src/main/resources/data/dream_projection/recipe/vein_cutter_recipe.json",
           "src/main/resources/data/dream_projection/advancement/recipes/vein_cutter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TendonLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tendon_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/tendon_leggings_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/tendon_leggings_recipe.json"
         ]
       }
     },
@@ -492,15 +492,15 @@
       }
     },
     {
-      "name": "MiseryAxeRecipe",
+      "name": "CorpseBootsRecipe",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "misery_axe_recipe",
+      "registry_name": "corpse_boots_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/misery_axe_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/misery_axe_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/corpse_boots_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/corpse_boots_recipe.json"
         ]
       }
     }

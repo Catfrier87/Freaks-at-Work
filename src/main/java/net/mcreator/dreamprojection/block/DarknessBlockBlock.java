@@ -1,13 +1,6 @@
 package net.mcreator.dreamprojection.block;
 
-import net.minecraft.world.level.pathfinder.PathType;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class DarknessBlockBlock extends Block {
 	public DarknessBlockBlock(BlockBehaviour.Properties properties) {

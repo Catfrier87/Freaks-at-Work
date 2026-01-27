@@ -41,7 +41,7 @@
     "particleToSpawn": {
       "value": "CUSTOM:Wheatfieldbugfuckers"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.1,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "spawnBiome": false,

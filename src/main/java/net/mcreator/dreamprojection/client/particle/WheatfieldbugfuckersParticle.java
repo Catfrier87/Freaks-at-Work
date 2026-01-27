@@ -32,15 +32,16 @@ public class WheatfieldbugfuckersParticle extends TextureSheetParticle {
 	protected WheatfieldbugfuckersParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
-		this.setSize(0.2f, 0.2f);
+		this.setSize(0.1f, 0.1f);
+		this.quadSize *= 0.4f;
 		this.lifetime = 50;
-		this.gravity = 1f;
+		this.gravity = -0.01f;
 		this.hasPhysics = false;
 		this.xd = vx * 1;
 		this.yd = vy * 1;
 		this.zd = vz * 1;
-		this.angularVelocity = 0f;
-		this.angularAcceleration = 0.05f;
+		this.angularVelocity = 0.01745329f;
+		this.angularAcceleration = 0f;
 		this.pickSprite(spriteSet);
 	}
 
@@ -51,7 +52,7 @@ public class WheatfieldbugfuckersParticle extends TextureSheetParticle {
 
 	@Override
 	public ParticleRenderType getRenderType() {
-		return ParticleRenderType.PARTICLE_SHEET_OPAQUE;
+		return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
 	}
 
 	@Override

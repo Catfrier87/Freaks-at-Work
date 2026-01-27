@@ -28,7 +28,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dream_projection:pupil",
+          "name": "dream_projection:deleted_mod_element",
           "weight": 2,
           "functions": [
             {

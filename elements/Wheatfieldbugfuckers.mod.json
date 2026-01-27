@@ -5,20 +5,20 @@
     "texture": "firefly",
     "animate": false,
     "frameDuration": 1,
-    "width": 0.2,
-    "height": 0.2,
+    "width": 0.1,
+    "height": 0.1,
     "scale": {
-      "fixedValue": 1.0
+      "fixedValue": 0.4
     },
     "speedFactor": 1.0,
-    "gravity": 1.0,
+    "gravity": -0.01,
     "maxAge": 50,
     "maxAgeDiff": 0,
-    "angularVelocity": 0.0,
-    "angularAcceleration": 0.05,
+    "angularVelocity": 0.01745329,
+    "angularAcceleration": 0.0,
     "canCollide": false,
     "alwaysShow": false,
     "emissiveRendering": true,
-    "renderType": "OPAQUE"
+    "renderType": "TRANSLUCENT"
   }
 }
