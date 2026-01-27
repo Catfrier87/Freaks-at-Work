@@ -13,5 +13,12 @@
   "item.dream_projection.eyes": "Eyes",
   "item.dream_projection.nutrient_sac": "Nutrient Sac",
   "item.dream_projection.scab": "Scab",
-  "item.dream_projection.tendons": "Bundle of Tendons"
+  "item.dream_projection.tendons": "Bundle of Tendons",
+  "item.dream_projection.pure_darkness": "Pure Darkness",
+  "item.dream_projection.pupil": "Pupil",
+  "item.dream_projection.corpse_armor_helmet": "Pupil Carapace",
+  "item.dream_projection.corpse_armor_leggings": "Tendon Leggings",
+  "item.dream_projection.corpse_armor_boots": "Scab Stompers",
+  "item.dream_projection.corpse_armor_chestplate": "Heart of Darkness",
+  "item.dream_projection.meat_shot": "Meat Shot"
 }

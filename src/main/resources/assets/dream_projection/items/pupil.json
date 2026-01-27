@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "nightmare:item/pupil"
+    "model": "dream_projection:item/pupil"
   }
 }

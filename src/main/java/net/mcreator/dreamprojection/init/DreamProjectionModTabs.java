@@ -26,6 +26,12 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.NUTRIENT_SAC.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_HELMET.get());
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_CHESTPLATE.get());
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_LEGGINGS.get());
+			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_BOOTS.get());
+			tabData.accept(DreamProjectionModItems.MEAT_SHOT.get());
 		}
 	}
 }

@@ -254,6 +254,82 @@
           "src/main/java/net/mcreator/dreamprojection/item/TendonsItem.java"
         ]
       }
+    },
+    {
+      "name": "PureDarkness",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_darkness",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/pure_darkness.json",
+          "src/main/resources/assets/dream_projection/items/pure_darkness.json",
+          "src/main/java/net/mcreator/dreamprojection/item/PureDarknessItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pupil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pupil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/pupil.json",
+          "src/main/java/net/mcreator/dreamprojection/item/PupilItem.java",
+          "src/main/resources/assets/dream_projection/items/pupil.json"
+        ]
+      }
+    },
+    {
+      "name": "CorpseArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/CorpseArmorItem.java",
+          "src/main/resources/assets/dream_projection/items/corpse_armor_helmet.json",
+          "src/main/resources/assets/dream_projection/items/corpse_armor_leggings.json",
+          "src/main/resources/assets/dream_projection/models/item/corpse_armor_leggings.json",
+          "src/main/resources/assets/dream_projection/models/item/corpse_armor_boots.json",
+          "src/main/resources/assets/dream_projection/equipment/corpse_armor.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/item/CorpseArmorArmor.java",
+          "src/main/resources/assets/dream_projection/items/corpse_armor_boots.json",
+          "src/main/resources/assets/dream_projection/models/item/corpse_armor_helmet.json",
+          "src/main/resources/assets/dream_projection/items/corpse_armor_chestplate.json",
+          "src/main/resources/assets/dream_projection/models/item/corpse_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "MeatShot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_shot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/meat_shot.json",
+          "src/main/resources/assets/dream_projection/models/item/meat_shot.json",
+          "src/main/java/net/mcreator/dreamprojection/item/MeatShotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MeatProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/entity/MeatProjectileEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -286,6 +362,24 @@
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Porestone",
       "~CUSTOM:BloodClot"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:CorpseArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:CorpseArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:CorpseArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:CorpseArmor.boots"
+    ],
+    "ITEMS:dream_projection:corpse_armor_repair_items": [
+      "~CUSTOM:Meat"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:MeatShot"
     ]
   },
   "tab_element_order": {},
@@ -305,7 +399,14 @@
       "item.dream_projection.eyes": "Eyes",
       "item.dream_projection.nutrient_sac": "Nutrient Sac",
       "item.dream_projection.scab": "Scab",
-      "item.dream_projection.tendons": "Bundle of Tendons"
+      "item.dream_projection.tendons": "Bundle of Tendons",
+      "item.dream_projection.pure_darkness": "Pure Darkness",
+      "item.dream_projection.pupil": "Pupil",
+      "item.dream_projection.corpse_armor_helmet": "Pupil Carapace",
+      "item.dream_projection.corpse_armor_leggings": "Tendon Leggings",
+      "item.dream_projection.corpse_armor_boots": "Scab Stompers",
+      "item.dream_projection.corpse_armor_chestplate": "Heart of Darkness",
+      "item.dream_projection.meat_shot": "Meat Shot"
     }
   },
   "metadata": {

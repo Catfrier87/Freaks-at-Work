@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dream_projection:item/pure_darkness"
+    "layer0": "dream_projection:item/scab_stompers"
   }
 }

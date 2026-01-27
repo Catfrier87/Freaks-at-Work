@@ -8,6 +8,8 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+
 import net.mcreator.dreamprojection.client.renderer.FreakRenderer;
 
 @EventBusSubscriber(Dist.CLIENT)
@@ -15,5 +17,6 @@ public class DreamProjectionModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(DreamProjectionModEntities.FREAK.get(), FreakRenderer::new);
+		event.registerEntityRenderer(DreamProjectionModEntities.MEAT_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

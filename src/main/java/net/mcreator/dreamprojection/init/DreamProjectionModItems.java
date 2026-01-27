@@ -12,9 +12,7 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.dreamprojection.item.TendonsItem;
-import net.mcreator.dreamprojection.item.ScabItem;
-import net.mcreator.dreamprojection.item.MeatItem;
+import net.mcreator.dreamprojection.item.*;
 import net.mcreator.dreamprojection.DreamProjectionMod;
 
 import java.util.function.Function;
@@ -31,6 +29,13 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> NUTRIENT_SAC;
 	public static final DeferredItem<Item> SCAB;
 	public static final DeferredItem<Item> TENDONS;
+	public static final DeferredItem<Item> PURE_DARKNESS;
+	public static final DeferredItem<Item> PUPIL;
+	public static final DeferredItem<Item> CORPSE_ARMOR_HELMET;
+	public static final DeferredItem<Item> CORPSE_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> CORPSE_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> CORPSE_ARMOR_BOOTS;
+	public static final DeferredItem<Item> MEAT_SHOT;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -42,6 +47,13 @@ public class DreamProjectionModItems {
 		NUTRIENT_SAC = block(DreamProjectionModBlocks.NUTRIENT_SAC);
 		SCAB = register("scab", ScabItem::new);
 		TENDONS = register("tendons", TendonsItem::new);
+		PURE_DARKNESS = register("pure_darkness", PureDarknessItem::new);
+		PUPIL = register("pupil", PupilItem::new);
+		CORPSE_ARMOR_HELMET = register("corpse_armor_helmet", CorpseArmorItem.Helmet::new);
+		CORPSE_ARMOR_CHESTPLATE = register("corpse_armor_chestplate", CorpseArmorItem.Chestplate::new);
+		CORPSE_ARMOR_LEGGINGS = register("corpse_armor_leggings", CorpseArmorItem.Leggings::new);
+		CORPSE_ARMOR_BOOTS = register("corpse_armor_boots", CorpseArmorItem.Boots::new);
+		MEAT_SHOT = register("meat_shot", MeatShotItem::new);
 	}
 
 	// Start of user code block custom items
