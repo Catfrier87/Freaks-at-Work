@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dream_projection:vein_cutter"
+    "dream_projection:vein_cutter",
+    "dream_projection:deaths_touch"
   ]
 }

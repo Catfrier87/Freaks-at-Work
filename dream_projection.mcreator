@@ -503,6 +503,20 @@
           "src/main/resources/data/dream_projection/recipe/corpse_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "DeathsTouch",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deaths_touch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/DeathsTouchItem.java",
+          "src/main/resources/assets/dream_projection/models/item/deaths_touch.json",
+          "src/main/resources/assets/dream_projection/items/deaths_touch.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -562,6 +576,7 @@
       "~CUSTOM:Eyes"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:DeathsTouch",
       "~CUSTOM:VeinCutter"
     ],
     "ITEMS:dream_projection:vein_cutter_repair_items": [
@@ -571,6 +586,9 @@
       "~CUSTOM:MiseryAxe"
     ],
     "ITEMS:dream_projection:misery_axe_repair_items": [
+      "~CUSTOM:PureDarkness"
+    ],
+    "ITEMS:dream_projection:deaths_touch_repair_items": [
       "~CUSTOM:PureDarkness"
     ]
   },
@@ -603,7 +621,8 @@
       "entity.dream_projection.cluster": "Cluster",
       "item.dream_projection.beast_dimension": "Dream Projector",
       "item.dream_projection.vein_cutter": "Vein Cutter",
-      "item.dream_projection.misery_axe": "Spectrum of Misery"
+      "item.dream_projection.misery_axe": "Spectrum of Misery",
+      "item.dream_projection.deaths_touch": "Death\u0027s Touch"
     }
   },
   "metadata": {

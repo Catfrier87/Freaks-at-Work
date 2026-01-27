@@ -37,6 +37,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VEIN_CUTTER.get());
 			tabData.accept(DreamProjectionModItems.MISERY_AXE.get());
+			tabData.accept(DreamProjectionModItems.DEATHS_TOUCH.get());
 		}
 	}
 }
