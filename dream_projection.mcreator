@@ -512,9 +512,9 @@
       "registry_name": "deaths_touch",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dream_projection/items/deaths_touch.json",
           "src/main/java/net/mcreator/dreamprojection/item/DeathsTouchItem.java",
-          "src/main/resources/assets/dream_projection/models/item/deaths_touch.json",
-          "src/main/resources/assets/dream_projection/items/deaths_touch.json"
+          "src/main/resources/assets/dream_projection/models/item/deaths_touch.json"
         ]
       }
     },
@@ -668,13 +668,12 @@
     "name": "~",
     "children": [
       {
-        "name": "Nightmares",
-        "children": [
-          {
-            "name": "Wheatfield",
-            "children": []
-          }
-        ]
+        "name": "Flesh",
+        "children": []
+      },
+      {
+        "name": "Wheatfield",
+        "children": []
       }
     ]
   },
