@@ -330,6 +330,34 @@
           "src/main/java/net/mcreator/dreamprojection/entity/MeatProjectileEntity.java"
         ]
       }
+    },
+    {
+      "name": "Cluster",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cluster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/entity/ClusterEntity.java",
+          "src/main/resources/assets/dream_projection/items/cluster_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/ClusterRenderer.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/cluster_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/models/item/cluster_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "ClusterTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cluster_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/loot_table/entities/cluster.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -406,7 +434,9 @@
       "item.dream_projection.corpse_armor_leggings": "Tendon Leggings",
       "item.dream_projection.corpse_armor_boots": "Scab Stompers",
       "item.dream_projection.corpse_armor_chestplate": "Heart of Darkness",
-      "item.dream_projection.meat_shot": "Meat Shot"
+      "item.dream_projection.meat_shot": "Meat Shot",
+      "item.dream_projection.cluster_spawn_egg": "Cluster Spawn Egg",
+      "entity.dream_projection.cluster": "Cluster"
     }
   },
   "metadata": {

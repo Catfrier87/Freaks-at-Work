@@ -22,6 +22,7 @@ public class DreamProjectionModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(DreamProjectionModItems.FREAK_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.CLUSTER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
