@@ -34,7 +34,7 @@ public class WheatfieldbugfuckersParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.1f, 0.1f);
 		this.quadSize *= 0.4f;
-		this.lifetime = 50;
+		this.lifetime = 1000;
 		this.gravity = -0.01f;
 		this.hasPhysics = false;
 		this.xd = vx * 1;
