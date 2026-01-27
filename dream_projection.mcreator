@@ -52,8 +52,7 @@
         "files": [
           "src/main/resources/data/dream_projection/worldgen/biome/wheatfield.json"
         ]
-      },
-      "path": "~/Nightmares/Wheatfield"
+      }
     },
     {
       "name": "TheWheatfield",
@@ -67,8 +66,7 @@
           "src/main/java/net/mcreator/dreamprojection/world/dimension/TheWheatfieldDimension.java",
           "src/main/resources/data/dream_projection/dimension/the_wheatfield.json"
         ]
-      },
-      "path": "~/Nightmares/Wheatfield"
+      }
     },
     {
       "name": "Eyes",
@@ -227,8 +225,7 @@
           "src/main/java/net/mcreator/dreamprojection/client/particle/WheatfieldbugfuckersParticle.java",
           "src/main/resources/assets/dream_projection/particles/wheatfieldbugfuckers.json"
         ]
-      },
-      "path": "~/Nightmares/Wheatfield"
+      }
     },
     {
       "name": "Scab",
@@ -512,9 +509,9 @@
       "registry_name": "deaths_touch",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/deaths_touch.json",
           "src/main/java/net/mcreator/dreamprojection/item/DeathsTouchItem.java",
-          "src/main/resources/assets/dream_projection/models/item/deaths_touch.json"
+          "src/main/resources/assets/dream_projection/models/item/deaths_touch.json",
+          "src/main/resources/assets/dream_projection/items/deaths_touch.json"
         ]
       }
     },
