@@ -666,7 +666,32 @@
     "children": [
       {
         "name": "Flesh",
-        "children": []
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Creatures",
+            "children": []
+          },
+          {
+            "name": "Craft",
+            "children": []
+          },
+          {
+            "name": "Biomes",
+            "children": []
+          },
+          {
+            "name": "Gear",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Wheatfield",
