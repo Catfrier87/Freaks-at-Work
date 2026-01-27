@@ -69,7 +69,7 @@
         "value": "TOOLS"
       }
     ],
-    "texture": "minecraft:command_block_minecart",
+    "texture": "dreamprojector",
     "portalTexture": "portal",
     "enablePortal": true
   }
