@@ -1,8 +1,6 @@
 {
   "type": "neoforge:add_features",
-  "biomes": {
-    "type": "neoforge:any"
-  },
+  "biomes": "dream_projection:abyss",
   "features": "dream_projection:eyes",
   "step": "underground_ores"
 }
