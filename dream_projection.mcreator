@@ -517,6 +517,24 @@
           "src/main/resources/assets/dream_projection/items/deaths_touch.json"
         ]
       }
+    },
+    {
+      "name": "DeathsDecay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deaths_decay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/DeathsDecayProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
