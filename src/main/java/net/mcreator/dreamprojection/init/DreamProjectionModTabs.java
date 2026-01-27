@@ -38,9 +38,6 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.VEIN_CUTTER.get());
 			tabData.accept(DreamProjectionModItems.MISERY_AXE.get());
 			tabData.accept(DreamProjectionModItems.DEATHS_TOUCH.get());
-			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());
 		}
 	}
 }
