@@ -106,16 +106,27 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "subtitles.wheat_wind": "Fracturing Divinity"
+      "subtitles.wheat_wind": "Fracturing Divinity",
+      "entity.dream_projection.freak": "Freak",
+      "item.dream_projection.freak_spawn_egg": "Freak Spawn Egg",
+      "item.dream_projection.meat": "Meat",
+      "biome.dream_projection.wheatfield": "Wheatfield"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
       "src/main/resources/assets/dream_projection/sounds.json",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/dream_projection.mixins.json",

@@ -1,3 +1,7 @@
 {
-  "subtitles.wheat_wind": "Fracturing Divinity"
+  "subtitles.wheat_wind": "Fracturing Divinity",
+  "entity.dream_projection.freak": "Freak",
+  "item.dream_projection.freak_spawn_egg": "Freak Spawn Egg",
+  "item.dream_projection.meat": "Meat",
+  "biome.dream_projection.wheatfield": "Wheatfield"
 }
