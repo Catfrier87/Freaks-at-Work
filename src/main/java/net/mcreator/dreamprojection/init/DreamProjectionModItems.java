@@ -38,6 +38,8 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> MEAT_SHOT;
 	public static final DeferredItem<Item> CLUSTER_SPAWN_EGG;
 	public static final DeferredItem<Item> BEAST_DIMENSION;
+	public static final DeferredItem<Item> VEIN_CUTTER;
+	public static final DeferredItem<Item> MISERY_AXE;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -58,6 +60,8 @@ public class DreamProjectionModItems {
 		MEAT_SHOT = register("meat_shot", MeatShotItem::new);
 		CLUSTER_SPAWN_EGG = register("cluster_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.CLUSTER.get(), properties));
 		BEAST_DIMENSION = register("beast_dimension", BeastDimensionItem::new);
+		VEIN_CUTTER = register("vein_cutter", VeinCutterItem::new);
+		MISERY_AXE = register("misery_axe", MiseryAxeItem::new);
 	}
 
 	// Start of user code block custom items

@@ -384,6 +384,125 @@
           "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionPortalShape.java"
         ]
       }
+    },
+    {
+      "name": "CorpseHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/corpse_helmet_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/corpse_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorpseChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/corpse_chestplate_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/corpse_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TendonLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tendon_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/tendon_leggings_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/tendon_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CorpseBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corpse_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/corpse_boots_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/corpse_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MeatShotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meat_shot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/meat_shot_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/meat_shot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VeinCutter",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vein_cutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/vein_cutter.json",
+          "src/main/resources/assets/dream_projection/items/vein_cutter.json",
+          "src/main/java/net/mcreator/dreamprojection/item/VeinCutterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VeinCutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vein_cutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/vein_cutter_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/vein_cutter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MiseryAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misery_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/misery_axe.json",
+          "src/main/java/net/mcreator/dreamprojection/item/MiseryAxeItem.java",
+          "src/main/resources/assets/dream_projection/models/item/misery_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "MiseryAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misery_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/misery_axe_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/misery_axe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -441,6 +560,18 @@
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:Eyes"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:VeinCutter"
+    ],
+    "ITEMS:dream_projection:vein_cutter_repair_items": [
+      "~CUSTOM:Meat"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:MiseryAxe"
+    ],
+    "ITEMS:dream_projection:misery_axe_repair_items": [
+      "~CUSTOM:PureDarkness"
     ]
   },
   "tab_element_order": {},
@@ -470,7 +601,9 @@
       "item.dream_projection.meat_shot": "Meat Shot",
       "item.dream_projection.cluster_spawn_egg": "Cluster Spawn Egg",
       "entity.dream_projection.cluster": "Cluster",
-      "item.dream_projection.beast_dimension": "Dream Projector"
+      "item.dream_projection.beast_dimension": "Dream Projector",
+      "item.dream_projection.vein_cutter": "Vein Cutter",
+      "item.dream_projection.misery_axe": "Spectrum of Misery"
     }
   },
   "metadata": {

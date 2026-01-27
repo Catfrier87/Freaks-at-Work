@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PureDarkness"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PureDarkness"
+      },
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pupil"
+      },
+      {
+        "value": "CUSTOM:PureDarkness"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Meat"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MiseryAxe"
+    },
+    "name": "misery_axe_recipe",
+    "namespace": "mod"
+  }
+}

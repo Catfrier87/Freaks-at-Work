@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:bone",
+    "b": "dream_projection:scab",
+    "c": "dream_projection:meat"
+  },
+  "result": {
+    "id": "dream_projection:vein_cutter",
+    "count": 1
+  }
+}

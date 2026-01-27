@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "nightmare:item/vein_cutter"
+    "layer0": "dream_projection:item/vein_cutter"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:bone",
+    "b": "dream_projection:tendons",
+    "c": "dream_projection:scab",
+    "d": "dream_projection:meat"
+  },
+  "result": {
+    "id": "dream_projection:meat_shot",
+    "count": 1
+  }
+}

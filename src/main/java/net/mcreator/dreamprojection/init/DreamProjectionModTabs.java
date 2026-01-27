@@ -35,6 +35,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.MEAT_SHOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
+			tabData.accept(DreamProjectionModItems.VEIN_CUTTER.get());
+			tabData.accept(DreamProjectionModItems.MISERY_AXE.get());
 		}
 	}
 }

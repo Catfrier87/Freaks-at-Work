@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ab",
+    "ca",
+    "b "
+  ],
+  "key": {
+    "a": "dream_projection:pure_darkness",
+    "b": "dream_projection:meat",
+    "c": "dream_projection:pupil"
+  },
+  "result": {
+    "id": "dream_projection:misery_axe",
+    "count": 1
+  }
+}
