@@ -87,7 +87,7 @@
     {
       "name": "Eyes",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "eyes",
       "metadata": {
@@ -107,7 +107,7 @@
     {
       "name": "DarknessBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "darkness_block",
       "metadata": {
@@ -159,7 +159,7 @@
     {
       "name": "Cluster",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cluster",
       "metadata": {
@@ -175,7 +175,7 @@
     {
       "name": "BloodClot",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blood_clot",
       "metadata": {
@@ -195,7 +195,7 @@
     {
       "name": "MeatProjectile",
       "type": "projectile",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "meat_projectile",
       "metadata": {
@@ -261,7 +261,7 @@
     {
       "name": "SkinBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "skin_block",
       "metadata": {
@@ -318,7 +318,7 @@
     {
       "name": "Porestone",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "porestone",
       "metadata": {
@@ -335,7 +335,7 @@
     {
       "name": "CorpseArmor",
       "type": "armor",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "corpse_armor",
       "metadata": {
@@ -357,7 +357,7 @@
     {
       "name": "NutrientSac",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "nutrient_sac",
       "metadata": {
@@ -454,9 +454,17 @@
     "files": [
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
       "src/main/resources/assets/dream_projection/sounds.json",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/dream_projection.mixins.json",
