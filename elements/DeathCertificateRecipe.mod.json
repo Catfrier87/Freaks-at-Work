@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PureDarkness"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PureDarkness"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PureDarkness"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:PureDarkness"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PureDarkness"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeathCertificate"
+    },
+    "name": "death_certificate_recipe",
+    "namespace": "mod"
+  }
+}

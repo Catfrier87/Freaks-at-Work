@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Freak",
-    "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "skin.png",
+    "mobName": "ZLYQ",
+    "mobLabel": "ZLYQ",
+    "mobModelName": "ModelZLYQ",
+    "mobModelTexture": "abyssbosstexture.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -22,10 +22,19 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "animations": [],
+    "animations": [
+      {
+        "animation": {
+          "value": "CUSTOM:ZLYQAnimation.Run"
+        },
+        "speed": 1.0,
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
-    "modelShadowSize": 0.5,
+    "modelShadowSize": 1.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -36,14 +45,14 @@
       "value": -1,
       "falpha": 0.0
     },
-    "spawnEggTexture": "meat_chunk",
+    "spawnEggTexture": "voidtoolnew",
     "creativeTabs": [
       {
         "value": "MISC"
       }
     ],
-    "isBoss": false,
-    "bossBarColor": "PINK",
+    "isBoss": true,
+    "bossBarColor": "PURPLE",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": ""
@@ -65,16 +74,16 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
-    "attackKnockback": 0.0,
-    "knockbackResistance": 0.0,
-    "movementSpeed": 0.3,
-    "stepHeight": 0.6,
-    "armorBaseValue": 0.0,
-    "trackingRange": 64,
-    "followRange": 16,
-    "health": 10,
-    "xpAmount": 0,
+    "attackStrength": 7,
+    "attackKnockback": 1.0,
+    "knockbackResistance": 0.2,
+    "movementSpeed": 0.6,
+    "stepHeight": 5.0,
+    "armorBaseValue": 3.0,
+    "trackingRange": 90,
+    "followRange": 64,
+    "health": 160,
+    "xpAmount": 15,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -89,11 +98,11 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
-    "immuneToDrowning": false,
+    "immuneToDrowning": true,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
@@ -106,21 +115,24 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:abyssbossvoice"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:abyssbossvoice"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.wither.spawn"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:abyssbossvoice"
     },
     "raidCelebrationSound": {
       "value": ""
     },
     "entityDataEntries": [],
+    "whenMobIsHurt": {
+      "name": "AbyssBossRetaliate"
+    },
     "hasAI": true,
     "aiBase": "Zombie",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
@@ -134,8 +146,8 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,

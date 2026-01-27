@@ -23,6 +23,9 @@ public class DreamProjectionModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(DreamProjectionModItems.FREAK_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.CLUSTER_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.ABYSS_BOSS_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.DEATH_CERTIFICATE.get());
+			tabData.accept(DreamProjectionModItems.HERETIC_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
@@ -33,11 +36,12 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_LEGGINGS.get());
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_BOOTS.get());
 			tabData.accept(DreamProjectionModItems.MEAT_SHOT.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VEIN_CUTTER.get());
 			tabData.accept(DreamProjectionModItems.MISERY_AXE.get());
 			tabData.accept(DreamProjectionModItems.DEATHS_TOUCH.get());
+			tabData.accept(DreamProjectionModItems.BOOK_OF_EVIL.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());

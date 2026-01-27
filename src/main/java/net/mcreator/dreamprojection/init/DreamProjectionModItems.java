@@ -43,6 +43,10 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> DEATHS_TOUCH;
 	public static final DeferredItem<Item> VOID_TOOL;
 	public static final DeferredItem<Item> ABYSS_SPIRIT;
+	public static final DeferredItem<Item> ABYSS_BOSS_SPAWN_EGG;
+	public static final DeferredItem<Item> DEATH_CERTIFICATE;
+	public static final DeferredItem<Item> HERETIC_SPAWN_EGG;
+	public static final DeferredItem<Item> BOOK_OF_EVIL;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -68,6 +72,10 @@ public class DreamProjectionModItems {
 		DEATHS_TOUCH = register("deaths_touch", DeathsTouchItem::new);
 		VOID_TOOL = register("void_tool", VoidToolItem::new);
 		ABYSS_SPIRIT = register("abyss_spirit", AbyssSpiritItem::new);
+		ABYSS_BOSS_SPAWN_EGG = register("abyss_boss_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.ABYSS_BOSS.get(), properties));
+		DEATH_CERTIFICATE = register("death_certificate", DeathCertificateItem::new);
+		HERETIC_SPAWN_EGG = register("heretic_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.HERETIC.get(), properties));
+		BOOK_OF_EVIL = register("book_of_evil", BookOfEvilItem::new);
 	}
 
 	// Start of user code block custom items

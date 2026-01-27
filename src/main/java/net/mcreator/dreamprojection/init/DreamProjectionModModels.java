@@ -9,11 +9,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.dreamprojection.client.model.Modelcluster;
+import net.mcreator.dreamprojection.client.model.ModelZLYQ;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class DreamProjectionModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelcluster.LAYER_LOCATION, Modelcluster::createBodyLayer);
+		event.registerLayerDefinition(ModelZLYQ.LAYER_LOCATION, ModelZLYQ::createBodyLayer);
 	}
 }

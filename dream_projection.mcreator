@@ -658,6 +658,200 @@
         ]
       },
       "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "AbyssBossRetaliate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss_boss_retaliate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/AbyssBossRetaliateProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Creatures"
+    },
+    {
+      "name": "AbyssBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/abyss_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/entity/AbyssBossEntity.java",
+          "src/main/resources/assets/dream_projection/models/item/abyss_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/AbyssBossRenderer.java"
+        ]
+      },
+      "path": "~/Flesh/Creatures"
+    },
+    {
+      "name": "AbyssBossSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss_boss_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/AbyssBossSpawnProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Creatures"
+    },
+    {
+      "name": "DeathCertificate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_certificate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/death_certificate.json",
+          "src/main/resources/assets/dream_projection/items/death_certificate.json",
+          "src/main/java/net/mcreator/dreamprojection/item/DeathCertificateItem.java"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "DeathCertificateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_certificate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/death_certificate_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/death_certificate_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "AbyssBossTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyss_boss_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/loot_table/entities/abyss_boss.json"
+        ]
+      },
+      "path": "~/Flesh/LootTables"
+    },
+    {
+      "name": "Heretic",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heretic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/heretic_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/items/heretic_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/HereticRenderer.java",
+          "src/main/java/net/mcreator/dreamprojection/entity/HereticEntity.java"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "BookOfEvilSummon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_evil_summon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/BookOfEvilSummonProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "BookOfEvil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_evil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/BookOfEvilItem.java",
+          "src/main/resources/assets/dream_projection/models/item/book_of_evil.json",
+          "src/main/resources/assets/dream_projection/items/book_of_evil.json"
+        ]
+      },
+      "path": "~/Flesh/Gear"
     }
   ],
   "variable_elements": [],
@@ -669,6 +863,22 @@
       ],
       "category": "ambient",
       "subtitle": "Fracturing Divinity"
+    },
+    {
+      "name": "sickler",
+      "files": [
+        "sickler"
+      ],
+      "category": "hostile",
+      "subtitle": "Run"
+    },
+    {
+      "name": "abyssbossvoice",
+      "files": [
+        "abyssbossvoice"
+      ],
+      "category": "hostile",
+      "subtitle": "ZLYQ Rages"
     }
   ],
   "tag_elements": {
@@ -765,7 +975,15 @@
       "item.dream_projection.misery_axe": "Spectrum of Misery",
       "item.dream_projection.deaths_touch": "Death\u0027s Touch",
       "item.dream_projection.void_tool": "Void",
-      "item.dream_projection.abyss_spirit": "Abyss Spirit Cage"
+      "item.dream_projection.abyss_spirit": "Abyss Spirit Cage",
+      "subtitles.sickler": "Run",
+      "subtitles.abyssbossvoice": "ZLYQ Rages",
+      "item.dream_projection.abyss_boss_spawn_egg": "ZLYQ Spawn Egg",
+      "entity.dream_projection.abyss_boss": "ZLYQ",
+      "item.dream_projection.death_certificate": "Death Certificate",
+      "entity.dream_projection.heretic": "Heretic",
+      "item.dream_projection.heretic_spawn_egg": "Heretic Spawn Egg",
+      "item.dream_projection.book_of_evil": "Book Of Evil"
     }
   },
   "metadata": {
