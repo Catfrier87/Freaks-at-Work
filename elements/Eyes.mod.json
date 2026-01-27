@@ -141,11 +141,7 @@
         "value": "CUSTOM:Abyss"
       }
     ],
-    "blocksToReplace": [
-      {
-        "value": "CUSTOM:Darkness"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 2,
     "frequencyOnChunk": 5,

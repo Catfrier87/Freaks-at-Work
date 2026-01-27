@@ -33,6 +33,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_LEGGINGS.get());
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_BOOTS.get());
 			tabData.accept(DreamProjectionModItems.MEAT_SHOT.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 		}
 	}
 }

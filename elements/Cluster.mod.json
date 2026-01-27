@@ -22,16 +22,7 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "animations": [
-      {
-        "animation": {
-          "value": "WARDEN_ATTACK"
-        },
-        "speed": 1.0,
-        "walking": false,
-        "amplitude": 1.0
-      }
-    ],
+    "animations": [],
     "modelWidth": 1.0,
     "modelHeight": 1.0,
     "modelShadowSize": 1.0,

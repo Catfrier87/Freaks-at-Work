@@ -17,7 +17,6 @@ import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
@@ -29,8 +28,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.mcreator.dreamprojection.init.DreamProjectionModEntities;
 
 public class ClusterEntity extends Zombie {
-	public final AnimationState animationState0 = new AnimationState();
-
 	public ClusterEntity(EntityType<ClusterEntity> type, Level world) {
 		super(type, world);
 		xpReward = 5;
@@ -67,14 +64,6 @@ public class ClusterEntity extends Zombie {
 		if (damagesource.is(DamageTypes.WITHER) || damagesource.is(DamageTypes.WITHER_SKULL))
 			return false;
 		return super.hurtServer(level, damagesource, amount);
-	}
-
-	@Override
-	public void tick() {
-		super.tick();
-		if (this.level().isClientSide()) {
-			this.animationState0.animateWhen(true, this.tickCount);
-		}
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

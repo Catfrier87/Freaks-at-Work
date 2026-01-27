@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dream_projection:block/beast_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "dream_projection:block/beast_dimension_portal_ns"
+    }
+  }
+}

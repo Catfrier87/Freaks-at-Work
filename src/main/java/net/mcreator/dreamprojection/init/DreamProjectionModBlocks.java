@@ -9,11 +9,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.dreamprojection.block.SkinBlockBlock;
-import net.mcreator.dreamprojection.block.PorestoneBlock;
-import net.mcreator.dreamprojection.block.NutrientSacBlock;
-import net.mcreator.dreamprojection.block.DarknessBlockBlock;
-import net.mcreator.dreamprojection.block.BloodClotBlock;
+import net.mcreator.dreamprojection.block.*;
 import net.mcreator.dreamprojection.DreamProjectionMod;
 
 import java.util.function.Function;
@@ -26,6 +22,7 @@ public class DreamProjectionModBlocks {
 	public static final DeferredBlock<Block> BLOOD_CLOT;
 	public static final DeferredBlock<Block> PORESTONE;
 	public static final DeferredBlock<Block> NUTRIENT_SAC;
+	public static final DeferredBlock<Block> BEAST_DIMENSION_PORTAL;
 	static {
 		EYES = register("eyes", EyesBlock::new);
 		DARKNESS_BLOCK = register("darkness_block", DarknessBlockBlock::new);
@@ -33,6 +30,7 @@ public class DreamProjectionModBlocks {
 		BLOOD_CLOT = register("blood_clot", BloodClotBlock::new);
 		PORESTONE = register("porestone", PorestoneBlock::new);
 		NUTRIENT_SAC = register("nutrient_sac", NutrientSacBlock::new);
+		BEAST_DIMENSION_PORTAL = register("beast_dimension_portal", BeastDimensionPortalBlock::new);
 	}
 
 	// Start of user code block custom blocks

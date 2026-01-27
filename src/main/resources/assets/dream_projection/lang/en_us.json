@@ -22,5 +22,6 @@
   "item.dream_projection.corpse_armor_chestplate": "Heart of Darkness",
   "item.dream_projection.meat_shot": "Meat Shot",
   "item.dream_projection.cluster_spawn_egg": "Cluster Spawn Egg",
-  "entity.dream_projection.cluster": "Cluster"
+  "entity.dream_projection.cluster": "Cluster",
+  "item.dream_projection.beast_dimension": "Dream Projector"
 }

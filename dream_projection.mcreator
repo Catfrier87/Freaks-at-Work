@@ -79,8 +79,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dreamprojection/block/EyesBlock.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/eyes_biome_modifier.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/eyes.json",
           "src/main/resources/assets/dream_projection/blockstates/eyes.json",
           "src/main/resources/data/dream_projection/loot_table/blocks/eyes.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/eyes.json",
           "src/main/resources/assets/dream_projection/models/item/eyes.json",
           "src/main/resources/assets/dream_projection/items/eyes.json",
           "src/main/resources/assets/dream_projection/models/block/eyes.json"
@@ -358,6 +361,29 @@
           "src/main/resources/data/dream_projection/loot_table/entities/cluster.json"
         ]
       }
+    },
+    {
+      "name": "BeastDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beast_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/beast_dimension.json",
+          "src/main/java/net/mcreator/dreamprojection/block/BeastDimensionPortalBlock.java",
+          "src/main/resources/data/dream_projection/dimension/beast_dimension.json",
+          "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/BeastDimensionDimension.java",
+          "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ew.json",
+          "src/main/resources/data/dream_projection/dimension_type/beast_dimension.json",
+          "src/main/java/net/mcreator/dreamprojection/item/BeastDimensionItem.java",
+          "src/main/resources/assets/dream_projection/blockstates/beast_dimension_portal.json",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionTeleporter.java",
+          "src/main/resources/assets/dream_projection/models/item/beast_dimension.json",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionPortalShape.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -373,6 +399,9 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:DarknessBlock",
+      "~CUSTOM:Porestone",
+      "~CUSTOM:SkinBlock",
       "~Blocks.WHEAT",
       "~Blocks.FARMLAND",
       "~Blocks.DIRT#0"
@@ -384,6 +413,7 @@
       "~CUSTOM:SkinBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Eyes",
       "~CUSTOM:Porestone",
       "~CUSTOM:BloodClot"
     ],
@@ -408,6 +438,9 @@
     ],
     "ITEMS:minecraft:enchantable/durability": [
       "~CUSTOM:MeatShot"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Eyes"
     ]
   },
   "tab_element_order": {},
@@ -436,7 +469,8 @@
       "item.dream_projection.corpse_armor_chestplate": "Heart of Darkness",
       "item.dream_projection.meat_shot": "Meat Shot",
       "item.dream_projection.cluster_spawn_egg": "Cluster Spawn Egg",
-      "entity.dream_projection.cluster": "Cluster"
+      "entity.dream_projection.cluster": "Cluster",
+      "item.dream_projection.beast_dimension": "Dream Projector"
     }
   },
   "metadata": {

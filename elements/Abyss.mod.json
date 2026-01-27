@@ -10,7 +10,7 @@
       "value": "CUSTOM:DarknessBlock"
     },
     "underwaterBlock": {
-      "value": ""
+      "value": "CUSTOM:DarknessBlock"
     },
     "airColor": {
       "value": -16777216,
