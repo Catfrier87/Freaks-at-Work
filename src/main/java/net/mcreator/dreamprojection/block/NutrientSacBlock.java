@@ -1,6 +1,16 @@
 package net.mcreator.dreamprojection.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraft.world.level.pathfinder.PathType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
 
 public class NutrientSacBlock extends Block {
 	public NutrientSacBlock(BlockBehaviour.Properties properties) {

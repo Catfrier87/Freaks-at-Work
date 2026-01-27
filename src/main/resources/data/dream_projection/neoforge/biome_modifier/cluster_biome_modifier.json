@@ -1,8 +1,6 @@
 {
   "type": "neoforge:add_spawns",
-  "biomes": {
-    "type": "neoforge:any"
-  },
+  "biomes": "dream_projection:abyss",
   "spawners": {
     "type": "dream_projection:cluster",
     "weight": 20,

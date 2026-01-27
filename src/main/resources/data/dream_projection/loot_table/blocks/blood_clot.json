@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dream_projection:deleted_mod_element",
+          "name": "dream_projection:scab",
           "functions": [
             {
               "count": 2,
