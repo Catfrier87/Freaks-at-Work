@@ -14,7 +14,8 @@
           "src/main/java/net/mcreator/dreamprojection/client/renderer/FreakRenderer.java",
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/freak_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "FreakTable",
@@ -26,7 +27,8 @@
         "files": [
           "src/main/resources/data/dream_projection/loot_table/entities/fucker.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Meat",
@@ -40,7 +42,8 @@
           "src/main/resources/assets/dream_projection/items/meat.json",
           "src/main/resources/assets/dream_projection/models/item/meat.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Wheatfield",
@@ -53,7 +56,7 @@
           "src/main/resources/data/dream_projection/worldgen/biome/wheatfield.json"
         ]
       },
-      "path": "~/Nightmares/Wheatfield"
+      "path": "~/Wheatfield"
     },
     {
       "name": "TheWheatfield",
@@ -68,7 +71,7 @@
           "src/main/resources/data/dream_projection/dimension/the_wheatfield.json"
         ]
       },
-      "path": "~/Nightmares/Wheatfield"
+      "path": "~/Wheatfield"
     },
     {
       "name": "Eyes",
@@ -88,7 +91,8 @@
           "src/main/resources/assets/dream_projection/items/eyes.json",
           "src/main/resources/assets/dream_projection/models/block/eyes.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "DarknessBlock",
@@ -105,7 +109,8 @@
           "src/main/resources/assets/dream_projection/items/darkness_block.json",
           "src/main/resources/assets/dream_projection/models/block/darkness_block.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "SkinBlock",
@@ -122,7 +127,8 @@
           "src/main/resources/assets/dream_projection/items/skin_block.json",
           "src/main/resources/assets/dream_projection/blockstates/skin_block.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Epidermis",
@@ -134,7 +140,8 @@
         "files": [
           "src/main/resources/data/dream_projection/worldgen/biome/epidermis.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "BloodClot",
@@ -154,7 +161,8 @@
           "src/main/resources/assets/dream_projection/items/blood_clot.json",
           "src/main/resources/assets/dream_projection/models/block/blood_clot.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Abyss",
@@ -166,7 +174,8 @@
         "files": [
           "src/main/resources/data/dream_projection/worldgen/biome/abyss.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Porestone",
@@ -183,7 +192,8 @@
           "src/main/resources/assets/dream_projection/items/porestone.json",
           "src/main/java/net/mcreator/dreamprojection/block/PorestoneBlock.java"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "NutrientSac",
@@ -202,7 +212,8 @@
           "src/main/resources/assets/dream_projection/models/item/nutrient_sac.json",
           "src/main/resources/assets/dream_projection/blockstates/nutrient_sac.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "SacLoot",
@@ -214,7 +225,8 @@
         "files": [
           "src/main/resources/data/dream_projection/loot_table/blocks/nutrient_sac.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Wheatfieldbugfuckers",
@@ -228,7 +240,7 @@
           "src/main/resources/assets/dream_projection/particles/wheatfieldbugfuckers.json"
         ]
       },
-      "path": "~/Nightmares/Wheatfield"
+      "path": "~/Wheatfield"
     },
     {
       "name": "Scab",
@@ -242,7 +254,8 @@
           "src/main/java/net/mcreator/dreamprojection/item/ScabItem.java",
           "src/main/resources/assets/dream_projection/items/scab.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Tendons",
@@ -256,7 +269,8 @@
           "src/main/resources/assets/dream_projection/items/tendons.json",
           "src/main/java/net/mcreator/dreamprojection/item/TendonsItem.java"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "PureDarkness",
@@ -270,7 +284,8 @@
           "src/main/resources/assets/dream_projection/items/pure_darkness.json",
           "src/main/java/net/mcreator/dreamprojection/item/PureDarknessItem.java"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Pupil",
@@ -284,7 +299,8 @@
           "src/main/java/net/mcreator/dreamprojection/item/PupilItem.java",
           "src/main/resources/assets/dream_projection/items/pupil.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "CorpseArmor",
@@ -306,7 +322,8 @@
           "src/main/resources/assets/dream_projection/items/corpse_armor_chestplate.json",
           "src/main/resources/assets/dream_projection/models/item/corpse_armor_chestplate.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "MeatShot",
@@ -320,7 +337,8 @@
           "src/main/resources/assets/dream_projection/models/item/meat_shot.json",
           "src/main/java/net/mcreator/dreamprojection/item/MeatShotItem.java"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "MeatProjectile",
@@ -332,7 +350,8 @@
         "files": [
           "src/main/java/net/mcreator/dreamprojection/entity/MeatProjectileEntity.java"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "Cluster",
@@ -348,7 +367,8 @@
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/cluster_biome_modifier.json",
           "src/main/resources/assets/dream_projection/models/item/cluster_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "ClusterTable",
@@ -360,7 +380,8 @@
         "files": [
           "src/main/resources/data/dream_projection/loot_table/entities/cluster.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "BeastDimension",
@@ -383,7 +404,8 @@
           "src/main/resources/assets/dream_projection/models/item/beast_dimension.json",
           "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionPortalShape.java"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "VeinCutter",
@@ -397,7 +419,8 @@
           "src/main/resources/assets/dream_projection/items/vein_cutter.json",
           "src/main/java/net/mcreator/dreamprojection/item/VeinCutterItem.java"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "MiseryAxeRecipe",
@@ -410,7 +433,8 @@
           "src/main/resources/data/dream_projection/recipe/misery_axe_recipe.json",
           "src/main/resources/data/dream_projection/advancement/recipes/misery_axe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "MeatShotRecipe",
@@ -423,7 +447,8 @@
           "src/main/resources/data/dream_projection/advancement/recipes/meat_shot_recipe.json",
           "src/main/resources/data/dream_projection/recipe/meat_shot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "CorpseHelmetRecipe",
@@ -436,7 +461,8 @@
           "src/main/resources/data/dream_projection/advancement/recipes/corpse_helmet_recipe.json",
           "src/main/resources/data/dream_projection/recipe/corpse_helmet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "CorpseChestplateRecipe",
@@ -449,7 +475,8 @@
           "src/main/resources/data/dream_projection/recipe/corpse_chestplate_recipe.json",
           "src/main/resources/data/dream_projection/advancement/recipes/corpse_chestplate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "VeinCutterRecipe",
@@ -462,7 +489,8 @@
           "src/main/resources/data/dream_projection/recipe/vein_cutter_recipe.json",
           "src/main/resources/data/dream_projection/advancement/recipes/vein_cutter_recipe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "TendonLeggingsRecipe",
@@ -475,7 +503,8 @@
           "src/main/resources/data/dream_projection/advancement/recipes/tendon_leggings_recipe.json",
           "src/main/resources/data/dream_projection/recipe/tendon_leggings_recipe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "MiseryAxe",
@@ -489,7 +518,8 @@
           "src/main/java/net/mcreator/dreamprojection/item/MiseryAxeItem.java",
           "src/main/resources/assets/dream_projection/models/item/misery_axe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     },
     {
       "name": "CorpseBootsRecipe",
@@ -502,7 +532,8 @@
           "src/main/resources/data/dream_projection/advancement/recipes/corpse_boots_recipe.json",
           "src/main/resources/data/dream_projection/recipe/corpse_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/Flesh"
     }
   ],
   "variable_elements": [],
@@ -631,13 +662,12 @@
     "name": "~",
     "children": [
       {
-        "name": "Nightmares",
-        "children": [
-          {
-            "name": "Wheatfield",
-            "children": []
-          }
-        ]
+        "name": "Wheatfield",
+        "children": []
+      },
+      {
+        "name": "Flesh",
+        "children": []
       }
     ]
   },
