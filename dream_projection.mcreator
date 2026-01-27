@@ -73,7 +73,7 @@
     {
       "name": "Eyes",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "eyes",
       "metadata": {
@@ -93,7 +93,7 @@
     {
       "name": "DarknessBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "darkness_block",
       "metadata": {
@@ -110,7 +110,7 @@
     {
       "name": "SkinBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "skin_block",
       "metadata": {
@@ -139,7 +139,7 @@
     {
       "name": "BloodClot",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "blood_clot",
       "metadata": {
@@ -171,7 +171,7 @@
     {
       "name": "Porestone",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "porestone",
       "metadata": {
@@ -188,7 +188,7 @@
     {
       "name": "NutrientSac",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "nutrient_sac",
       "metadata": {
@@ -289,7 +289,7 @@
     {
       "name": "CorpseArmor",
       "type": "armor",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "corpse_armor",
       "metadata": {
@@ -325,7 +325,7 @@
     {
       "name": "MeatProjectile",
       "type": "projectile",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "meat_projectile",
       "metadata": {
@@ -337,7 +337,7 @@
     {
       "name": "Cluster",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cluster",
       "metadata": {
