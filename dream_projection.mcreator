@@ -852,6 +852,78 @@
         ]
       },
       "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "HereticDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heretic_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/heretic_dagger.json",
+          "src/main/java/net/mcreator/dreamprojection/item/HereticDaggerItem.java",
+          "src/main/resources/assets/dream_projection/items/heretic_dagger.json"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "HereticEquipment",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heretic_equipment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/HereticEquipmentProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "SmileEat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smile_eat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/SmileEatProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "SmileHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smile_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/SmileHammerItem.java",
+          "src/main/resources/assets/dream_projection/items/smile_hammer.json",
+          "src/main/resources/assets/dream_projection/models/item/smile_hammer.json"
+        ]
+      },
+      "path": "~/Flesh/Gear"
     }
   ],
   "variable_elements": [],
@@ -927,6 +999,7 @@
       "~CUSTOM:Eyes"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:HereticDagger",
       "~CUSTOM:DeathsTouch",
       "~CUSTOM:VeinCutter"
     ],
@@ -934,6 +1007,7 @@
       "~CUSTOM:Meat"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:SmileHammer",
       "~CUSTOM:MiseryAxe"
     ],
     "ITEMS:dream_projection:misery_axe_repair_items": [
@@ -941,6 +1015,12 @@
     ],
     "ITEMS:dream_projection:deaths_touch_repair_items": [
       "~CUSTOM:PureDarkness"
+    ],
+    "ITEMS:dream_projection:heretic_dagger_repair_items": [
+      "~CUSTOM:PureDarkness"
+    ],
+    "ITEMS:dream_projection:smile_hammer_repair_items": [
+      "~CUSTOM:Meat"
     ]
   },
   "tab_element_order": {},
@@ -983,7 +1063,9 @@
       "item.dream_projection.death_certificate": "Death Certificate",
       "entity.dream_projection.heretic": "Heretic",
       "item.dream_projection.heretic_spawn_egg": "Heretic Spawn Egg",
-      "item.dream_projection.book_of_evil": "Book Of Evil"
+      "item.dream_projection.book_of_evil": "Book Of Evil",
+      "item.dream_projection.heretic_dagger": "Heretic Dagger",
+      "item.dream_projection.smile_hammer": "Smile"
     }
   },
   "metadata": {

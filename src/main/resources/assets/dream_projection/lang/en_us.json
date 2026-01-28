@@ -36,5 +36,7 @@
   "item.dream_projection.death_certificate": "Death Certificate",
   "entity.dream_projection.heretic": "Heretic",
   "item.dream_projection.heretic_spawn_egg": "Heretic Spawn Egg",
-  "item.dream_projection.book_of_evil": "Book Of Evil"
+  "item.dream_projection.book_of_evil": "Book Of Evil",
+  "item.dream_projection.heretic_dagger": "Heretic Dagger",
+  "item.dream_projection.smile_hammer": "Smile"
 }

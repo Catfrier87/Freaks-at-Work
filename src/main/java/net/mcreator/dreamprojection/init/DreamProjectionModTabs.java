@@ -40,6 +40,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.MISERY_AXE.get());
 			tabData.accept(DreamProjectionModItems.DEATHS_TOUCH.get());
 			tabData.accept(DreamProjectionModItems.BOOK_OF_EVIL.get());
+			tabData.accept(DreamProjectionModItems.HERETIC_DAGGER.get());
+			tabData.accept(DreamProjectionModItems.SMILE_HAMMER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
