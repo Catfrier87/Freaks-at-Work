@@ -15,12 +15,12 @@ public class BookOfEvilSummonProcedure {
 		if (entity == null)
 			return;
 		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = DreamProjectionModEntities.HERETIC.get().spawn(_level, BlockPos.containing(x, y, z), EntitySpawnReason.MOB_SUMMONED);
+			Entity entityToSpawn = DreamProjectionModEntities.HERETIC.get().spawn(_level, BlockPos.containing(x, y + 1, z), EntitySpawnReason.MOB_SUMMONED);
 			if (entityToSpawn != null) {
 				entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 			}
 		}
 		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack, 60);
+			_player.getCooldowns().addCooldown(itemstack, 120);
 	}
 }

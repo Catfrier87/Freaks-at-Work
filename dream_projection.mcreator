@@ -952,6 +952,43 @@
           "src/main/resources/data/dream_projection/painting_variant/googie.json"
         ]
       }
+    },
+    {
+      "name": "DarkBellWarp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_bell_warp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/DarkBellWarpProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Blocks"
+    },
+    {
+      "name": "DarkBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/blockstates/dark_bell.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/dark_bell.json",
+          "src/main/resources/assets/dream_projection/models/block/dark_bell.json",
+          "src/main/resources/assets/dream_projection/models/item/dark_bell.json",
+          "src/main/resources/assets/dream_projection/items/dark_bell.json",
+          "src/main/java/net/mcreator/dreamprojection/block/DarkBellBlock.java"
+        ]
+      },
+      "path": "~/Flesh/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1005,6 +1042,7 @@
       "~CUSTOM:SkinBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DarkBell",
       "~CUSTOM:Porestone",
       "~CUSTOM:BloodClot",
       "~CUSTOM:Eyes"
@@ -1032,6 +1070,7 @@
       "~CUSTOM:MeatShot"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DarkBell",
       "~CUSTOM:Eyes"
     ],
     "ITEMS:minecraft:swords": [
@@ -1104,7 +1143,8 @@
       "item.dream_projection.smile_hammer": "Smile",
       "subtitles.mosbscream": "Scream",
       "painting.dream_projection.googie.author": "Him.",
-      "painting.dream_projection.googie.title": "Googie"
+      "painting.dream_projection.googie.title": "Googie",
+      "item.dream_projection.dark_bell": "Dark Bell"
     }
   },
   "metadata": {

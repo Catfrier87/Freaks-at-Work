@@ -47,6 +47,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(DreamProjectionModBlocks.DARK_BELL.get().asItem());
 		}
 	}
 }

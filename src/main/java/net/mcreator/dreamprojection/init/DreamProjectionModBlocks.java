@@ -23,6 +23,7 @@ public class DreamProjectionModBlocks {
 	public static final DeferredBlock<Block> PORESTONE;
 	public static final DeferredBlock<Block> NUTRIENT_SAC;
 	public static final DeferredBlock<Block> BEAST_DIMENSION_PORTAL;
+	public static final DeferredBlock<Block> DARK_BELL;
 	static {
 		EYES = register("eyes", EyesBlock::new);
 		DARKNESS_BLOCK = register("darkness_block", DarknessBlockBlock::new);
@@ -31,6 +32,7 @@ public class DreamProjectionModBlocks {
 		PORESTONE = register("porestone", PorestoneBlock::new);
 		NUTRIENT_SAC = register("nutrient_sac", NutrientSacBlock::new);
 		BEAST_DIMENSION_PORTAL = register("beast_dimension_portal", BeastDimensionPortalBlock::new);
+		DARK_BELL = register("dark_bell", DarkBellBlock::new);
 	}
 
 	// Start of user code block custom blocks

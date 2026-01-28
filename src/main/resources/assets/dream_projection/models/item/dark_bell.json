@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dream_projection:item/dark_bell"
+  },
+  "render_type": "translucent"
+}
