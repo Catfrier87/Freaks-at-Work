@@ -1,0 +1,11 @@
+{
+  "asset_id": "dream_projection:googie",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "translate": "painting.dream_projection.googie.title"
+  },
+  "author": {
+    "translate": "painting.dream_projection.googie.author"
+  }
+}

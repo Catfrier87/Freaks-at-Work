@@ -16,12 +16,12 @@ public class SmileHammerItem extends AxeItem {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1450, 1f, 0, 2, TagKey.create(Registries.ITEM, ResourceLocation.parse("dream_projection:smile_hammer_repair_items")));
 
 	public SmileHammerItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 10f, -3f, properties);
+		super(TOOL_MATERIAL, 10f, -3.2f, properties);
 	}
 
 	@Override
 	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		super.hurtEnemy(itemstack, entity, sourceentity);
-		SmileEatProcedure.execute(entity, sourceentity);
+		SmileEatProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, sourceentity);
 	}
 }

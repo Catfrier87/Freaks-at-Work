@@ -25,5 +25,14 @@
         "stream": false
       }
     ]
+  },
+  "mosbscream": {
+    "subtitle": "subtitles.mosbscream",
+    "sounds": [
+      {
+        "name": "dream_projection:mosb_scream",
+        "stream": false
+      }
+    ]
   }
 }

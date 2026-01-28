@@ -902,6 +902,22 @@
           {
             "name": "sourceentity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -921,6 +937,19 @@
           "src/main/java/net/mcreator/dreamprojection/item/SmileHammerItem.java",
           "src/main/resources/assets/dream_projection/items/smile_hammer.json",
           "src/main/resources/assets/dream_projection/models/item/smile_hammer.json"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "Googie",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "googie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/painting_variant/googie.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -951,6 +980,14 @@
       ],
       "category": "hostile",
       "subtitle": "ZLYQ Rages"
+    },
+    {
+      "name": "mosbscream",
+      "files": [
+        "mosb_scream"
+      ],
+      "category": "neutral",
+      "subtitle": "Scream"
     }
   ],
   "tag_elements": {
@@ -1065,13 +1102,17 @@
       "item.dream_projection.heretic_spawn_egg": "Heretic Spawn Egg",
       "item.dream_projection.book_of_evil": "Book Of Evil",
       "item.dream_projection.heretic_dagger": "Heretic Dagger",
-      "item.dream_projection.smile_hammer": "Smile"
+      "item.dream_projection.smile_hammer": "Smile",
+      "subtitles.mosbscream": "Scream",
+      "painting.dream_projection.googie.author": "Him.",
+      "painting.dream_projection.googie.title": "Googie"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
