@@ -142,9 +142,6 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Fear"
-      },
-      {
         "value": "CUSTOM:Abyss"
       }
     ],

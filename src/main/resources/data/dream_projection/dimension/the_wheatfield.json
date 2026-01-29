@@ -417,9 +417,9 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:wheat",
+                              "Name": "minecraft:farmland",
                               "Properties": {
-                                "age": "0"
+                                "moisture": "0"
                               }
                             }
                           }

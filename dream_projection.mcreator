@@ -136,7 +136,9 @@
       "registry_name": "epidermis",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/biome/epidermis.json"
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/epidermis_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/biome/epidermis.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/epidermis_tree.json"
         ]
       },
       "path": "~/Flesh/Biomes"
@@ -989,6 +991,36 @@
         ]
       },
       "path": "~/Flesh/Blocks"
+    },
+    {
+      "name": "RibChurch",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rib_church",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/structure_set/rib_church.json",
+          "src/main/resources/data/dream_projection/worldgen/structure/rib_church.json",
+          "src/main/resources/data/dream_projection/worldgen/template_pool/rib_church.json"
+        ]
+      },
+      "path": "~/Flesh/Biomes"
+    },
+    {
+      "name": "BoneTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/bone_tree_biome_modifier.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/bone_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/bone_tree.json"
+        ]
+      },
+      "path": "~/Flesh/Biomes"
     }
   ],
   "variable_elements": [],
@@ -1095,6 +1127,9 @@
       "~CUSTOM:PureDarkness"
     ],
     "ITEMS:dream_projection:smile_hammer_repair_items": [
+      "~CUSTOM:Meat"
+    ],
+    "ITEMS:minecraft:meat": [
       "~CUSTOM:Meat"
     ]
   },

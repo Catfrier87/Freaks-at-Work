@@ -4,7 +4,7 @@
   "definition": {
     "name": "Wheatfield",
     "groundBlock": {
-      "value": "Blocks.WHEAT"
+      "value": "Blocks.FARMLAND"
     },
     "undergroundBlock": {
       "value": "Blocks.FARMLAND"

@@ -26,10 +26,26 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.ABYSS_BOSS_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.DEATH_CERTIFICATE.get());
 			tabData.accept(DreamProjectionModItems.HERETIC_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(DreamProjectionModItems.MEAT.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(DreamProjectionModItems.MEAT.get());
+			tabData.accept(DreamProjectionModItems.SCAB.get());
+			tabData.accept(DreamProjectionModItems.TENDONS.get());
+			tabData.accept(DreamProjectionModItems.PURE_DARKNESS.get());
+			tabData.accept(DreamProjectionModItems.PUPIL.get());
+			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(DreamProjectionModBlocks.EYES.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.BLOOD_CLOT.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.PORESTONE.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.NUTRIENT_SAC.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(DreamProjectionModBlocks.NUTRIENT_SAC.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.BLOOD_CLOT.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.PORESTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_HELMET.get());
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_CHESTPLATE.get());
@@ -45,8 +61,6 @@ public class DreamProjectionModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARK_BELL.get().asItem());
 		}

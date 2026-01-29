@@ -71,7 +71,7 @@ public class DreamProjectionModBiomes {
 	private static SurfaceRules.RuleSource injectOverworldSurfaceRules(SurfaceRules.RuleSource currentRuleSource) {
 		List<SurfaceRules.RuleSource> customSurfaceRules = new ArrayList<>();
 		customSurfaceRules.add(
-				anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "wheatfield")), Blocks.WHEAT.defaultBlockState(), Blocks.FARMLAND.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+				anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "wheatfield")), Blocks.FARMLAND.defaultBlockState(), Blocks.FARMLAND.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 		if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 			customSurfaceRules.addAll(sequenceRuleSource.sequence());
 			return SurfaceRules.sequence(customSurfaceRules.toArray(SurfaceRules.RuleSource[]::new));
