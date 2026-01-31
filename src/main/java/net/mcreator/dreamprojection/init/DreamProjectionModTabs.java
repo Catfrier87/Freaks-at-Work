@@ -26,6 +26,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.ABYSS_BOSS_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.DEATH_CERTIFICATE.get());
 			tabData.accept(DreamProjectionModItems.HERETIC_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.H_7362_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

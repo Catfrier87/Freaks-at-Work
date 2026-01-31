@@ -1,18 +1,6 @@
 package net.mcreator.dreamprojection.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.tags.TagKey;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.dreamprojection.init.DreamProjectionModEntities;
+import net.neoforged.bus.api.Event;
 
 public class ShadowDevourProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {

@@ -11,6 +11,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.dreamprojection.client.renderer.HereticRenderer;
+import net.mcreator.dreamprojection.client.renderer.H7362Renderer;
 import net.mcreator.dreamprojection.client.renderer.FreakRenderer;
 import net.mcreator.dreamprojection.client.renderer.ClusterRenderer;
 import net.mcreator.dreamprojection.client.renderer.AbyssBossRenderer;
@@ -24,5 +25,6 @@ public class DreamProjectionModEntityRenderers {
 		event.registerEntityRenderer(DreamProjectionModEntities.CLUSTER.get(), ClusterRenderer::new);
 		event.registerEntityRenderer(DreamProjectionModEntities.ABYSS_BOSS.get(), AbyssBossRenderer::new);
 		event.registerEntityRenderer(DreamProjectionModEntities.HERETIC.get(), HereticRenderer::new);
+		event.registerEntityRenderer(DreamProjectionModEntities.H_7362.get(), H7362Renderer::new);
 	}
 }

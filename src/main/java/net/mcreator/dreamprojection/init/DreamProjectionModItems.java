@@ -53,6 +53,7 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> UNBLINKING_EYE;
 	public static final DeferredItem<Item> EXPERIENCE_BLOCK;
 	public static final DeferredItem<Item> SHADOW_CURRANT;
+	public static final DeferredItem<Item> H_7362_SPAWN_EGG;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -88,6 +89,7 @@ public class DreamProjectionModItems {
 		UNBLINKING_EYE = register("unblinking_eye", UnblinkingEyeItem::new);
 		EXPERIENCE_BLOCK = block(DreamProjectionModBlocks.EXPERIENCE_BLOCK);
 		SHADOW_CURRANT = block(DreamProjectionModBlocks.SHADOW_CURRANT);
+		H_7362_SPAWN_EGG = register("h_7362_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.H_7362.get(), properties));
 	}
 
 	// Start of user code block custom items

@@ -1112,6 +1112,62 @@
       "path": "~/Flesh/Blocks"
     },
     {
+      "name": "DarknessBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/darkness_block_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/darkness_block_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "ShadowCurrantRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_currant_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/shadow_currant_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/shadow_currant_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "ScabSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scab_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/scab_smelting.json",
+          "src/main/resources/data/dream_projection/recipe/scab_smelting.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "CrustedBloodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusted_blood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/crusted_blood_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/crusted_blood_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
       "name": "ShadowDevour",
       "type": "procedure",
       "compiles": true,
@@ -1147,60 +1203,50 @@
       "path": "~/Flesh/Blocks"
     },
     {
-      "name": "ShadowCurrantRecipe",
-      "type": "recipe",
+      "name": "H7362",
+      "type": "livingentity",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "shadow_currant_recipe",
+      "registry_name": "h_7362",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/shadow_currant_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/shadow_currant_recipe.json"
+          "src/main/java/net/mcreator/dreamprojection/entity/H7362Entity.java",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/H7362Renderer.java",
+          "src/main/resources/assets/dream_projection/models/item/h_7362_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/items/h_7362_spawn_egg.json"
         ]
-      },
-      "path": "~/Flesh/Recipes"
+      }
     },
     {
-      "name": "DarknessBlockRecipe",
-      "type": "recipe",
+      "name": "Insomnia",
+      "type": "potioneffect",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkness_block_recipe",
+      "registry_name": "insomnia",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/darkness_block_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/darkness_block_recipe.json"
+          "src/main/java/net/mcreator/dreamprojection/potion/InsomniaMobEffect.java"
         ]
-      },
-      "path": "~/Flesh/Recipes"
+      }
     },
     {
-      "name": "CrustedBloodRecipe",
-      "type": "recipe",
+      "name": "Psychosis_DespawnOnContact",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crusted_blood_recipe",
+      "registry_name": "psychosis_despawn_on_contact",
       "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
         "files": [
-          "src/main/resources/data/dream_projection/recipe/crusted_blood_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/crusted_blood_recipe.json"
+          "src/main/java/net/mcreator/dreamprojection/procedures/Psychosis_DespawnOnContactProcedure.java"
         ]
       },
-      "path": "~/Flesh/Recipes"
-    },
-    {
-      "name": "ScabSmelting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "scab_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/scab_smelting.json",
-          "src/main/resources/data/dream_projection/recipe/scab_smelting.json"
-        ]
-      },
-      "path": "~/Flesh/Recipes"
+      "path": "~/Generic Entity Procedures"
     }
   ],
   "variable_elements": [],
@@ -1317,49 +1363,6 @@
     "ITEMS:deam_projection:projectible": [
       "CUSTOM:Meat",
       "CUSTOM:PureDarkness"
-    ],
-    "ENTITIES:dream_projection:shadows": [
-      "CUSTOM:Cluster",
-      "CUSTOM:AbyssBoss"
-    ],
-    "ITEMS:minecraft:flowers": [
-      "Items.SWEET_BERRIES",
-      "Blocks.PINK_PETALS",
-      "Blocks.DEADBUSH",
-      "Blocks.BUSH",
-      "Blocks.SHORT_DRY_GRASS",
-      "Blocks.TALL_DRY_GRASS",
-      "Blocks.TALLGRASS#1",
-      "Blocks.TALLGRASS#2",
-      "Blocks.YELLOW_FLOWER",
-      "Blocks.RED_FLOWER#0",
-      "Blocks.RED_FLOWER#1",
-      "Blocks.RED_FLOWER#2",
-      "Blocks.RED_FLOWER#3",
-      "Blocks.RED_FLOWER#4",
-      "Blocks.RED_FLOWER#5",
-      "Blocks.RED_FLOWER#6",
-      "Blocks.RED_FLOWER#7",
-      "Blocks.RED_FLOWER#8",
-      "Blocks.CORNFLOWER",
-      "Blocks.LILY_OF_THE_VALLEY",
-      "Blocks.WITHER_ROSE",
-      "Blocks.TORCHFLOWER",
-      "Blocks.OPEN_EYEBLOSSOM",
-      "Blocks.CLOSED_EYEBLOSSOM",
-      "Blocks.WILDFLOWERS",
-      "Blocks.LEAF_LITTER",
-      "Blocks.DOUBLE_PLANT#0",
-      "Blocks.DOUBLE_PLANT#1",
-      "Blocks.DOUBLE_PLANT#2",
-      "Blocks.DOUBLE_PLANT#3",
-      "Blocks.DOUBLE_PLANT#4",
-      "Blocks.DOUBLE_PLANT#5",
-      "Blocks.PITCHER_PLANT",
-      "Blocks.BROWN_MUSHROOM",
-      "Blocks.RED_MUSHROOM",
-      "Blocks.WARPED_FUNGUS",
-      "Blocks.CRIMSON_FUNGUS"
     ]
   },
   "tab_element_order": {},
@@ -1409,8 +1412,6 @@
       "painting.dream_projection.googie.author": "Him.",
       "painting.dream_projection.googie.title": "Googie",
       "item.dream_projection.dark_bell": "Dark Bell",
-      "item.dream_projection.unblinking_eye": "Unblinking Eye",
-      "item.dream_projection.experience_block": "Experience Block",
       "item.dream_projection.shadow_currant": "Shadow Currant"
     }
   },
@@ -1463,14 +1464,22 @@
             "children": []
           },
           {
-            "name": "Recipes",
+            "name": "LootTables",
             "children": []
           },
           {
-            "name": "LootTables",
+            "name": "Recipes",
             "children": []
           }
         ]
+      },
+      {
+        "name": "Generic Entity Procedures",
+        "children": []
+      },
+      {
+        "name": "Dissociation",
+        "children": []
       },
       {
         "name": "Wheatfield",

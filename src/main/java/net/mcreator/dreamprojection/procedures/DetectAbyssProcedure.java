@@ -1,9 +1,6 @@
 package net.mcreator.dreamprojection.procedures;
 
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.neoforged.bus.api.Event;
 
 public class DetectAbyssProcedure {
 	public static void execute(Entity entity) {
