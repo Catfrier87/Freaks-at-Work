@@ -1,15 +1,5 @@
 package net.mcreator.dreamprojection.client.renderer;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
-
-import net.mcreator.dreamprojection.entity.H7362Entity;
-
 public class H7362Renderer extends HumanoidMobRenderer<H7362Entity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private H7362Entity entity = null;
 

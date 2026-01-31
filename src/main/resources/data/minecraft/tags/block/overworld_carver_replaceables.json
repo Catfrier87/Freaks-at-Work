@@ -7,6 +7,7 @@
     "dream_projection:skin_block",
     "minecraft:stone",
     "dream_projection:porestone",
-    "dream_projection:darkness_block"
+    "dream_projection:darkness_block",
+    "minecraft:quartz_block"
   ]
 }

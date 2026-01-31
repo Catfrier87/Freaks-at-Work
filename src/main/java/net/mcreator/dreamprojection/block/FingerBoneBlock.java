@@ -1,25 +1,6 @@
 package net.mcreator.dreamprojection.block;
 
-import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.grower.TreeGrower;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.SaplingBlock;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.dreamprojection.init.DreamProjectionModBlocks;
-
-import java.util.Optional;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class FingerBoneBlock extends SaplingBlock {
 	public static final TreeGrower TREE_GROWER = new TreeGrower("finger_bone", Optional.of(getFeatureKey("dream_projection:bone_tree")), Optional.of(getFeatureKey("dream_projection:bone_tree")),

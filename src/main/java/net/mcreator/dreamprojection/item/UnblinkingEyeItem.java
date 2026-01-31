@@ -1,13 +1,5 @@
 package net.mcreator.dreamprojection.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
-
-import net.mcreator.dreamprojection.procedures.DetectAbyssProcedure;
-
 public class UnblinkingEyeItem extends Item {
 	public UnblinkingEyeItem(Item.Properties properties) {
 		super(properties);

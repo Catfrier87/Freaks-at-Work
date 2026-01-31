@@ -956,8 +956,7 @@
         "files": [
           "src/main/resources/data/dream_projection/painting_variant/googie.json"
         ]
-      },
-      "path": "~/Paintings"
+      }
     },
     {
       "name": "DarkBellWarp",
@@ -1216,8 +1215,7 @@
           "src/main/resources/assets/dream_projection/models/item/h_7362_spawn_egg.json",
           "src/main/resources/assets/dream_projection/items/h_7362_spawn_egg.json"
         ]
-      },
-      "path": "~/Dissociation"
+      }
     },
     {
       "name": "Insomnia",
@@ -1229,8 +1227,7 @@
         "files": [
           "src/main/java/net/mcreator/dreamprojection/potion/InsomniaMobEffect.java"
         ]
-      },
-      "path": "~/Dissociation"
+      }
     },
     {
       "name": "Psychosis_DespawnOnContact",
@@ -1259,58 +1256,7 @@
       "registry_name": "insanity",
       "metadata": {
         "files": []
-      },
-      "path": "~/Dissociation"
-    },
-    {
-      "name": "FingerBone",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "finger_bone",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dream_projection/loot_table/blocks/finger_bone.json",
-          "src/main/resources/assets/dream_projection/blockstates/finger_bone.json",
-          "src/main/resources/assets/dream_projection/models/block/finger_bone.json",
-          "src/main/resources/assets/dream_projection/items/finger_bone.json",
-          "src/main/resources/assets/dream_projection/models/item/finger_bone.json",
-          "src/main/java/net/mcreator/dreamprojection/block/FingerBoneBlock.java"
-        ]
-      },
-      "path": "~/Flesh/Blocks"
-    },
-    {
-      "name": "FingerBoneRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "finger_bone_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/finger_bone_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/finger_bone_recipe.json"
-        ]
-      },
-      "path": "~/Flesh/Recipes"
-    },
-    {
-      "name": "InfiniteForest",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infinite_forest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/infinite_forest_tree.json",
-          "src/main/resources/data/dream_projection/worldgen/biome/infinite_forest.json",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestTrunkDecorator.java",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/infinite_forest_tree.json",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestFruitDecorator.java",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestLeaveDecorator.java"
-        ]
-      },
-      "path": "~/The Forest/Biomes"
+      }
     },
     {
       "name": "ForestDimension",
@@ -1333,55 +1279,40 @@
       "path": "~/The Forest"
     },
     {
-      "name": "DynamiteSummon",
-      "type": "procedure",
+      "name": "InfiniteForest",
+      "type": "biome",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dynamite_summon",
+      "registry_name": "infinite_forest",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/procedures/DynamiteSummonProcedure.java"
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/infinite_forest_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/biome/infinite_forest.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestTrunkDecorator.java",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/infinite_forest_tree.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestFruitDecorator.java",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestLeaveDecorator.java"
         ]
       },
-      "path": "~/The Forest/Creatures"
+      "path": "~/The Forest/Biomes"
     },
     {
-      "name": "DynamiteSpawner",
-      "type": "livingentity",
+      "name": "FingerBone",
+      "type": "plant",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dynamite_spawner",
+      "registry_name": "finger_bone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/client/renderer/DynamiteSpawnerRenderer.java",
-          "src/main/resources/assets/dream_projection/models/item/dynamite_spawner_spawn_egg.json",
-          "src/main/java/net/mcreator/dreamprojection/entity/DynamiteSpawnerEntity.java",
-          "src/main/resources/assets/dream_projection/items/dynamite_spawner_spawn_egg.json"
+          "src/main/resources/data/dream_projection/loot_table/blocks/finger_bone.json",
+          "src/main/resources/assets/dream_projection/blockstates/finger_bone.json",
+          "src/main/resources/assets/dream_projection/models/block/finger_bone.json",
+          "src/main/resources/assets/dream_projection/items/finger_bone.json",
+          "src/main/resources/assets/dream_projection/models/item/finger_bone.json",
+          "src/main/java/net/mcreator/dreamprojection/block/FingerBoneBlock.java"
         ]
       },
-      "path": "~/The Forest/Creatures"
+      "path": "~/Flesh/Blocks"
     },
     {
       "name": "FreakContainment",
@@ -1417,6 +1348,72 @@
         ]
       },
       "path": "~/Flesh/Creatures"
+    },
+    {
+      "name": "TricksStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tricks_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/structure_set/tricks_structure.json",
+          "src/main/resources/data/dream_projection/worldgen/template_pool/tricks_structure.json",
+          "src/main/resources/data/dream_projection/worldgen/structure/tricks_structure.json"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "DynamiteSpawner",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite_spawner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/DynamiteSpawnerRenderer.java",
+          "src/main/resources/assets/dream_projection/models/item/dynamite_spawner_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/entity/DynamiteSpawnerEntity.java",
+          "src/main/resources/assets/dream_projection/items/dynamite_spawner_spawn_egg.json"
+        ]
+      },
+      "path": "~/The Forest/Creatures"
+    },
+    {
+      "name": "DynamiteSummon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite_summon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/DynamiteSummonProcedure.java"
+        ]
+      },
+      "path": "~/The Forest/Creatures"
     },
     {
       "name": "CoasitineShard",
@@ -1455,6 +1452,20 @@
       "path": "~/Overworld/Blocks"
     },
     {
+      "name": "FingerBoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finger_bone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/finger_bone_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/finger_bone_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
       "name": "TricksPainting",
       "type": "painting",
       "compiles": true,
@@ -1468,19 +1479,32 @@
       "path": "~/Paintings"
     },
     {
-      "name": "TricksStructure",
-      "type": "structure",
+      "name": "Haze",
+      "type": "biome",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tricks_structure",
+      "registry_name": "haze",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/structure_set/tricks_structure.json",
-          "src/main/resources/data/dream_projection/worldgen/template_pool/tricks_structure.json",
-          "src/main/resources/data/dream_projection/worldgen/structure/tricks_structure.json"
+          "src/main/resources/data/dream_projection/worldgen/biome/haze.json"
         ]
       },
-      "path": "~/Overworld"
+      "path": "~/Dissociation"
+    },
+    {
+      "name": "DissociativeField",
+      "type": "dimension",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "dissociative_field",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/dimension/dissociative_field.json",
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/DissociativeFieldDimension.java",
+          "src/main/resources/data/dream_projection/dimension_type/dissociative_field.json"
+        ]
+      },
+      "path": "~/Dissociation"
     }
   ],
   "variable_elements": [],
@@ -1520,8 +1544,9 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.STONE#0",
+      "~Blocks.QUARTZ_BLOCK#3",
       "~Blocks.GRASS",
+      "~Blocks.STONE#0",
       "~CUSTOM:DarknessBlock",
       "~CUSTOM:Porestone",
       "~CUSTOM:SkinBlock",
@@ -1601,11 +1626,11 @@
       "CUSTOM:Meat",
       "CUSTOM:PureDarkness"
     ],
-    "BLOCKS:minecraft:saplings": [
-      "~CUSTOM:FingerBone"
-    ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:InfiniteForest"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:FingerBone"
     ]
   },
   "tab_element_order": {},
@@ -1655,21 +1680,9 @@
       "painting.dream_projection.googie.author": "Him.",
       "painting.dream_projection.googie.title": "Googie",
       "item.dream_projection.dark_bell": "Dark Bell",
-      "item.dream_projection.shadow_currant": "Shadow Currant",
-      "item.dream_projection.unblinking_eye": "Unblinking Eye",
-      "item.dream_projection.experience_block": "Experience Block",
       "item.dream_projection.h_7362_spawn_egg": "H 7 3 6 2 Spawn Egg",
       "entity.dream_projection.h_7362": "H 7 3 6 2",
-      "effect.dream_projection.insomnia": "Insomnia",
-      "attribute.dream_projection.insanity": "Insanity",
-      "item.dream_projection.finger_bone": "Finger Bone",
-      "biome.dream_projection.infinite_forest": "Infinite Forest",
-      "entity.dream_projection.dynamite_spawner": "Dynamite Spawner",
-      "item.dream_projection.dynamite_spawner_spawn_egg": "Dynamite Spawner Spawn Egg",
-      "item.dream_projection.coasitine_shard": "Coasitine Shard",
-      "item.dream_projection.coasitine_ore": "Coasitine Ore",
-      "painting.dream_projection.tricks_painting.title": "Tricks",
-      "painting.dream_projection.tricks_painting.author": "ohGr"
+      "effect.dream_projection.insomnia": "Insomnia"
     }
   },
   "metadata": {
@@ -1745,23 +1758,6 @@
         "children": []
       },
       {
-        "name": "Overworld",
-        "children": [
-          {
-            "name": "Blocks",
-            "children": []
-          },
-          {
-            "name": "Crafting",
-            "children": []
-          },
-          {
-            "name": "Structures",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "The Forest",
         "children": [
           {
@@ -1777,6 +1773,23 @@
       {
         "name": "Paintings",
         "children": []
+      },
+      {
+        "name": "Overworld",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Crafting",
+            "children": []
+          },
+          {
+            "name": "Structures",
+            "children": []
+          }
+        ]
       }
     ]
   },
