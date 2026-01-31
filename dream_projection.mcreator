@@ -138,6 +138,9 @@
         "files": [
           "src/main/resources/data/dream_projection/worldgen/placed_feature/epidermis_tree.json",
           "src/main/resources/data/dream_projection/worldgen/biome/epidermis.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisTrunkDecorator.java",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisLeaveDecorator.java",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisFruitDecorator.java",
           "src/main/resources/data/dream_projection/worldgen/configured_feature/epidermis_tree.json"
         ]
       },
@@ -1021,6 +1024,92 @@
         ]
       },
       "path": "~/Flesh/Biomes"
+    },
+    {
+      "name": "DetectAbyss",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detect_abyss",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/DetectAbyssProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "UnblinkingEye",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unblinking_eye",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/unblinking_eye.json",
+          "src/main/resources/assets/dream_projection/models/item/unblinking_eye.json",
+          "src/main/java/net/mcreator/dreamprojection/item/UnblinkingEyeItem.java"
+        ]
+      },
+      "path": "~/Flesh/Gear"
+    },
+    {
+      "name": "DreamProjectorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_projector_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/dream_projector_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/dream_projector_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExperienceBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/experience_block.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/experience_block.json",
+          "src/main/resources/assets/dream_projection/models/item/experience_block.json",
+          "src/main/resources/assets/dream_projection/blockstates/experience_block.json",
+          "src/main/java/net/mcreator/dreamprojection/block/ExperienceBlockBlock.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/experience_block_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/items/experience_block.json",
+          "src/main/resources/assets/dream_projection/models/block/experience_block.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/experience_block.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks"
+    },
+    {
+      "name": "ShadowCurrant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_currant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/shadow_currant.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/shadow_currant.json",
+          "src/main/resources/assets/dream_projection/models/block/shadow_currant.json",
+          "src/main/resources/assets/dream_projection/blockstates/shadow_currant.json",
+          "src/main/java/net/mcreator/dreamprojection/block/ShadowCurrantBlock.java",
+          "src/main/resources/assets/dream_projection/models/item/shadow_currant.json"
+        ]
+      },
+      "path": "~/Flesh/Blocks"
     }
   ],
   "variable_elements": [],
@@ -1074,12 +1163,14 @@
       "~CUSTOM:SkinBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ExperienceBlock",
       "~CUSTOM:DarkBell",
       "~CUSTOM:Porestone",
       "~CUSTOM:BloodClot",
       "~CUSTOM:Eyes"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:ExperienceBlock",
       "~CUSTOM:Porestone",
       "~CUSTOM:BloodClot"
     ],
@@ -1131,6 +1222,10 @@
     ],
     "ITEMS:minecraft:meat": [
       "~CUSTOM:Meat"
+    ],
+    "ITEMS:deam_projection:projectible": [
+      "CUSTOM:Meat",
+      "CUSTOM:PureDarkness"
     ]
   },
   "tab_element_order": {},
@@ -1179,7 +1274,10 @@
       "subtitles.mosbscream": "Scream",
       "painting.dream_projection.googie.author": "Him.",
       "painting.dream_projection.googie.title": "Googie",
-      "item.dream_projection.dark_bell": "Dark Bell"
+      "item.dream_projection.dark_bell": "Dark Bell",
+      "item.dream_projection.unblinking_eye": "Unblinking Eye",
+      "item.dream_projection.experience_block": "Experience Block",
+      "item.dream_projection.shadow_currant": "Shadow Currant"
     }
   },
   "metadata": {
@@ -1243,6 +1341,15 @@
       {
         "name": "Wheatfield",
         "children": []
+      },
+      {
+        "name": "Overworld",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
       }
     ]
   },

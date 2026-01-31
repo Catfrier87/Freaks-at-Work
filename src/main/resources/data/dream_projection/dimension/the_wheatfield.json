@@ -445,10 +445,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:farmland",
-                        "Properties": {
-                          "moisture": "0"
-                        }
+                        "Name": "minecraft:dirt"
                       }
                     }
                   }

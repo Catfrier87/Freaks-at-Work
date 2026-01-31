@@ -15,7 +15,7 @@
       "value": "CUSTOM:Porestone"
     },
     "fluidBlock": {
-      "value": "Blocks.WATER"
+      "value": "Blocks.CAVE_AIR"
     },
     "seaLevel": 63,
     "generateOreVeins": false,

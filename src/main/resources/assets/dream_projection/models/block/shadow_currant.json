@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dream_projection:block/shadow_currant_plant",
+    "particle": "dream_projection:block/static"
+  },
+  "render_type": "cutout"
+}

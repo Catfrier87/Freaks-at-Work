@@ -7,7 +7,7 @@
       "type": "minecraft:two_layers_feature_size",
       "limit": 1,
       "lower_size": 0,
-      "upper_size": 1
+      "upper_size": 2
     },
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
@@ -18,7 +18,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_log",
+        "Name": "minecraft:bone_block",
         "Properties": {
           "axis": "y"
         }
@@ -27,26 +27,33 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_leaves",
+        "Name": "minecraft:bone_block",
         "Properties": {
-          "distance": "7",
-          "persistent": "false",
-          "waterlogged": "false"
+          "axis": "y"
         }
       }
     },
     "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
-      "base_height": 4,
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 7,
       "height_rand_a": 2,
-      "height_rand_b": 0
+      "height_rand_b": 2
     },
     "foliage_placer": {
-      "type": "minecraft:blob_foliage_placer",
+      "type": "minecraft:acacia_foliage_placer",
       "radius": 2,
-      "offset": 0,
-      "height": 3
+      "offset": 0
     },
-    "decorators": []
+    "decorators": [
+      {
+        "type": "dream_projection:epidermis_tree_fruit_decorator"
+      },
+      {
+        "type": "dream_projection:epidermis_tree_trunk_decorator"
+      },
+      {
+        "type": "dream_projection:epidermis_tree_leave_decorator"
+      }
+    ]
   }
 }
