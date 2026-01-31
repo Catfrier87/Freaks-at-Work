@@ -1025,7 +1025,7 @@
     {
       "name": "H7362",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "h_7362",
       "metadata": {
@@ -1071,7 +1071,7 @@
     {
       "name": "ExperienceBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "experience_block",
       "metadata": {
@@ -1092,7 +1092,7 @@
     {
       "name": "UnblinkingEye",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "unblinking_eye",
       "metadata": {
@@ -1139,7 +1139,7 @@
     {
       "name": "ShadowCurrant",
       "type": "plant",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "shadow_currant",
       "metadata": {
@@ -1170,7 +1170,7 @@
     {
       "name": "DissociativeField",
       "type": "dimension",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dissociative_field",
       "metadata": {
@@ -1251,7 +1251,7 @@
     {
       "name": "ShadowDevour",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "shadow_devour",
       "metadata": {
@@ -1453,24 +1453,26 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModAttributes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
+      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModMobEffects.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
-      "src/main/resources/dream_projection.mixins.json",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
-      "src/main/resources/assets/dream_projection/sounds.json"
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
+      "src/main/resources/assets/dream_projection/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/dream_projection.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
