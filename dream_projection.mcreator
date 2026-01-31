@@ -1028,7 +1028,7 @@
     {
       "name": "DetectAbyss",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "detect_abyss",
       "metadata": {
@@ -1047,7 +1047,7 @@
     {
       "name": "UnblinkingEye",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "unblinking_eye",
       "metadata": {
@@ -1075,7 +1075,7 @@
     {
       "name": "ExperienceBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "experience_block",
       "metadata": {
@@ -1096,7 +1096,7 @@
     {
       "name": "ShadowCurrant",
       "type": "plant",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "shadow_currant",
       "metadata": {
@@ -1170,7 +1170,7 @@
     {
       "name": "ShadowDevour",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "shadow_devour",
       "metadata": {
@@ -1205,7 +1205,7 @@
     {
       "name": "H7362",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "h_7362",
       "metadata": {
@@ -1220,7 +1220,7 @@
     {
       "name": "Insomnia",
       "type": "potioneffect",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "insomnia",
       "metadata": {
@@ -1232,7 +1232,7 @@
     {
       "name": "Psychosis_DespawnOnContact",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "psychosis_despawn_on_contact",
       "metadata": {
@@ -1422,6 +1422,7 @@
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModMobEffects.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
