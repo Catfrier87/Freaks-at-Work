@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "dream_projection:deleted_mod_element",
+          "biome": "dream_projection:haze",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -380,7 +380,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "dream_projection:deleted_mod_element"
+                "dream_projection:haze"
               ]
             },
             "then_run": {
