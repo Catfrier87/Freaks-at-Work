@@ -17,11 +17,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.dreamprojection.entity.MeatProjectileEntity;
-import net.mcreator.dreamprojection.entity.HereticEntity;
-import net.mcreator.dreamprojection.entity.FreakEntity;
-import net.mcreator.dreamprojection.entity.ClusterEntity;
-import net.mcreator.dreamprojection.entity.AbyssBossEntity;
+import net.mcreator.dreamprojection.entity.*;
 import net.mcreator.dreamprojection.DreamProjectionMod;
 
 @EventBusSubscriber
@@ -45,6 +41,8 @@ public class DreamProjectionModEntities {
 			EntityType.Builder.<HereticEntity>of(HereticEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<H7362Entity>> H_7362 = register("h_7362",
+			EntityType.Builder.<H7362Entity>of(H7362Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -58,6 +56,7 @@ public class DreamProjectionModEntities {
 		ClusterEntity.init(event);
 		AbyssBossEntity.init(event);
 		HereticEntity.init(event);
+		H7362Entity.init(event);
 	}
 
 	@SubscribeEvent
@@ -66,5 +65,6 @@ public class DreamProjectionModEntities {
 		event.put(CLUSTER.get(), ClusterEntity.createAttributes().build());
 		event.put(ABYSS_BOSS.get(), AbyssBossEntity.createAttributes().build());
 		event.put(HERETIC.get(), HereticEntity.createAttributes().build());
+		event.put(H_7362.get(), H7362Entity.createAttributes().build());
 	}
 }

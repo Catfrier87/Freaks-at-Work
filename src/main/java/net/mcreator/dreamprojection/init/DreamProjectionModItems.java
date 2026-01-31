@@ -50,6 +50,7 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> HERETIC_DAGGER;
 	public static final DeferredItem<Item> SMILE_HAMMER;
 	public static final DeferredItem<Item> DARK_BELL;
+	public static final DeferredItem<Item> H_7362_SPAWN_EGG;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -82,6 +83,7 @@ public class DreamProjectionModItems {
 		HERETIC_DAGGER = register("heretic_dagger", HereticDaggerItem::new);
 		SMILE_HAMMER = register("smile_hammer", SmileHammerItem::new);
 		DARK_BELL = block(DreamProjectionModBlocks.DARK_BELL);
+		H_7362_SPAWN_EGG = register("h_7362_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.H_7362.get(), properties));
 	}
 
 	// Start of user code block custom items
