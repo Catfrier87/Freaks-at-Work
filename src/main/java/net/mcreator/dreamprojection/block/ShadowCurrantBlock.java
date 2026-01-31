@@ -30,6 +30,12 @@ public class ShadowCurrantBlock extends FlowerBlock implements BonemealableBlock
 	}
 
 	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+		ShadowDevourProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+	}
+
+	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
 		return true;
 	}

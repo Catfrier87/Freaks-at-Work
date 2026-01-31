@@ -1,6 +1,6 @@
 package net.mcreator.dreamprojection.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.entity.Entity;
 
 public class Psychosis_DespawnOnContactProcedure {
 	public static void execute(Entity entity) {

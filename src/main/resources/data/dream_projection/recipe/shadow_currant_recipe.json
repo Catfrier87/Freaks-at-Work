@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "dream_projection:meat",
+    "b": "#minecraft:flowers"
+  },
+  "result": {
+    "id": "dream_projection:shadow_currant",
+    "count": 1
+  }
+}

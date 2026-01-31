@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class MeatItem extends Item {
 	public MeatItem(Item.Properties properties) {
-		super(properties.food((new FoodProperties.Builder()).nutrition(4).saturationModifier(0.3f).build(), Consumables.defaultFood().animation(ItemUseAnimation.NONE).consumeSeconds(0F).build()));
+		super(properties.food((new FoodProperties.Builder()).nutrition(0).saturationModifier(0.05f).build(), Consumables.defaultFood().animation(ItemUseAnimation.NONE).consumeSeconds(0F).build()));
 	}
 }

@@ -121,6 +121,9 @@
     "restrictionBiomes": [],
     "generationType": "Flower",
     "patchSize": 64,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": false,
+    "onEntityCollides": {
+      "name": "ShadowDevour"
+    }
   }
 }
