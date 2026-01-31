@@ -11,12 +11,15 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.entity.InsideBlockEffectApplier;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.dreamprojection.procedures.ShadowDevourProcedure;
 import net.mcreator.dreamprojection.init.DreamProjectionModBlocks;
 
 public class ShadowCurrantBlock extends FlowerBlock implements BonemealableBlock {
@@ -44,6 +47,12 @@ public class ShadowCurrantBlock extends FlowerBlock implements BonemealableBlock
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
 		return this.mayPlaceOn(groundState, worldIn, blockpos);
+	}
+
+	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+		ShadowDevourProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 
 	@Override

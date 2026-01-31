@@ -1110,6 +1110,97 @@
         ]
       },
       "path": "~/Flesh/Blocks"
+    },
+    {
+      "name": "ShadowDevour",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_devour",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/ShadowDevourProcedure.java"
+        ]
+      },
+      "path": "~/Flesh/Blocks"
+    },
+    {
+      "name": "ShadowCurrantRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_currant_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/shadow_currant_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/shadow_currant_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "DarknessBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/darkness_block_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/darkness_block_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "CrustedBloodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusted_blood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/crusted_blood_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/crusted_blood_recipe.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
+    },
+    {
+      "name": "ScabSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scab_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/scab_smelting.json",
+          "src/main/resources/data/dream_projection/recipe/scab_smelting.json"
+        ]
+      },
+      "path": "~/Flesh/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1226,6 +1317,49 @@
     "ITEMS:deam_projection:projectible": [
       "CUSTOM:Meat",
       "CUSTOM:PureDarkness"
+    ],
+    "ENTITIES:dream_projection:shadows": [
+      "CUSTOM:Cluster",
+      "CUSTOM:AbyssBoss"
+    ],
+    "ITEMS:minecraft:flowers": [
+      "Items.SWEET_BERRIES",
+      "Blocks.PINK_PETALS",
+      "Blocks.DEADBUSH",
+      "Blocks.BUSH",
+      "Blocks.SHORT_DRY_GRASS",
+      "Blocks.TALL_DRY_GRASS",
+      "Blocks.TALLGRASS#1",
+      "Blocks.TALLGRASS#2",
+      "Blocks.YELLOW_FLOWER",
+      "Blocks.RED_FLOWER#0",
+      "Blocks.RED_FLOWER#1",
+      "Blocks.RED_FLOWER#2",
+      "Blocks.RED_FLOWER#3",
+      "Blocks.RED_FLOWER#4",
+      "Blocks.RED_FLOWER#5",
+      "Blocks.RED_FLOWER#6",
+      "Blocks.RED_FLOWER#7",
+      "Blocks.RED_FLOWER#8",
+      "Blocks.CORNFLOWER",
+      "Blocks.LILY_OF_THE_VALLEY",
+      "Blocks.WITHER_ROSE",
+      "Blocks.TORCHFLOWER",
+      "Blocks.OPEN_EYEBLOSSOM",
+      "Blocks.CLOSED_EYEBLOSSOM",
+      "Blocks.WILDFLOWERS",
+      "Blocks.LEAF_LITTER",
+      "Blocks.DOUBLE_PLANT#0",
+      "Blocks.DOUBLE_PLANT#1",
+      "Blocks.DOUBLE_PLANT#2",
+      "Blocks.DOUBLE_PLANT#3",
+      "Blocks.DOUBLE_PLANT#4",
+      "Blocks.DOUBLE_PLANT#5",
+      "Blocks.PITCHER_PLANT",
+      "Blocks.BROWN_MUSHROOM",
+      "Blocks.RED_MUSHROOM",
+      "Blocks.WARPED_FUNGUS",
+      "Blocks.CRIMSON_FUNGUS"
     ]
   },
   "tab_element_order": {},
