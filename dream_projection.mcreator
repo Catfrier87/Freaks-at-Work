@@ -1028,7 +1028,7 @@
     {
       "name": "DetectAbyss",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "detect_abyss",
       "metadata": {
@@ -1047,7 +1047,7 @@
     {
       "name": "UnblinkingEye",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "unblinking_eye",
       "metadata": {
@@ -1075,7 +1075,7 @@
     {
       "name": "ExperienceBlock",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "experience_block",
       "metadata": {
@@ -1096,7 +1096,7 @@
     {
       "name": "ShadowCurrant",
       "type": "plant",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_currant",
       "metadata": {
@@ -1170,7 +1170,7 @@
     {
       "name": "ShadowDevour",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_devour",
       "metadata": {
@@ -1205,7 +1205,7 @@
     {
       "name": "H7362",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "h_7362",
       "metadata": {
@@ -1220,7 +1220,7 @@
     {
       "name": "Insomnia",
       "type": "potioneffect",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "insomnia",
       "metadata": {
@@ -1232,7 +1232,7 @@
     {
       "name": "Psychosis_DespawnOnContact",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "psychosis_despawn_on_contact",
       "metadata": {
@@ -1247,6 +1247,16 @@
         ]
       },
       "path": "~/Generic Entity Procedures"
+    },
+    {
+      "name": "Insanity",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insanity",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -1289,7 +1299,6 @@
       "~CUSTOM:DarknessBlock",
       "~CUSTOM:Porestone",
       "~CUSTOM:SkinBlock",
-      "~Blocks.WHEAT",
       "~Blocks.FARMLAND",
       "~Blocks.DIRT#0"
     ],
@@ -1412,11 +1421,18 @@
       "painting.dream_projection.googie.author": "Him.",
       "painting.dream_projection.googie.title": "Googie",
       "item.dream_projection.dark_bell": "Dark Bell",
-      "item.dream_projection.shadow_currant": "Shadow Currant"
+      "item.dream_projection.shadow_currant": "Shadow Currant",
+      "item.dream_projection.unblinking_eye": "Unblinking Eye",
+      "item.dream_projection.experience_block": "Experience Block",
+      "item.dream_projection.h_7362_spawn_egg": "H 7 3 6 2 Spawn Egg",
+      "entity.dream_projection.h_7362": "H 7 3 6 2",
+      "effect.dream_projection.insomnia": "Insomnia",
+      "attribute.dream_projection.insanity": "Insanity"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModAttributes.java",
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",

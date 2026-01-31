@@ -52,6 +52,7 @@ public class DreamProjectionMod {
 		DreamProjectionModTabs.REGISTRY.register(modEventBus);
 		DreamProjectionModMobEffects.REGISTRY.register(modEventBus);
 		DreamProjectionModParticleTypes.REGISTRY.register(modEventBus);
+		DreamProjectionModAttributes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
