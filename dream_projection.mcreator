@@ -1025,7 +1025,7 @@
     {
       "name": "H7362",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "h_7362",
       "metadata": {
@@ -1040,7 +1040,7 @@
     {
       "name": "Insomnia",
       "type": "potioneffect",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "insomnia",
       "metadata": {
@@ -1052,7 +1052,7 @@
     {
       "name": "Psychosis_DespawnOnContact",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "psychosis_despawn_on_contact",
       "metadata": {
@@ -1071,7 +1071,7 @@
     {
       "name": "ExperienceBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "experience_block",
       "metadata": {
@@ -1092,7 +1092,7 @@
     {
       "name": "UnblinkingEye",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "unblinking_eye",
       "metadata": {
@@ -1120,7 +1120,7 @@
     {
       "name": "DetectAbyss",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "detect_abyss",
       "metadata": {
@@ -1139,7 +1139,7 @@
     {
       "name": "ShadowCurrant",
       "type": "plant",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "shadow_currant",
       "metadata": {
@@ -1153,6 +1153,34 @@
         ]
       },
       "path": "~/Flesh/Blocks"
+    },
+    {
+      "name": "Haze",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haze",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/biome/haze.json"
+        ]
+      },
+      "path": "~/Dissociation"
+    },
+    {
+      "name": "DissociativeField",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dissociative_field",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/dimension/dissociative_field.json",
+          "src/main/resources/data/dream_projection/dimension_type/dissociative_field.json",
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/DissociativeFieldDimension.java"
+        ]
+      },
+      "path": "~/Dissociation"
     }
   ],
   "variable_elements": [],
@@ -1192,6 +1220,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.QUARTZ_BLOCK#3",
+      "~Blocks.GRASS",
       "~CUSTOM:DarknessBlock",
       "~CUSTOM:Porestone",
       "~CUSTOM:SkinBlock",
@@ -1313,29 +1343,34 @@
       "subtitles.mosbscream": "Scream",
       "painting.dream_projection.googie.author": "Him.",
       "painting.dream_projection.googie.title": "Googie",
-      "item.dream_projection.dark_bell": "Dark Bell"
+      "item.dream_projection.dark_bell": "Dark Bell",
+      "biome.dream_projection.haze": "Haze",
+      "item.dream_projection.h_7362_spawn_egg": "H 7 3 6 2 Spawn Egg",
+      "entity.dream_projection.h_7362": "H 7 3 6 2",
+      "effect.dream_projection.insomnia": "Insomnia"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
+      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModMobEffects.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
-      "src/main/resources/dream_projection.mixins.json",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
-      "src/main/resources/assets/dream_projection/sounds.json"
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
+      "src/main/resources/assets/dream_projection/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/dream_projection.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
