@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dream_projection:block/experience_block",
+    "up": "dream_projection:block/experience_block",
+    "north": "dream_projection:block/experience_block",
+    "east": "dream_projection:block/experience_block",
+    "south": "dream_projection:block/experience_block",
+    "west": "dream_projection:block/experience_block",
+    "particle": "dream_projection:block/experience_block"
+  },
+  "render_type": "solid"
+}

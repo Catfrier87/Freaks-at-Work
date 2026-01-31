@@ -9,15 +9,15 @@
           "biome": "dream_projection:epidermis",
           "parameters": {
             "temperature": [
-              0,
-              0.5
+              -1,
+              0.6
             ],
             "humidity": [
-              0,
+              -1,
               0.5
             ],
             "continentalness": [
-              0,
+              -1,
               1
             ],
             "weirdness": [
@@ -40,20 +40,20 @@
               2
             ],
             "humidity": [
-              0,
-              1
+              -1,
+              2
             ],
             "continentalness": [
-              0.5,
-              1
+              -1,
+              2
             ],
             "weirdness": [
               -2,
-              1
+              2
             ],
             "erosion": [
-              0.5,
-              1
+              0,
+              2
             ],
             "depth": 0,
             "offset": 0
@@ -72,10 +72,7 @@
         "Name": "dream_projection:porestone"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:cave_air"
       },
       "spawn_target": [],
       "noise": {

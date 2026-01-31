@@ -42,6 +42,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModBlocks.BLOOD_CLOT.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.PORESTONE.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.NUTRIENT_SAC.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.EXPERIENCE_BLOCK.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.SHADOW_CURRANT.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
@@ -62,6 +64,7 @@ public class DreamProjectionModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
+			tabData.accept(DreamProjectionModItems.UNBLINKING_EYE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARK_BELL.get().asItem());
 		}

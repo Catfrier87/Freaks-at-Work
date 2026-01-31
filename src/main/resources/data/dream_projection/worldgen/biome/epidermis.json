@@ -3,6 +3,12 @@
   "temperature": 1.5,
   "downfall": 0.5,
   "effects": {
+    "mood_sound": {
+      "sound": "dream_projection:sickler",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
     "particle": {
       "options": {
         "type": "crimson_spore"

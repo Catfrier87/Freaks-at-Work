@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "#deam_projection:projectible"
+  },
+  "result": {
+    "id": "dream_projection:beast_dimension",
+    "count": 1
+  }
+}

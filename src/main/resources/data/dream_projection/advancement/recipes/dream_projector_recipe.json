@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dream_projection:dream_projector_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ingredient_0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dream_projection:meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingredient_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dream_projection:pure_darkness"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient_0",
+      "has_ingredient_1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dream_projection:dream_projector_recipe"
+    ]
+  }
+}

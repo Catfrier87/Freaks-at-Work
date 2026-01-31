@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "dream_projection:experience_block",
+  "step": "underground_ores"
+}
