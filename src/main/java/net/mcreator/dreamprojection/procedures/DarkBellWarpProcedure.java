@@ -21,7 +21,7 @@ public class DarkBellWarpProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _serverLevel) {
-			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("dream_projection:the_wheatfield"));
+			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("dream_projection:forest_dimension"));
 			if (_player.level().dimension() == destinationType)
 				return;
 			ServerLevel nextLevel = _serverLevel.getServer().getLevel(destinationType);

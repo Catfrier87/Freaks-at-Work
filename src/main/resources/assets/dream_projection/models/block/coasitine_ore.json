@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dream_projection:block/coasitine_ore",
+    "up": "dream_projection:block/coasitine_ore",
+    "north": "dream_projection:block/coasitine_ore",
+    "east": "dream_projection:block/coasitine_ore",
+    "south": "dream_projection:block/coasitine_ore",
+    "west": "dream_projection:block/coasitine_ore",
+    "particle": "dream_projection:block/coasitine_ore"
+  },
+  "render_type": "solid"
+}

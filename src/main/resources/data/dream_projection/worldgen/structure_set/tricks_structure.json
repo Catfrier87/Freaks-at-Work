@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dream_projection:tricks_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 200,
+    "separation": 2,
+    "salt": 81678636
+  }
+}

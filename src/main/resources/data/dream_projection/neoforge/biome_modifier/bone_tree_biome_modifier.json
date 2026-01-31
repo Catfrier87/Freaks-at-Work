@@ -5,5 +5,5 @@
     "dream_projection:abyss"
   ],
   "features": "dream_projection:bone_tree",
-  "step": "surface_structures"
+  "step": "raw_generation"
 }

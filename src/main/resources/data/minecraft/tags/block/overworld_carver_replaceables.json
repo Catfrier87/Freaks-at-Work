@@ -1,9 +1,11 @@
 {
   "replace": false,
   "values": [
+    "minecraft:grass_block",
     "minecraft:farmland",
     "minecraft:dirt",
     "dream_projection:skin_block",
+    "minecraft:stone",
     "dream_projection:porestone",
     "dream_projection:darkness_block"
   ]
