@@ -46,5 +46,9 @@
   "biome.dream_projection.haze": "Haze",
   "item.dream_projection.h_7362_spawn_egg": "H 7 3 6 2 Spawn Egg",
   "entity.dream_projection.h_7362": "H 7 3 6 2",
-  "effect.dream_projection.insomnia": "Insomnia"
+  "effect.dream_projection.insomnia": "Insomnia",
+  "item.dream_projection.experience_block": "Experience Block",
+  "item.dream_projection.unblinking_eye": "Unblinking Eye",
+  "item.dream_projection.shadow_currant": "Shadow Currant",
+  "attribute.dream_projection.insanity": "Insanity"
 }
