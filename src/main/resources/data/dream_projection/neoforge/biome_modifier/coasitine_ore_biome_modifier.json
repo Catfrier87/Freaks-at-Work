@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "dream_projection:coasitine_ore",
+  "step": "underground_ores"
+}

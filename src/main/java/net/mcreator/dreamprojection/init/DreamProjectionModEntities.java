@@ -43,6 +43,10 @@ public class DreamProjectionModEntities {
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<H7362Entity>> H_7362 = register("h_7362",
 			EntityType.Builder.<H7362Entity>of(H7362Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<DynamiteSpawnerEntity>> DYNAMITE_SPAWNER = register("dynamite_spawner",
+			EntityType.Builder.<DynamiteSpawnerEntity>of(DynamiteSpawnerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.4f, 0.7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -57,6 +61,7 @@ public class DreamProjectionModEntities {
 		AbyssBossEntity.init(event);
 		HereticEntity.init(event);
 		H7362Entity.init(event);
+		DynamiteSpawnerEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -66,5 +71,6 @@ public class DreamProjectionModEntities {
 		event.put(ABYSS_BOSS.get(), AbyssBossEntity.createAttributes().build());
 		event.put(HERETIC.get(), HereticEntity.createAttributes().build());
 		event.put(H_7362.get(), H7362Entity.createAttributes().build());
+		event.put(DYNAMITE_SPAWNER.get(), DynamiteSpawnerEntity.createAttributes().build());
 	}
 }

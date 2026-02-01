@@ -1,0 +1,11 @@
+{
+  "asset_id": "dream_projection:tricks_painting",
+  "height": 2,
+  "width": 2,
+  "title": {
+    "translate": "painting.dream_projection.tricks_painting.title"
+  },
+  "author": {
+    "translate": "painting.dream_projection.tricks_painting.author"
+  }
+}

@@ -27,6 +27,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.DEATH_CERTIFICATE.get());
 			tabData.accept(DreamProjectionModItems.HERETIC_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.H_7362_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.DYNAMITE_SPAWNER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -36,6 +37,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.PURE_DARKNESS.get());
 			tabData.accept(DreamProjectionModItems.PUPIL.get());
 			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());
+			tabData.accept(DreamProjectionModItems.COASITINE_SHARD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.EYES.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
@@ -44,6 +46,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModBlocks.NUTRIENT_SAC.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.EXPERIENCE_BLOCK.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SHADOW_CURRANT.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.FINGER_BONE.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.COASITINE_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:bone",
+    "b": "minecraft:bone_meal"
+  },
+  "result": {
+    "id": "dream_projection:finger_bone",
+    "count": 1
+  }
+}

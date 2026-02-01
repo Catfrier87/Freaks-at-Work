@@ -4,7 +4,9 @@
     "minecraft:grass_block",
     "minecraft:farmland",
     "minecraft:dirt",
+    "minecraft:wheat",
     "dream_projection:skin_block",
+    "minecraft:stone",
     "dream_projection:porestone",
     "dream_projection:darkness_block",
     "minecraft:quartz_block"
