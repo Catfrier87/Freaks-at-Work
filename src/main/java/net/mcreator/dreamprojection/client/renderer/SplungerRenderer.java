@@ -8,11 +8,13 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.mcreator.dreamprojection.entity.SplungerEntity;
 import net.mcreator.dreamprojection.client.model.Modelsplunger;
 
+import com.mojang.blaze3d.vertex.PoseStack;
+
 public class SplungerRenderer extends MobRenderer<SplungerEntity, LivingEntityRenderState, Modelsplunger> {
 	private SplungerEntity entity = null;
 
 	public SplungerRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelsplunger(context.bakeLayer(Modelsplunger.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelsplunger(context.bakeLayer(Modelsplunger.LAYER_LOCATION)), 0f);
 	}
 
 	@Override
@@ -29,5 +31,10 @@ public class SplungerRenderer extends MobRenderer<SplungerEntity, LivingEntityRe
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
 		return ResourceLocation.parse("dream_projection:textures/entities/rollypolly.png");
+	}
+
+	@Override
+	protected void scale(LivingEntityRenderState state, PoseStack poseStack) {
+		poseStack.scale(entity.getAgeScale(), entity.getAgeScale(), entity.getAgeScale());
 	}
 }

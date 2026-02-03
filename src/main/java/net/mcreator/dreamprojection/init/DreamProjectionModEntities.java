@@ -50,7 +50,7 @@ public class DreamProjectionModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<SplungerEntity>> SPLUNGER = register("splunger",
 			EntityType.Builder.<SplungerEntity>of(SplungerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.5f, 0.2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

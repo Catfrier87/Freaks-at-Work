@@ -31,7 +31,7 @@ public class Modelsplunger<T extends Entity> extends EntityModel<T> {
 						.addBox(1.0F, 0.0F, -5.0F, 2.0F, 0.0F, 2.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 24.0F, 0.0F));
 
-		return LayerDefinition.create(meshdefinition, 32, 32);
+		return LayerDefinition.create(meshdefinition, 18, 9);
 	}
 
 	@Override
