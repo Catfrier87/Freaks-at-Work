@@ -50,5 +50,13 @@
   "item.dream_projection.experience_block": "Experience Block",
   "item.dream_projection.unblinking_eye": "Unblinking Eye",
   "item.dream_projection.shadow_currant": "Shadow Currant",
-  "attribute.dream_projection.insanity": "Insanity"
+  "attribute.dream_projection.insanity": "Insanity",
+  "biome.dream_projection.infinite_forest": "Infinite Forest",
+  "item.dream_projection.finger_bone": "Finger Bone",
+  "entity.dream_projection.dynamite_spawner": "Dynamite Spawner",
+  "item.dream_projection.dynamite_spawner_spawn_egg": "Dynamite Spawner Spawn Egg",
+  "item.dream_projection.coasitine_shard": "Coasitine Shard",
+  "item.dream_projection.coasitine_ore": "Coasitine Ore",
+  "painting.dream_projection.tricks_painting.title": "Tricks",
+  "painting.dream_projection.tricks_painting.author": "ohGr"
 }

@@ -14,7 +14,7 @@
     "monster": [],
     "creature": [
       {
-        "type": "dream_projection:deleted_mod_element",
+        "type": "dream_projection:dynamite_spawner",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1

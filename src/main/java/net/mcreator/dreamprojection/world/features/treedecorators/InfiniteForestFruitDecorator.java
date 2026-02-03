@@ -1,10 +1,29 @@
 package net.mcreator.dreamprojection.world.features.treedecorators;
 
+import net.neoforged.neoforge.registries.RegisterEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+
+import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
+import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
+import net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.CocoaBlock;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.util.RandomSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import java.util.List;
+
+import com.mojang.serialization.MapCodec;
+
 @EventBusSubscriber
 public class InfiniteForestFruitDecorator extends CocoaDecorator {
-
 	public static MapCodec<InfiniteForestFruitDecorator> CODEC = MapCodec.unit(InfiniteForestFruitDecorator::new);
-
 	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
 
 	@SubscribeEvent
@@ -21,7 +40,27 @@ public class InfiniteForestFruitDecorator extends CocoaDecorator {
 		return DECORATOR_TYPE;
 	}
 
-	@Override /* failed to load code for net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator */
+	@Override
+	public void place(TreeDecorator.Context context) {
+		RandomSource randomsource = context.random();
+		if (!(randomsource.nextFloat() >= 0.2F)) {
+			List<BlockPos> list = context.logs();
+			if (!list.isEmpty()) {
+				int i = list.getFirst().getY();
+				list.stream().filter(p_69980_ -> p_69980_.getY() - i <= 2).forEach(p_226026_ -> {
+					for (Direction direction : Direction.Plane.HORIZONTAL) {
+						if (randomsource.nextFloat() <= 0.25F) {
+							Direction direction1 = direction.getOpposite();
+							BlockPos blockpos = p_226026_.offset(direction1.getStepX(), 0, direction1.getStepZ());
+							if (context.isAir(blockpos)) {
+								context.setBlock(blockpos, Blocks.COCOA.defaultBlockState().setValue(CocoaBlock.AGE, randomsource.nextInt(3)).setValue(CocoaBlock.FACING, direction));
+							}
+						}
+					}
+				});
+			}
+		}
+	}
 
 	@SuppressWarnings("deprecation")
 	private static BlockState oriented(BlockState blockstate, Direction direction) {
@@ -32,5 +71,4 @@ public class InfiniteForestFruitDecorator extends CocoaDecorator {
 			default -> blockstate;
 		};
 	}
-
 }
