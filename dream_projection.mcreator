@@ -1801,6 +1801,10 @@
           {
             "name": "Structures",
             "children": []
+          },
+          {
+            "name": "Creatures",
+            "children": []
           }
         ]
       }
