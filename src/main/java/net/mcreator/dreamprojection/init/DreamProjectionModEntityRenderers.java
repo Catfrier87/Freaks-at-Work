@@ -23,6 +23,5 @@ public class DreamProjectionModEntityRenderers {
 		event.registerEntityRenderer(DreamProjectionModEntities.HERETIC.get(), HereticRenderer::new);
 		event.registerEntityRenderer(DreamProjectionModEntities.H_7362.get(), H7362Renderer::new);
 		event.registerEntityRenderer(DreamProjectionModEntities.DYNAMITE_SPAWNER.get(), DynamiteSpawnerRenderer::new);
-		event.registerEntityRenderer(DreamProjectionModEntities.SPLUNGER.get(), SplungerRenderer::new);
 	}
 }

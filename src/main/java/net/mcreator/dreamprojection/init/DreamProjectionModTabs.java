@@ -28,10 +28,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.HERETIC_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.H_7362_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.DYNAMITE_SPAWNER_SPAWN_EGG.get());
-			tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
-			tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
 			tabData.accept(DreamProjectionModItems.SCAB.get());
