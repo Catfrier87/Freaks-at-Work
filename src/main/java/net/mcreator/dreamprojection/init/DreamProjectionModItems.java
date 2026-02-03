@@ -50,14 +50,15 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> HERETIC_DAGGER;
 	public static final DeferredItem<Item> SMILE_HAMMER;
 	public static final DeferredItem<Item> DARK_BELL;
-	public static final DeferredItem<Item> UNBLINKING_EYE;
-	public static final DeferredItem<Item> EXPERIENCE_BLOCK;
-	public static final DeferredItem<Item> SHADOW_CURRANT;
 	public static final DeferredItem<Item> H_7362_SPAWN_EGG;
+	public static final DeferredItem<Item> EXPERIENCE_BLOCK;
+	public static final DeferredItem<Item> UNBLINKING_EYE;
+	public static final DeferredItem<Item> SHADOW_CURRANT;
 	public static final DeferredItem<Item> FINGER_BONE;
 	public static final DeferredItem<Item> DYNAMITE_SPAWNER_SPAWN_EGG;
 	public static final DeferredItem<Item> COASITINE_SHARD;
 	public static final DeferredItem<Item> COASITINE_ORE;
+	public static final DeferredItem<Item> SPLUNGER_SPAWN_EGG;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -90,14 +91,15 @@ public class DreamProjectionModItems {
 		HERETIC_DAGGER = register("heretic_dagger", HereticDaggerItem::new);
 		SMILE_HAMMER = register("smile_hammer", SmileHammerItem::new);
 		DARK_BELL = block(DreamProjectionModBlocks.DARK_BELL);
-		UNBLINKING_EYE = register("unblinking_eye", UnblinkingEyeItem::new);
-		EXPERIENCE_BLOCK = block(DreamProjectionModBlocks.EXPERIENCE_BLOCK);
-		SHADOW_CURRANT = block(DreamProjectionModBlocks.SHADOW_CURRANT);
 		H_7362_SPAWN_EGG = register("h_7362_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.H_7362.get(), properties));
+		EXPERIENCE_BLOCK = block(DreamProjectionModBlocks.EXPERIENCE_BLOCK);
+		UNBLINKING_EYE = register("unblinking_eye", UnblinkingEyeItem::new);
+		SHADOW_CURRANT = block(DreamProjectionModBlocks.SHADOW_CURRANT);
 		FINGER_BONE = block(DreamProjectionModBlocks.FINGER_BONE);
 		DYNAMITE_SPAWNER_SPAWN_EGG = register("dynamite_spawner_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.DYNAMITE_SPAWNER.get(), properties));
 		COASITINE_SHARD = register("coasitine_shard", CoasitineShardItem::new);
 		COASITINE_ORE = block(DreamProjectionModBlocks.COASITINE_ORE);
+		SPLUNGER_SPAWN_EGG = register("splunger_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.SPLUNGER.get(), properties));
 	}
 
 	// Start of user code block custom items
