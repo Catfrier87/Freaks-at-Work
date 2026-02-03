@@ -58,5 +58,7 @@
   "item.dream_projection.coasitine_shard": "Coasitine Shard",
   "item.dream_projection.coasitine_ore": "Coasitine Ore",
   "painting.dream_projection.tricks_painting.title": "Tricks",
-  "painting.dream_projection.tricks_painting.author": "ohGr"
+  "painting.dream_projection.tricks_painting.author": "ohGr",
+  "entity.dream_projection.splunger": "Splunger",
+  "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg"
 }

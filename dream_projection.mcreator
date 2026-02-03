@@ -1530,6 +1530,22 @@
           "src/main/java/net/mcreator/dreamprojection/procedures/EffectinsomniaProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Splunger",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splunger",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/splunger_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/items/splunger_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/entity/SplungerEntity.java",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/SplungerRenderer.java",
+          "src/main/resources/assets/dream_projection/models/item/splunger_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1716,7 +1732,9 @@
       "item.dream_projection.coasitine_shard": "Coasitine Shard",
       "item.dream_projection.coasitine_ore": "Coasitine Ore",
       "painting.dream_projection.tricks_painting.title": "Tricks",
-      "painting.dream_projection.tricks_painting.author": "ohGr"
+      "painting.dream_projection.tricks_painting.author": "ohGr",
+      "entity.dream_projection.splunger": "Splunger",
+      "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg"
     }
   },
   "metadata": {

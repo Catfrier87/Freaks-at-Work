@@ -58,6 +58,7 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> DYNAMITE_SPAWNER_SPAWN_EGG;
 	public static final DeferredItem<Item> COASITINE_SHARD;
 	public static final DeferredItem<Item> COASITINE_ORE;
+	public static final DeferredItem<Item> SPLUNGER_SPAWN_EGG;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -98,6 +99,7 @@ public class DreamProjectionModItems {
 		DYNAMITE_SPAWNER_SPAWN_EGG = register("dynamite_spawner_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.DYNAMITE_SPAWNER.get(), properties));
 		COASITINE_SHARD = register("coasitine_shard", CoasitineShardItem::new);
 		COASITINE_ORE = block(DreamProjectionModBlocks.COASITINE_ORE);
+		SPLUNGER_SPAWN_EGG = register("splunger_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.SPLUNGER.get(), properties));
 	}
 
 	// Start of user code block custom items
