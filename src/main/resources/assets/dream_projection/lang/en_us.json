@@ -60,20 +60,5 @@
   "painting.dream_projection.tricks_painting.title": "Tricks",
   "painting.dream_projection.tricks_painting.author": "ohGr",
   "entity.dream_projection.splunger": "Splunger",
-  "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg",
-  "item.dream_projection.captured_nanode": "Captured Nanode",
-  "advancements.nanode_obtained.descr": "Warning: do not allow matrix to commune with this dimensional space.",
-  "advancements.nanode_obtained.title": "Take a Deep Breath",
-  "item.dream_projection.englobed_shade": "Englobed Shade",
-  "item.dream_projection.noospheric_orb": "Noospheric Orb",
-  "item.dream_projection.dark_matter": "Dark Matter",
-  "item.dream_projection.dawns_end": "Dawn\u0027s End",
-  "item.dream_projection.photic_jade": "Photic Jade",
-  "item.dream_projection.state_phasure": "State Phasure",
-  "item.dream_projection.novae_reclaiment": "Novae Reclaiment",
-  "item.dream_projection.modified_quata": "Modified Quata",
-  "biome.dream_projection.pangea_biome": "Pangea Scapes",
-  "item.dream_projection.pangea": "Heart of the Sun",
-  "advancements.sun_heart_obtained.descr": "Contains a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
-  "advancements.sun_heart_obtained.title": "To Live Forever"
+  "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg"
 }

@@ -59,16 +59,16 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> COASITINE_SHARD;
 	public static final DeferredItem<Item> COASITINE_ORE;
 	public static final DeferredItem<Item> SPLUNGER_SPAWN_EGG;
-	public static final DeferredItem<Item> CAPTURED_NANODE;
-	public static final DeferredItem<Item> ENGLOBED_SHADE;
 	public static final DeferredItem<Item> NOOSPHERIC_ORB;
-	public static final DeferredItem<Item> DARK_MATTER;
-	public static final DeferredItem<Item> DAWNS_END;
-	public static final DeferredItem<Item> PHOTIC_JADE;
-	public static final DeferredItem<Item> STATE_PHASURE;
+	public static final DeferredItem<Item> PANGEA;
 	public static final DeferredItem<Item> NOVAE_RECLAIMENT;
 	public static final DeferredItem<Item> MODIFIED_QUATA;
-	public static final DeferredItem<Item> PANGEA;
+	public static final DeferredItem<Item> CAPTURED_NANODE;
+	public static final DeferredItem<Item> ENGLOBED_SHADE;
+	public static final DeferredItem<Item> STATE_PHASURE;
+	public static final DeferredItem<Item> DARK_MATTER;
+	public static final DeferredItem<Item> PHOTIC_JADE;
+	public static final DeferredItem<Item> DAWNS_END;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -110,16 +110,16 @@ public class DreamProjectionModItems {
 		COASITINE_SHARD = register("coasitine_shard", CoasitineShardItem::new);
 		COASITINE_ORE = block(DreamProjectionModBlocks.COASITINE_ORE);
 		SPLUNGER_SPAWN_EGG = register("splunger_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.SPLUNGER.get(), properties));
-		CAPTURED_NANODE = register("captured_nanode", CapturedNanodeItem::new);
-		ENGLOBED_SHADE = register("englobed_shade", EnglobedShadeItem::new);
 		NOOSPHERIC_ORB = register("noospheric_orb", NoosphericOrbItem::new);
-		DARK_MATTER = register("dark_matter", DarkMatterItem::new);
-		DAWNS_END = register("dawns_end", DawnsEndItem::new);
-		PHOTIC_JADE = register("photic_jade", PhoticJadeItem::new);
-		STATE_PHASURE = register("state_phasure", StatePhasureItem::new);
+		PANGEA = register("pangea", PangeaItem::new);
 		NOVAE_RECLAIMENT = register("novae_reclaiment", NovaeReclaimentItem::new);
 		MODIFIED_QUATA = register("modified_quata", ModifiedQuataItem::new);
-		PANGEA = register("pangea", PangeaItem::new);
+		CAPTURED_NANODE = register("captured_nanode", CapturedNanodeItem::new);
+		ENGLOBED_SHADE = register("englobed_shade", EnglobedShadeItem::new);
+		STATE_PHASURE = register("state_phasure", StatePhasureItem::new);
+		DARK_MATTER = register("dark_matter", DarkMatterItem::new);
+		PHOTIC_JADE = register("photic_jade", PhoticJadeItem::new);
+		DAWNS_END = register("dawns_end", DawnsEndItem::new);
 	}
 
 	// Start of user code block custom items

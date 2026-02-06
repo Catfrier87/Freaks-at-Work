@@ -4,12 +4,15 @@
 package net.mcreator.dreamprojection.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.dreamprojection.DreamProjectionMod;
@@ -17,6 +20,11 @@ import net.mcreator.dreamprojection.DreamProjectionMod;
 @EventBusSubscriber
 public class DreamProjectionModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DreamProjectionMod.MODID);
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DIVINITY_TAB = REGISTRY.register("divinity_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dream_projection.divinity_tab")).icon(() -> new ItemStack(DreamProjectionModItems.BEAST_DIMENSION.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
+				tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
+			}).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -28,10 +36,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.HERETIC_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.H_7362_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.DYNAMITE_SPAWNER_SPAWN_EGG.get());
-			tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
-			tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
 			tabData.accept(DreamProjectionModItems.SCAB.get());
@@ -40,15 +46,15 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.PUPIL.get());
 			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());
 			tabData.accept(DreamProjectionModItems.COASITINE_SHARD.get());
-			tabData.accept(DreamProjectionModItems.CAPTURED_NANODE.get());
-			tabData.accept(DreamProjectionModItems.ENGLOBED_SHADE.get());
 			tabData.accept(DreamProjectionModItems.NOOSPHERIC_ORB.get());
-			tabData.accept(DreamProjectionModItems.DARK_MATTER.get());
-			tabData.accept(DreamProjectionModItems.DAWNS_END.get());
-			tabData.accept(DreamProjectionModItems.PHOTIC_JADE.get());
-			tabData.accept(DreamProjectionModItems.STATE_PHASURE.get());
 			tabData.accept(DreamProjectionModItems.NOVAE_RECLAIMENT.get());
 			tabData.accept(DreamProjectionModItems.MODIFIED_QUATA.get());
+			tabData.accept(DreamProjectionModItems.CAPTURED_NANODE.get());
+			tabData.accept(DreamProjectionModItems.ENGLOBED_SHADE.get());
+			tabData.accept(DreamProjectionModItems.STATE_PHASURE.get());
+			tabData.accept(DreamProjectionModItems.DARK_MATTER.get());
+			tabData.accept(DreamProjectionModItems.PHOTIC_JADE.get());
+			tabData.accept(DreamProjectionModItems.DAWNS_END.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.EYES.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
@@ -77,7 +83,6 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.HERETIC_DAGGER.get());
 			tabData.accept(DreamProjectionModItems.SMILE_HAMMER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
 			tabData.accept(DreamProjectionModItems.UNBLINKING_EYE.get());
 			tabData.accept(DreamProjectionModItems.PANGEA.get());
