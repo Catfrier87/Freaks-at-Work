@@ -1546,6 +1546,34 @@
           "src/main/resources/assets/dream_projection/models/item/splunger_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "DivinityTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divinity_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SplungerRightclickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splunger_rightclicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/SplungerRightclickedOnEntityProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1734,7 +1762,8 @@
       "painting.dream_projection.tricks_painting.title": "Tricks",
       "painting.dream_projection.tricks_painting.author": "ohGr",
       "entity.dream_projection.splunger": "Splunger",
-      "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg"
+      "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg",
+      "item_group.dream_projection.divinity_tab": "Divinity"
     }
   },
   "metadata": {

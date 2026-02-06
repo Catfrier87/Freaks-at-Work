@@ -66,7 +66,7 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:DivinityTab"
       }
     ],
     "texture": "dreamprojector",

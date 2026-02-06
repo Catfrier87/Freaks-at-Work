@@ -60,5 +60,6 @@
   "painting.dream_projection.tricks_painting.title": "Tricks",
   "painting.dream_projection.tricks_painting.author": "ohGr",
   "entity.dream_projection.splunger": "Splunger",
-  "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg"
+  "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg",
+  "item_group.dream_projection.divinity_tab": "Divinity"
 }
