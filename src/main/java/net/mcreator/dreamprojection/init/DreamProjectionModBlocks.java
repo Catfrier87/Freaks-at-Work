@@ -29,6 +29,7 @@ public class DreamProjectionModBlocks {
 	public static final DeferredBlock<Block> FOREST_DIMENSION_PORTAL;
 	public static final DeferredBlock<Block> FINGER_BONE;
 	public static final DeferredBlock<Block> COASITINE_ORE;
+	public static final DeferredBlock<Block> PANGEA_PORTAL;
 	static {
 		EYES = register("eyes", EyesBlock::new);
 		DARKNESS_BLOCK = register("darkness_block", DarknessBlockBlock::new);
@@ -43,6 +44,7 @@ public class DreamProjectionModBlocks {
 		FOREST_DIMENSION_PORTAL = register("forest_dimension_portal", ForestDimensionPortalBlock::new);
 		FINGER_BONE = register("finger_bone", FingerBoneBlock::new);
 		COASITINE_ORE = register("coasitine_ore", CoasitineOreBlock::new);
+		PANGEA_PORTAL = register("pangea_portal", PangeaPortalBlock::new);
 	}
 
 	// Start of user code block custom blocks

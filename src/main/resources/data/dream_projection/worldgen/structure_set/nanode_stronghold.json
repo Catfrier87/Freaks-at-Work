@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dream_projection:nanode_stronghold",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 501,
+    "separation": 500,
+    "salt": 1576480626
+  }
+}

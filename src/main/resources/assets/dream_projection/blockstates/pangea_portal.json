@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dream_projection:block/pangea_portal_ew"
+    },
+    "axis=x": {
+      "model": "dream_projection:block/pangea_portal_ns"
+    }
+  }
+}

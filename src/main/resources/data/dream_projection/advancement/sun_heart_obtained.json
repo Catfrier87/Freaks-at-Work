@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "dream_projection:pangea"
+    },
+    "title": {
+      "translate": "advancements.sun_heart_obtained.title"
+    },
+    "description": {
+      "translate": "advancements.sun_heart_obtained.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sun_heart_obtained_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dream_projection:pangea"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dream_projection:nanode_obtained"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dream_projection:pangea_biome",
     "dream_projection:infinite_forest"
   ]
 }

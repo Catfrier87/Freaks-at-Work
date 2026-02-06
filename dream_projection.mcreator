@@ -1546,6 +1546,224 @@
           "src/main/resources/assets/dream_projection/models/item/splunger_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "CapturedNanode",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "captured_nanode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/CapturedNanodeItem.java",
+          "src/main/resources/assets/dream_projection/models/item/captured_nanode.json",
+          "src/main/resources/assets/dream_projection/items/captured_nanode.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "NanodeObtained",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanode_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/nanode_obtained.json"
+        ]
+      },
+      "path": "~/Pangea/Advancements"
+    },
+    {
+      "name": "NanodeStronghold",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nanode_stronghold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/structure_set/nanode_stronghold.json",
+          "src/main/resources/data/dream_projection/worldgen/template_pool/nanode_stronghold.json",
+          "src/main/resources/data/dream_projection/worldgen/structure/nanode_stronghold.json"
+        ]
+      },
+      "path": "~/The Forest/Structures"
+    },
+    {
+      "name": "EnglobedShade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "englobed_shade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/englobed_shade.json",
+          "src/main/resources/assets/dream_projection/items/englobed_shade.json",
+          "src/main/java/net/mcreator/dreamprojection/item/EnglobedShadeItem.java"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "NoosphericOrb",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noospheric_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/NoosphericOrbItem.java",
+          "src/main/resources/assets/dream_projection/models/item/noospheric_orb.json",
+          "src/main/resources/assets/dream_projection/items/noospheric_orb.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "DarkMatter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/DarkMatterItem.java",
+          "src/main/resources/assets/dream_projection/models/item/dark_matter.json",
+          "src/main/resources/assets/dream_projection/items/dark_matter.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "DawnsEnd",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dawns_end",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/dawns_end.json",
+          "src/main/java/net/mcreator/dreamprojection/item/DawnsEndItem.java",
+          "src/main/resources/assets/dream_projection/items/dawns_end.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "PhoticJade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "photic_jade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/photic_jade.json",
+          "src/main/resources/assets/dream_projection/models/item/photic_jade.json",
+          "src/main/java/net/mcreator/dreamprojection/item/PhoticJadeItem.java"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "StatePhasure",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "state_phasure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/StatePhasureItem.java",
+          "src/main/resources/assets/dream_projection/items/state_phasure.json",
+          "src/main/resources/assets/dream_projection/models/item/state_phasure.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "NovaeReclaiment",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "novae_reclaiment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/NovaeReclaimentItem.java",
+          "src/main/resources/assets/dream_projection/items/novae_reclaiment.json",
+          "src/main/resources/assets/dream_projection/models/item/novae_reclaiment.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "ModifiedQuata",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modified_quata",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/ModifiedQuataItem.java",
+          "src/main/resources/assets/dream_projection/models/item/modified_quata.json",
+          "src/main/resources/assets/dream_projection/items/modified_quata.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "PangeaBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pangea_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeFruitDecorator.java",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/pangea_biome_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/pangea_biome_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/biome/pangea_biome.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Pangea/Biomes"
+    },
+    {
+      "name": "Pangea",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pangea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/PangeaItem.java",
+          "src/main/resources/data/dream_projection/dimension_type/pangea.json",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/PangeaPortalShape.java",
+          "src/main/java/net/mcreator/dreamprojection/block/PangeaPortalBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/pangea_portal_ew.json",
+          "src/main/resources/assets/dream_projection/models/item/pangea.json",
+          "src/main/resources/assets/dream_projection/items/pangea.json",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/PangeaTeleporter.java",
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/PangeaDimension.java",
+          "src/main/resources/data/dream_projection/dimension/pangea.json",
+          "src/main/resources/assets/dream_projection/models/block/pangea_portal_ns.json",
+          "src/main/resources/assets/dream_projection/blockstates/pangea_portal.json"
+        ]
+      },
+      "path": "~/Pangea"
+    },
+    {
+      "name": "SunHeartObtained",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_heart_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/sun_heart_obtained.json"
+        ]
+      },
+      "path": "~/Pangea/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1585,6 +1803,9 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.MOSS_BLOCK",
+      "~Blocks.DEAD_BUBBLE_CORAL_BLOCK",
+      "~Blocks.WATER",
       "~Blocks.STONE#0",
       "~Blocks.QUARTZ_BLOCK#3",
       "~Blocks.GRASS",
@@ -1664,10 +1885,53 @@
       "~CUSTOM:Meat"
     ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:PangeaBiome",
       "~CUSTOM:InfiniteForest"
     ],
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:FingerBone"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:PangeaBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:PangeaBiome"
     ]
   },
   "tab_element_order": {},
@@ -1734,31 +1998,46 @@
       "painting.dream_projection.tricks_painting.title": "Tricks",
       "painting.dream_projection.tricks_painting.author": "ohGr",
       "entity.dream_projection.splunger": "Splunger",
-      "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg"
+      "item.dream_projection.splunger_spawn_egg": "Splunger Spawn Egg",
+      "item.dream_projection.captured_nanode": "Captured Nanode",
+      "advancements.nanode_obtained.descr": "Warning: do not allow matrix to commune with this dimensional space.",
+      "advancements.nanode_obtained.title": "Take a Deep Breath",
+      "item.dream_projection.englobed_shade": "Englobed Shade",
+      "item.dream_projection.noospheric_orb": "Noospheric Orb",
+      "item.dream_projection.dark_matter": "Dark Matter",
+      "item.dream_projection.dawns_end": "Dawn\u0027s End",
+      "item.dream_projection.photic_jade": "Photic Jade",
+      "item.dream_projection.state_phasure": "State Phasure",
+      "item.dream_projection.novae_reclaiment": "Novae Reclaiment",
+      "item.dream_projection.modified_quata": "Modified Quata",
+      "biome.dream_projection.pangea_biome": "Pangea Scapes",
+      "item.dream_projection.pangea": "Heart of the Sun",
+      "advancements.sun_heart_obtained.descr": "Contains a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
+      "advancements.sun_heart_obtained.title": "To Live Forever"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModAttributes.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModMobEffects.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
-      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
-      "src/main/resources/assets/dream_projection/sounds.json",
-      "src/main/resources/pack.mcmeta",
       "src/main/resources/dream_projection.mixins.json",
-      "src/main/resources/META-INF/accesstransformer.cfg"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
+      "src/main/resources/assets/dream_projection/sounds.json"
     ]
   },
   "foldersRoot": {
@@ -1819,6 +2098,10 @@
           {
             "name": "Creatures",
             "children": []
+          },
+          {
+            "name": "Structures",
+            "children": []
           }
         ]
       },
@@ -1843,6 +2126,23 @@
           },
           {
             "name": "Creatures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Pangea",
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Advancements",
+            "children": []
+          },
+          {
+            "name": "Biomes",
             "children": []
           }
         ]

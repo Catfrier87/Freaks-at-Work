@@ -28,8 +28,10 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.HERETIC_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.H_7362_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.DYNAMITE_SPAWNER_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
+			tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
 			tabData.accept(DreamProjectionModItems.SCAB.get());
@@ -38,6 +40,15 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.PUPIL.get());
 			tabData.accept(DreamProjectionModItems.ABYSS_SPIRIT.get());
 			tabData.accept(DreamProjectionModItems.COASITINE_SHARD.get());
+			tabData.accept(DreamProjectionModItems.CAPTURED_NANODE.get());
+			tabData.accept(DreamProjectionModItems.ENGLOBED_SHADE.get());
+			tabData.accept(DreamProjectionModItems.NOOSPHERIC_ORB.get());
+			tabData.accept(DreamProjectionModItems.DARK_MATTER.get());
+			tabData.accept(DreamProjectionModItems.DAWNS_END.get());
+			tabData.accept(DreamProjectionModItems.PHOTIC_JADE.get());
+			tabData.accept(DreamProjectionModItems.STATE_PHASURE.get());
+			tabData.accept(DreamProjectionModItems.NOVAE_RECLAIMENT.get());
+			tabData.accept(DreamProjectionModItems.MODIFIED_QUATA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.EYES.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
@@ -69,6 +80,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
 			tabData.accept(DreamProjectionModItems.UNBLINKING_EYE.get());
+			tabData.accept(DreamProjectionModItems.PANGEA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARK_BELL.get().asItem());
 		}

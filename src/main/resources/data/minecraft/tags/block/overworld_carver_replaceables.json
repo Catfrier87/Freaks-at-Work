@@ -5,9 +5,12 @@
     "minecraft:farmland",
     "minecraft:dirt",
     "dream_projection:skin_block",
+    "minecraft:water",
     "minecraft:stone",
     "dream_projection:porestone",
+    "minecraft:dead_bubble_coral_block",
     "dream_projection:darkness_block",
-    "minecraft:quartz_block"
+    "minecraft:quartz_block",
+    "minecraft:moss_block"
   ]
 }
