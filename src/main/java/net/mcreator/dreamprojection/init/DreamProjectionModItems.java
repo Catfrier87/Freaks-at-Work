@@ -62,13 +62,19 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> NOOSPHERIC_ORB;
 	public static final DeferredItem<Item> PANGEA;
 	public static final DeferredItem<Item> NOVAE_RECLAIMENT;
-	public static final DeferredItem<Item> MODIFIED_QUATA;
 	public static final DeferredItem<Item> CAPTURED_NANODE;
 	public static final DeferredItem<Item> ENGLOBED_SHADE;
 	public static final DeferredItem<Item> STATE_PHASURE;
 	public static final DeferredItem<Item> DARK_MATTER;
 	public static final DeferredItem<Item> PHOTIC_JADE;
 	public static final DeferredItem<Item> DAWNS_END;
+	public static final DeferredItem<Item> MODIFIED_QUANTA;
+	public static final DeferredItem<Item> NIGHTMARE_ANCHOR;
+	public static final DeferredItem<Item> POOP;
+	public static final DeferredItem<Item> POOP_BLOCK;
+	public static final DeferredItem<Item> CORN;
+	public static final DeferredItem<Item> CORNY_POOP;
+	public static final DeferredItem<Item> GREEN_MAN_SPAWN_EGG;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -113,13 +119,19 @@ public class DreamProjectionModItems {
 		NOOSPHERIC_ORB = register("noospheric_orb", NoosphericOrbItem::new);
 		PANGEA = register("pangea", PangeaItem::new);
 		NOVAE_RECLAIMENT = register("novae_reclaiment", NovaeReclaimentItem::new);
-		MODIFIED_QUATA = register("modified_quata", ModifiedQuataItem::new);
 		CAPTURED_NANODE = register("captured_nanode", CapturedNanodeItem::new);
 		ENGLOBED_SHADE = register("englobed_shade", EnglobedShadeItem::new);
 		STATE_PHASURE = register("state_phasure", StatePhasureItem::new);
 		DARK_MATTER = register("dark_matter", DarkMatterItem::new);
 		PHOTIC_JADE = register("photic_jade", PhoticJadeItem::new);
 		DAWNS_END = register("dawns_end", DawnsEndItem::new);
+		MODIFIED_QUANTA = register("modified_quanta", ModifiedQuantaItem::new);
+		NIGHTMARE_ANCHOR = register("nightmare_anchor", NightmareAnchorItem::new);
+		POOP = register("poop", PoopItem::new);
+		POOP_BLOCK = block(DreamProjectionModBlocks.POOP_BLOCK);
+		CORN = register("corn", CornItem::new);
+		CORNY_POOP = block(DreamProjectionModBlocks.CORNY_POOP);
+		GREEN_MAN_SPAWN_EGG = register("green_man_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.GREEN_MAN.get(), properties));
 	}
 
 	// Start of user code block custom items

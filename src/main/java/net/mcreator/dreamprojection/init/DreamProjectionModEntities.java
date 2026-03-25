@@ -51,6 +51,10 @@ public class DreamProjectionModEntities {
 			EntityType.Builder.<SplungerEntity>of(SplungerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.5f, 0.2f));
+	public static final DeferredHolder<EntityType<?>, EntityType<GreenManEntity>> GREEN_MAN = register("green_man",
+			EntityType.Builder.<GreenManEntity>of(GreenManEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -67,6 +71,7 @@ public class DreamProjectionModEntities {
 		H7362Entity.init(event);
 		DynamiteSpawnerEntity.init(event);
 		SplungerEntity.init(event);
+		GreenManEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -78,5 +83,6 @@ public class DreamProjectionModEntities {
 		event.put(H_7362.get(), H7362Entity.createAttributes().build());
 		event.put(DYNAMITE_SPAWNER.get(), DynamiteSpawnerEntity.createAttributes().build());
 		event.put(SPLUNGER.get(), SplungerEntity.createAttributes().build());
+		event.put(GREEN_MAN.get(), GreenManEntity.createAttributes().build());
 	}
 }

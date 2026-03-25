@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "atlasseeds",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CapturedNanode"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:NovaeReclaiment"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ModifiedQuanta"
+    },
+    "name": "modified_quanta_recipe",
+    "namespace": "mod"
+  }
+}

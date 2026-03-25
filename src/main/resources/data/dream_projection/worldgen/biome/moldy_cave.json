@@ -1,0 +1,101 @@
+{
+  "has_precipitation": true,
+  "temperature": 1,
+  "downfall": 1,
+  "effects": {
+    "particle": {
+      "options": {
+        "type": "spore_blossom_air"
+      },
+      "probability": 0.005
+    },
+    "foliage_color": -13421773,
+    "grass_color": -13421773,
+    "sky_color": -6710887,
+    "fog_color": -3355444,
+    "water_color": -16764160,
+    "water_fog_color": -13421773
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "creeper",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "zombie",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "zombie_horse",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "zombie_villager",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "bogged",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "turtle",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "slime",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "dream_projection:green_man",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "dream_projection:moldy_cave_tree"
+    ],
+    []
+  ]
+}

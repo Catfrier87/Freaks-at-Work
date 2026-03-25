@@ -1154,8 +1154,11 @@
           "src/main/resources/data/dream_projection/loot_table/blocks/shadow_currant.json",
           "src/main/resources/assets/dream_projection/models/block/shadow_currant.json",
           "src/main/resources/assets/dream_projection/blockstates/shadow_currant.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/shadow_currant.json",
           "src/main/java/net/mcreator/dreamprojection/block/ShadowCurrantBlock.java",
-          "src/main/resources/assets/dream_projection/models/item/shadow_currant.json"
+          "src/main/resources/assets/dream_projection/models/item/shadow_currant.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/shadow_currant_biome_modifier.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/shadow_currant.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -1635,21 +1638,6 @@
       "path": "~/Pangea/Items"
     },
     {
-      "name": "ModifiedQuata",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "modified_quata",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/ModifiedQuataItem.java",
-          "src/main/resources/assets/dream_projection/models/item/modified_quata.json",
-          "src/main/resources/assets/dream_projection/items/modified_quata.json"
-        ]
-      },
-      "path": "~/Pangea/Items"
-    },
-    {
       "name": "CapturedNanode",
       "type": "item",
       "compiles": true,
@@ -1792,6 +1780,402 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "EnglobedShadeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "englobed_shade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/englobed_shade_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/englobed_shade_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "NoosphericOrbRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noospheric_orb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/noospheric_orb_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/noospheric_orb_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "DarkMatterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/dark_matter_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/dark_matter_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "DawnsEndRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dawns_end_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/dawns_end_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/dawns_end_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "PhoticJadeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "photic_jade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/photic_jade_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/photic_jade_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "StatePhasureRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "state_phasure_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/state_phasure_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/state_phasure_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "NovaeReclaimentRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "novae_reclaiment_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/novae_reclaiment_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/novae_reclaiment_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "ModifiedQuantaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modified_quanta_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/modified_quanta_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/modified_quanta_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "ModifiedQuanta",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modified_quanta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/ModifiedQuantaItem.java",
+          "src/main/resources/assets/dream_projection/items/modified_quanta.json",
+          "src/main/resources/assets/dream_projection/models/item/modified_quanta.json"
+        ]
+      },
+      "path": "~/Pangea/Items"
+    },
+    {
+      "name": "SunHeartRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_heart_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/sun_heart_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/sun_heart_recipe.json"
+        ]
+      },
+      "path": "~/Pangea/Recipes"
+    },
+    {
+      "name": "NightmareAnchor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_anchor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/NightmareAnchorItem.java",
+          "src/main/resources/assets/dream_projection/models/item/nightmare_anchor.json",
+          "src/main/resources/assets/dream_projection/items/nightmare_anchor.json"
+        ]
+      },
+      "path": "~/The Forest/Items"
+    },
+    {
+      "name": "NightmareAnchorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_anchor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/nightmare_anchor_recipe.json"
+        ]
+      },
+      "path": "~/The Forest/Recipes"
+    },
+    {
+      "name": "NightmaresEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmares_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/NightmaresEffectExpiresProcedure.java"
+        ]
+      },
+      "path": "~/The Forest"
+    },
+    {
+      "name": "Nightmares",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmares",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/potion/NightmaresMobEffect.java"
+        ]
+      },
+      "path": "~/The Forest"
+    },
+    {
+      "name": "NightmaresApply",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmares_apply",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/NightmaresApplyProcedure.java"
+        ]
+      },
+      "path": "~/The Forest/Items"
+    },
+    {
+      "name": "PoopEaten",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/PoopEatenProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "Poop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/PoopItem.java",
+          "src/main/resources/assets/dream_projection/models/item/poop.json",
+          "src/main/resources/assets/dream_projection/items/poop.json"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "PoopBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/poop_block.json",
+          "src/main/resources/assets/dream_projection/blockstates/poop_block.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/poop_block.json",
+          "src/main/resources/assets/dream_projection/items/poop_block.json",
+          "src/main/java/net/mcreator/dreamprojection/block/PoopBlockBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/poop_block.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks"
+    },
+    {
+      "name": "AlexCave",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/biome/alex_cave.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/alex_cave_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/alex_cave_tree.json"
+        ]
+      },
+      "path": "~/Overworld/Biomes"
+    },
+    {
+      "name": "AlexCaveDiscovered",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_cave_discovered",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/alex_cave_discovered.json"
+        ]
+      },
+      "path": "~/Overworld/Advancements"
+    },
+    {
+      "name": "Corn",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/corn.json",
+          "src/main/java/net/mcreator/dreamprojection/item/CornItem.java",
+          "src/main/resources/assets/dream_projection/models/item/corn.json"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "CornyPoop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corny_poop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/block/CornyPoopBlock.java",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/corny_poop.json",
+          "src/main/resources/assets/dream_projection/models/item/corny_poop.json",
+          "src/main/resources/assets/dream_projection/blockstates/corny_poop.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/corny_poop.json",
+          "src/main/resources/assets/dream_projection/items/corny_poop.json",
+          "src/main/resources/assets/dream_projection/models/block/corny_poop.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/corny_poop_biome_modifier.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/corny_poop.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks"
+    },
+    {
+      "name": "MoldyCave",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldy_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/biome/moldy_cave.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/moldy_cave_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/moldy_cave_tree.json"
+        ]
+      },
+      "path": "~/Overworld/Biomes"
+    },
+    {
+      "name": "GreenMan",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_man",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/green_man_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/models/item/green_man_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/GreenManRenderer.java",
+          "src/main/java/net/mcreator/dreamprojection/entity/GreenManEntity.java"
+        ]
+      },
+      "path": "~/Overworld/Creatures"
+    },
+    {
+      "name": "GreenManLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_man_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/loot_table/entities/green_man.json"
+        ]
+      },
+      "path": "~/Overworld/Loot Tables"
     }
   ],
   "variable_elements": [],
@@ -1827,6 +2211,14 @@
       ],
       "category": "neutral",
       "subtitle": "Scream"
+    },
+    {
+      "name": "nightmaresound",
+      "files": [
+        "nono1"
+      ],
+      "category": "ambient",
+      "subtitle": "Brain Divided"
     }
   ],
   "tag_elements": {
@@ -1928,6 +2320,7 @@
       "~CUSTOM:PangeaBiome"
     ],
     "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:MoldyCave",
       "~CUSTOM:PangeaBiome"
     ],
     "BIOMES:minecraft:has_structure/desert_pyramid": [
@@ -1946,6 +2339,7 @@
       "~CUSTOM:PangeaBiome"
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:AlexCave",
       "~CUSTOM:PangeaBiome"
     ],
     "BIOMES:minecraft:has_structure/bastion_remnant": [
@@ -1959,6 +2353,12 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_standard": [
       "~CUSTOM:PangeaBiome"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:PoopBlock"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:CornyPoop"
     ]
   },
   "tab_element_order": {},
@@ -2030,7 +2430,6 @@
       "item.dream_projection.noospheric_orb": "Noospheric Orb",
       "item.dream_projection.pangea": "Heart of the Sun",
       "item.dream_projection.novae_reclaiment": "Novae Reclaiment",
-      "item.dream_projection.modified_quata": "Modified Quata",
       "item.dream_projection.captured_nanode": "Captured Nanode",
       "item.dream_projection.englobed_shade": "Englobed Shade",
       "item.dream_projection.state_phasure": "State Phasure",
@@ -2041,7 +2440,21 @@
       "advancements.sun_heart_obtained.descr": "Contains a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
       "advancements.sun_heart_obtained.title": "To Live Forever",
       "item.dream_projection.dawns_end": "Dawn\u0027s End",
-      "item_group.dream_projection.divinity_tab": "Divinity"
+      "item_group.dream_projection.divinity_tab": "Divinity",
+      "item.dream_projection.modified_quanta": "Modified Quanta",
+      "item.dream_projection.nightmare_anchor": "Nightmare Anchor",
+      "subtitles.nightmaresound": "Brain Divided",
+      "effect.dream_projection.nightmares": "Nightmares",
+      "item.dream_projection.poop": "Feces",
+      "item.dream_projection.poop_block": "Poop Block",
+      "biome.dream_projection.alex_cave": "Alex\u0027s Cave",
+      "advancements.alex_cave_discovered.title": "Alex\u0027s Caves",
+      "advancements.alex_cave_discovered.descr": "You found it!",
+      "item.dream_projection.corn": "Corn",
+      "item.dream_projection.corny_poop": "Corny Poop",
+      "biome.dream_projection.moldy_cave": "Moldy Caves",
+      "entity.dream_projection.green_man": "Green Man",
+      "item.dream_projection.green_man_spawn_egg": "Green Man Spawn Egg"
     }
   },
   "metadata": {
@@ -2084,6 +2497,10 @@
           },
           {
             "name": "Biomes",
+            "children": []
+          },
+          {
+            "name": "Recipes",
             "children": []
           }
         ]
@@ -2147,6 +2564,14 @@
           {
             "name": "Creatures",
             "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
           }
         ]
       },
@@ -2171,6 +2596,22 @@
           },
           {
             "name": "Structures",
+            "children": []
+          },
+          {
+            "name": "Biomes",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Advancements",
+            "children": []
+          },
+          {
+            "name": "Loot Tables",
             "children": []
           }
         ]

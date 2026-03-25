@@ -1,0 +1,160 @@
+{
+  "_fv": 79,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Green Man",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "greenman.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": true
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.2
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [],
+    "animations": [],
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Blocks.MOSS_BLOCK"
+    },
+    "equipmentOffHand": {
+      "value": "Blocks.MOSS_BLOCK"
+    },
+    "equipmentHelmet": {
+      "value": "Blocks.MOSS_BLOCK"
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 1,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 100,
+    "health": 10,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
+    "pushedByFluids": {
+      "fixedValue": false
+    },
+    "flyingMob": true,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": false,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.ravager.celebrate"
+    },
+    "hurtSound": {
+      "value": "block.anvil.hit"
+    },
+    "deathSound": {
+      "value": "CUSTOM:sickler"
+    },
+    "stepSound": {
+      "value": "item.trident.hit"
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [],
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"25\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 1,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

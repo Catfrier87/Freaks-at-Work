@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "dream_projection:epidermis",
+  "features": "dream_projection:shadow_currant",
+  "step": "vegetal_decoration"
+}

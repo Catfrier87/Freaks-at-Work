@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dream_projection:block/feces",
+    "particle": "dream_projection:block/stinky"
+  },
+  "render_type": "solid"
+}

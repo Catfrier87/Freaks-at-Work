@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "atlasseeds",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:iron_block",
+    "c": "dream_projection:captured_nanode"
+  },
+  "result": {
+    "id": "dream_projection:englobed_shade",
+    "count": 1
+  }
+}

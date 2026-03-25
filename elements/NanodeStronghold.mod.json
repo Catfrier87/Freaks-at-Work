@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 501,
-    "separation": 500,
+    "spacing": 201,
+    "separation": 200,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:InfiniteForest"

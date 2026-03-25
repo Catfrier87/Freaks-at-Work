@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "atlasseeds",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:redstone_block",
+    "b": "minecraft:redstone",
+    "c": "dream_projection:photic_jade"
+  },
+  "result": {
+    "id": "dream_projection:state_phasure",
+    "count": 1
+  }
+}

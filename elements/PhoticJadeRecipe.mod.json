@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "atlasseeds",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CapturedNanode"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Blocks.COPPER_BLOCK"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "CUSTOM:DawnsEnd"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PhoticJade"
+    },
+    "name": "photic_jade_recipe",
+    "namespace": "mod"
+  }
+}

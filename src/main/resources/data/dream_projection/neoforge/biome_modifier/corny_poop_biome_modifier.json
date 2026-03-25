@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "dream_projection:alex_cave",
+  "features": "dream_projection:corny_poop",
+  "step": "underground_ores"
+}

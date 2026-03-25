@@ -65,7 +65,6 @@
   "item.dream_projection.noospheric_orb": "Noospheric Orb",
   "item.dream_projection.pangea": "Heart of the Sun",
   "item.dream_projection.novae_reclaiment": "Novae Reclaiment",
-  "item.dream_projection.modified_quata": "Modified Quata",
   "item.dream_projection.captured_nanode": "Captured Nanode",
   "item.dream_projection.englobed_shade": "Englobed Shade",
   "item.dream_projection.state_phasure": "State Phasure",
@@ -76,5 +75,19 @@
   "advancements.sun_heart_obtained.descr": "Contains a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
   "advancements.sun_heart_obtained.title": "To Live Forever",
   "item.dream_projection.dawns_end": "Dawn\u0027s End",
-  "item_group.dream_projection.divinity_tab": "Divinity"
+  "item_group.dream_projection.divinity_tab": "Divinity",
+  "item.dream_projection.modified_quanta": "Modified Quanta",
+  "item.dream_projection.nightmare_anchor": "Nightmare Anchor",
+  "subtitles.nightmaresound": "Brain Divided",
+  "effect.dream_projection.nightmares": "Nightmares",
+  "item.dream_projection.poop": "Feces",
+  "item.dream_projection.poop_block": "Poop Block",
+  "biome.dream_projection.alex_cave": "Alex\u0027s Cave",
+  "advancements.alex_cave_discovered.title": "Alex\u0027s Caves",
+  "advancements.alex_cave_discovered.descr": "You found it!",
+  "item.dream_projection.corn": "Corn",
+  "item.dream_projection.corny_poop": "Corny Poop",
+  "biome.dream_projection.moldy_cave": "Moldy Caves",
+  "entity.dream_projection.green_man": "Green Man",
+  "item.dream_projection.green_man_spawn_egg": "Green Man Spawn Egg"
 }

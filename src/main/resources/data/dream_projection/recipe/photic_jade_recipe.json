@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "atlasseeds",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": "minecraft:copper_block",
+    "b": "minecraft:copper_ingot",
+    "c": "dream_projection:dawns_end"
+  },
+  "result": {
+    "id": "dream_projection:photic_jade",
+    "count": 1
+  }
+}

@@ -34,5 +34,14 @@
         "stream": false
       }
     ]
+  },
+  "nightmaresound": {
+    "subtitle": "subtitles.nightmaresound",
+    "sounds": [
+      {
+        "name": "dream_projection:nono1",
+        "stream": false
+      }
+    ]
   }
 }

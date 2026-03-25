@@ -53,8 +53,10 @@ public class DreamProjectionModBiomes {
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(0.6f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "haze")))));
 					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-0.0001f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(0.6f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "haze")))));
-					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 0.5f), Climate.Parameter.span(0f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(0f, 0.5f),
-							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(0f, 1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "wheatfield")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-0.1f, 0f), Climate.Parameter.span(-1.2f, -1.1f), Climate.Parameter.span(0f, 0.1f),
+							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-0.1f, 0.1f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "alex_cave")))));
+					addParameterPoint(parameters, new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(0.2f, 1f),
+							Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(1f, 2f), 0), biomeRegistry.getOrThrow(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "moldy_cave")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
 							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
@@ -74,8 +76,10 @@ public class DreamProjectionModBiomes {
 
 	private static SurfaceRules.RuleSource injectOverworldSurfaceRules(SurfaceRules.RuleSource currentRuleSource) {
 		List<SurfaceRules.RuleSource> customSurfaceRules = new ArrayList<>();
-		customSurfaceRules.add(
-				anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "wheatfield")), Blocks.FARMLAND.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+		customSurfaceRules.add(anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "alex_cave")), DreamProjectionModBlocks.POOP_BLOCK.get().defaultBlockState(),
+				DreamProjectionModBlocks.POOP_BLOCK.get().defaultBlockState(), DreamProjectionModBlocks.POOP_BLOCK.get().defaultBlockState()));
+		customSurfaceRules.add(anySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "moldy_cave")), Blocks.MOSS_BLOCK.defaultBlockState(), Blocks.MOSSY_COBBLESTONE.defaultBlockState(),
+				Blocks.MOSSY_STONE_BRICKS.defaultBlockState()));
 		customSurfaceRules.add(preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("dream_projection", "haze")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
 				Blocks.GRAVEL.defaultBlockState()));
 		if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {

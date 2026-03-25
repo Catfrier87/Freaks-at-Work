@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "atlasseeds",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:iron_block",
+    "b": "minecraft:iron_nugget",
+    "c": "dream_projection:noospheric_orb"
+  },
+  "result": {
+    "id": "dream_projection:dark_matter",
+    "count": 1
+  }
+}

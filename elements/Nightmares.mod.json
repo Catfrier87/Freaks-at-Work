@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Nightmares",
+    "icon": "nightmareseffect",
+    "color": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "ASH"
+    },
+    "onAddedSound": {
+      "value": "CUSTOM:nightmaresound"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onExpired": {
+      "name": "NightmaresEffectExpires"
+    }
+  }
+}

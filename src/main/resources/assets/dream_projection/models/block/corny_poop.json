@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dream_projection:block/cornyshit",
+    "particle": "dream_projection:block/cornyshit"
+  },
+  "render_type": "solid"
+}

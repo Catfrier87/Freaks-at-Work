@@ -116,11 +116,15 @@
       }
     ],
     "isBonemealable": true,
-    "frequencyOnChunks": 5,
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "frequencyOnChunks": 3,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Epidermis"
+      }
+    ],
     "generationType": "Flower",
-    "patchSize": 64,
+    "patchSize": 1,
     "generateAtAnyHeight": false,
     "onEntityCollides": {
       "name": "ShadowDevour"

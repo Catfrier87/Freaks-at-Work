@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "atlasseeds",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:gold_block",
+    "b": "dream_projection:modified_quanta",
+    "c": "dream_projection:beast_dimension"
+  },
+  "result": {
+    "id": "dream_projection:pangea",
+    "count": 1
+  }
+}

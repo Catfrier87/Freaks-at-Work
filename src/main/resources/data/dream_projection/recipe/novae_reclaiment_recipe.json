@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "atlasseeds",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:emerald",
+    "b": "dream_projection:state_phasure",
+    "c": "minecraft:emerald_block"
+  },
+  "result": {
+    "id": "dream_projection:novae_reclaiment",
+    "count": 1
+  }
+}
