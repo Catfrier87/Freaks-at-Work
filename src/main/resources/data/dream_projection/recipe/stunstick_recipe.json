@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": "dream_projection:soul_power",
+    "b": "dream_projection:coasitine_shard",
+    "c": "minecraft:copper_ingot",
+    "d": "minecraft:redstone",
+    "e": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "dream_projection:stunstick",
+    "count": 1
+  }
+}

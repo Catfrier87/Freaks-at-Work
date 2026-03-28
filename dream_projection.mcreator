@@ -2337,6 +2337,33 @@
         ]
       },
       "path": "~/Overworld/Items"
+    },
+    {
+      "name": "StunstickCrafted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stunstick_crafted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/stunstick_crafted.json"
+        ]
+      },
+      "path": "~/Overworld/Advancements"
+    },
+    {
+      "name": "StunstickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stunstick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/stunstick_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/stunstick_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
     }
   ],
   "variable_elements": [],
@@ -2626,7 +2653,9 @@
       "death.attack.electric_damage.player": "%1$s had an accident whilst trying to escape %2$s",
       "item.dream_projection.soul_power": "Soul Power",
       "item.dream_projection.biofuel_charger": "Biofuel Soul Conversion Charger",
-      "item.dream_projection.stunstick": "Stunstick"
+      "item.dream_projection.stunstick": "Stunstick",
+      "advancements.stunstick_crafted.title": "Tyranny\u0027s Parade",
+      "advancements.stunstick_crafted.descr": "There are armies fighting on the streets"
     }
   },
   "metadata": {

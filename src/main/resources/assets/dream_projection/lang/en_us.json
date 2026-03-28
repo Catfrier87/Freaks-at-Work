@@ -96,5 +96,7 @@
   "death.attack.electric_damage.player": "%1$s had an accident whilst trying to escape %2$s",
   "item.dream_projection.soul_power": "Soul Power",
   "item.dream_projection.biofuel_charger": "Biofuel Soul Conversion Charger",
-  "item.dream_projection.stunstick": "Stunstick"
+  "item.dream_projection.stunstick": "Stunstick",
+  "advancements.stunstick_crafted.title": "Tyranny\u0027s Parade",
+  "advancements.stunstick_crafted.descr": "There are armies fighting on the streets"
 }
