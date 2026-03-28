@@ -75,6 +75,10 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> CORN;
 	public static final DeferredItem<Item> CORNY_POOP;
 	public static final DeferredItem<Item> GREEN_MAN_SPAWN_EGG;
+	public static final DeferredItem<Item> JUMPER_CABLES;
+	public static final DeferredItem<Item> SOUL_POWER;
+	public static final DeferredItem<Item> BIOFUEL_CHARGER;
+	public static final DeferredItem<Item> STUNSTICK;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -132,6 +136,10 @@ public class DreamProjectionModItems {
 		CORN = register("corn", CornItem::new);
 		CORNY_POOP = block(DreamProjectionModBlocks.CORNY_POOP);
 		GREEN_MAN_SPAWN_EGG = register("green_man_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.GREEN_MAN.get(), properties));
+		JUMPER_CABLES = register("jumper_cables", JumperCablesItem::new);
+		SOUL_POWER = register("soul_power", SoulPowerItem::new);
+		BIOFUEL_CHARGER = register("biofuel_charger", BiofuelChargerItem::new);
+		STUNSTICK = register("stunstick", StunstickItem::new);
 	}
 
 	// Start of user code block custom items

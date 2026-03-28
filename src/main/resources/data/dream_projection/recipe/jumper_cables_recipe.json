@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "ac ",
+    "da "
+  ],
+  "key": {
+    "a": "minecraft:copper_ingot",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:redstone",
+    "d": "dream_projection:coasitine_shard"
+  },
+  "result": {
+    "id": "dream_projection:jumper_cables",
+    "count": 1
+  }
+}

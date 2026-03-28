@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    " c ",
+    " d "
+  ],
+  "key": {
+    "a": "minecraft:redstone",
+    "b": "dream_projection:jumper_cables",
+    "c": "minecraft:copper_ingot",
+    "d": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "dream_projection:biofuel_charger",
+    "count": 1
+  }
+}

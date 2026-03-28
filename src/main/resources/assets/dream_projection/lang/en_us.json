@@ -89,5 +89,12 @@
   "item.dream_projection.corny_poop": "Corny Poop",
   "biome.dream_projection.moldy_cave": "Moldy Caves",
   "entity.dream_projection.green_man": "Green Man",
-  "item.dream_projection.green_man_spawn_egg": "Green Man Spawn Egg"
+  "item.dream_projection.green_man_spawn_egg": "Green Man Spawn Egg",
+  "item.dream_projection.jumper_cables": "Jumper Cables",
+  "death.attack.electric_damage.item": "%1$s was churned into biofuel by %2$s using %3$s",
+  "death.attack.electric_damage": "%1$s had their soul vaporized",
+  "death.attack.electric_damage.player": "%1$s had an accident whilst trying to escape %2$s",
+  "item.dream_projection.soul_power": "Soul Power",
+  "item.dream_projection.biofuel_charger": "Biofuel Soul Conversion Charger",
+  "item.dream_projection.stunstick": "Stunstick"
 }

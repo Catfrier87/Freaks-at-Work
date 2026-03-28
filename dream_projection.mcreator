@@ -1462,7 +1462,7 @@
           "src/main/java/net/mcreator/dreamprojection/item/CoasitineShardItem.java"
         ]
       },
-      "path": "~/Overworld/Crafting"
+      "path": "~/Overworld/Items/Crafting"
     },
     {
       "name": "CoasitineOre",
@@ -2034,7 +2034,7 @@
           "src/main/java/net/mcreator/dreamprojection/procedures/PoopEatenProcedure.java"
         ]
       },
-      "path": "~/Overworld/Items"
+      "path": "~/Overworld/Items/Misc"
     },
     {
       "name": "Poop",
@@ -2049,7 +2049,7 @@
           "src/main/resources/assets/dream_projection/items/poop.json"
         ]
       },
-      "path": "~/Overworld/Items"
+      "path": "~/Overworld/Items/Misc"
     },
     {
       "name": "PoopBlock",
@@ -2110,7 +2110,7 @@
           "src/main/resources/assets/dream_projection/models/item/corn.json"
         ]
       },
-      "path": "~/Overworld/Items"
+      "path": "~/Overworld/Items/Crafting"
     },
     {
       "name": "CornyPoop",
@@ -2176,6 +2176,167 @@
         ]
       },
       "path": "~/Overworld/Loot Tables"
+    },
+    {
+      "name": "JumperCables",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumper_cables",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/jumper_cables.json",
+          "src/main/resources/assets/dream_projection/items/jumper_cables.json",
+          "src/main/java/net/mcreator/dreamprojection/item/JumperCablesItem.java"
+        ]
+      },
+      "path": "~/Overworld/Items/Crafting"
+    },
+    {
+      "name": "JumperCablesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumper_cables_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/jumper_cables_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/jumper_cables_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "ElectricDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/damage_type/electric_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulPower",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/soul_power.json",
+          "src/main/java/net/mcreator/dreamprojection/item/SoulPowerItem.java",
+          "src/main/resources/assets/dream_projection/models/item/soul_power.json"
+        ]
+      },
+      "path": "~/Overworld/Items/Crafting"
+    },
+    {
+      "name": "BiofuelCharge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuel_charge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/BiofuelChargeProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "BiofuelCharger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuel_charger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/BiofuelChargerItem.java",
+          "src/main/resources/assets/dream_projection/models/item/biofuel_charger.json",
+          "src/main/resources/assets/dream_projection/items/biofuel_charger.json"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "BiofuelChargerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuel_charger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/biofuel_charger_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "StunstickShock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stunstick_shock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/StunstickShockProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "Stunstick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stunstick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/StunstickItem.java",
+          "src/main/resources/assets/dream_projection/items/stunstick.json",
+          "src/main/resources/assets/dream_projection/models/item/stunstick.json"
+        ]
+      },
+      "path": "~/Overworld/Items"
     }
   ],
   "variable_elements": [],
@@ -2359,6 +2520,10 @@
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:CornyPoop"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Stunstick",
+      "~CUSTOM:BiofuelCharger"
     ]
   },
   "tab_element_order": {},
@@ -2454,7 +2619,14 @@
       "item.dream_projection.corny_poop": "Corny Poop",
       "biome.dream_projection.moldy_cave": "Moldy Caves",
       "entity.dream_projection.green_man": "Green Man",
-      "item.dream_projection.green_man_spawn_egg": "Green Man Spawn Egg"
+      "item.dream_projection.green_man_spawn_egg": "Green Man Spawn Egg",
+      "item.dream_projection.jumper_cables": "Jumper Cables",
+      "death.attack.electric_damage.item": "%1$s was churned into biofuel by %2$s using %3$s",
+      "death.attack.electric_damage": "%1$s had their soul vaporized",
+      "death.attack.electric_damage.player": "%1$s had an accident whilst trying to escape %2$s",
+      "item.dream_projection.soul_power": "Soul Power",
+      "item.dream_projection.biofuel_charger": "Biofuel Soul Conversion Charger",
+      "item.dream_projection.stunstick": "Stunstick"
     }
   },
   "metadata": {
@@ -2587,10 +2759,6 @@
             "children": []
           },
           {
-            "name": "Crafting",
-            "children": []
-          },
-          {
             "name": "Creatures",
             "children": []
           },
@@ -2604,7 +2772,16 @@
           },
           {
             "name": "Items",
-            "children": []
+            "children": [
+              {
+                "name": "Crafting",
+                "children": []
+              },
+              {
+                "name": "Misc",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Advancements",
@@ -2612,6 +2789,10 @@
           },
           {
             "name": "Loot Tables",
+            "children": []
+          },
+          {
+            "name": "Recipes",
             "children": []
           }
         ]

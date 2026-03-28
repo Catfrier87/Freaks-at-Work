@@ -25,6 +25,9 @@ public class DreamProjectionModTabs {
 				tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
 				tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 				tabData.accept(DreamProjectionModItems.NIGHTMARE_ANCHOR.get());
+				tabData.accept(DreamProjectionModItems.JUMPER_CABLES.get());
+				tabData.accept(DreamProjectionModItems.SOUL_POWER.get());
+				tabData.accept(DreamProjectionModItems.BIOFUEL_CHARGER.get());
 			}).build());
 
 	@SubscribeEvent
@@ -59,6 +62,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.DAWNS_END.get());
 			tabData.accept(DreamProjectionModItems.MODIFIED_QUANTA.get());
 			tabData.accept(DreamProjectionModItems.POOP.get());
+			tabData.accept(DreamProjectionModItems.JUMPER_CABLES.get());
+			tabData.accept(DreamProjectionModItems.SOUL_POWER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.EYES.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
@@ -88,12 +93,14 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.BOOK_OF_EVIL.get());
 			tabData.accept(DreamProjectionModItems.HERETIC_DAGGER.get());
 			tabData.accept(DreamProjectionModItems.SMILE_HAMMER.get());
+			tabData.accept(DreamProjectionModItems.STUNSTICK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
 			tabData.accept(DreamProjectionModItems.UNBLINKING_EYE.get());
 			tabData.accept(DreamProjectionModItems.PANGEA.get());
 			tabData.accept(DreamProjectionModItems.NIGHTMARE_ANCHOR.get());
 			tabData.accept(DreamProjectionModItems.POOP.get());
+			tabData.accept(DreamProjectionModItems.BIOFUEL_CHARGER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARK_BELL.get().asItem());
 		}

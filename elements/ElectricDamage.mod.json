@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s had their soul vaporized",
+    "itemDeathMessage": "%1$s was churned into biofuel by %2$s using %3$s",
+    "playerDeathMessage": "%1$s had an accident whilst trying to escape %2$s"
+  }
+}
