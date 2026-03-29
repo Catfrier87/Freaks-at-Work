@@ -55,6 +55,8 @@ public class DreamProjectionModEntities {
 			EntityType.Builder.<GreenManEntity>of(GreenManEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TaserShotEntity>> TASER_SHOT = register("taser_shot",
+			EntityType.Builder.<TaserShotEntity>of(TaserShotEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.2f, 0.2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

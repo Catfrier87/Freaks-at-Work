@@ -1,0 +1,25 @@
+{
+  "_fv": 79,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:SoulPower"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "item.horse_armor.unequip"
+    },
+    "igniteFire": false,
+    "disableGravity": true,
+    "power": 2.0,
+    "damage": 0.1,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "taserdart.png",
+    "modelWidth": 0.2,
+    "modelHeight": 0.2,
+    "onHitsEntity": {
+      "name": "TaserStun"
+    }
+  }
+}

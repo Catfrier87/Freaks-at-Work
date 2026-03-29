@@ -100,5 +100,6 @@
   "advancements.stunstick_crafted.title": "Tyranny\u0027s Parade",
   "advancements.stunstick_crafted.descr": "There are armies fighting on the streets",
   "item.dream_projection.car_battery": "Car Battery",
-  "item.dream_projection.soul_cell": "Soul Cell"
+  "item.dream_projection.soul_cell": "Soul Cell",
+  "item.dream_projection.taser": "Stun Cannon"
 }

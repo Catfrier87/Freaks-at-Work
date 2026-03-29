@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cde",
+    "b  "
+  ],
+  "key": {
+    "a": "dream_projection:coasitine_shard",
+    "b": "minecraft:iron_ingot",
+    "c": "dream_projection:jumper_cables",
+    "d": "dream_projection:soul_cell",
+    "e": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "dream_projection:taser",
+    "count": 1
+  }
+}

@@ -2434,6 +2434,90 @@
         ]
       },
       "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "TaserShot",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taser_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/entity/TaserShotEntity.java"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "Taser",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/taser.json",
+          "src/main/resources/assets/dream_projection/items/taser.json",
+          "src/main/java/net/mcreator/dreamprojection/item/TaserItem.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "TaserRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taser_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/taser_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/taser_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "TaserStun",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taser_stun",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/TaserStunProcedure.java"
+        ]
+      },
+      "path": "~/Overworld"
+    },
+    {
+      "name": "TaserCooldown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taser_cooldown",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/TaserCooldownProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
     }
   ],
   "variable_elements": [],
@@ -2734,7 +2818,8 @@
       "advancements.stunstick_crafted.title": "Tyranny\u0027s Parade",
       "advancements.stunstick_crafted.descr": "There are armies fighting on the streets",
       "item.dream_projection.car_battery": "Car Battery",
-      "item.dream_projection.soul_cell": "Soul Cell"
+      "item.dream_projection.soul_cell": "Soul Cell",
+      "item.dream_projection.taser": "Stun Cannon"
     }
   },
   "metadata": {

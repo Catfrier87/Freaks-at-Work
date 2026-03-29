@@ -81,6 +81,7 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> STUNSTICK;
 	public static final DeferredItem<Item> CAR_BATTERY;
 	public static final DeferredItem<Item> SOUL_CELL;
+	public static final DeferredItem<Item> TASER;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -144,6 +145,7 @@ public class DreamProjectionModItems {
 		STUNSTICK = register("stunstick", StunstickItem::new);
 		CAR_BATTERY = register("car_battery", CarBatteryItem::new);
 		SOUL_CELL = register("soul_cell", SoulCellItem::new);
+		TASER = register("taser", TaserItem::new);
 	}
 
 	// Start of user code block custom items

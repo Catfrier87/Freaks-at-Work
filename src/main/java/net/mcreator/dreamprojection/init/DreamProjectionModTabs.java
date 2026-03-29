@@ -30,6 +30,7 @@ public class DreamProjectionModTabs {
 				tabData.accept(DreamProjectionModItems.BIOFUEL_CHARGER.get());
 				tabData.accept(DreamProjectionModItems.CAR_BATTERY.get());
 				tabData.accept(DreamProjectionModItems.SOUL_CELL.get());
+				tabData.accept(DreamProjectionModItems.TASER.get());
 			}).build());
 
 	@SubscribeEvent
@@ -98,6 +99,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.HERETIC_DAGGER.get());
 			tabData.accept(DreamProjectionModItems.SMILE_HAMMER.get());
 			tabData.accept(DreamProjectionModItems.STUNSTICK.get());
+			tabData.accept(DreamProjectionModItems.TASER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
 			tabData.accept(DreamProjectionModItems.UNBLINKING_EYE.get());
