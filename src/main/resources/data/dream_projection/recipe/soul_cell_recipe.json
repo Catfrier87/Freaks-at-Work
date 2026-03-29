@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "dream_projection:soul_power",
+    "c": "minecraft:redstone_block",
+    "d": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "dream_projection:soul_cell",
+    "count": 1
+  }
+}

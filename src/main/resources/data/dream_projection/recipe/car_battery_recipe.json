@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fgf"
+  ],
+  "key": {
+    "a": "dream_projection:coasitine_shard",
+    "b": "minecraft:netherite_scrap",
+    "c": "minecraft:redstone",
+    "d": "dream_projection:soul_cell",
+    "e": "minecraft:nether_star",
+    "f": "minecraft:iron_ingot",
+    "g": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "dream_projection:car_battery",
+    "count": 1
+  }
+}

@@ -143,6 +143,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Abyss"
+      },
+      {
+        "value": "CUSTOM:Epidermis"
       }
     ],
     "blocksToReplace": [

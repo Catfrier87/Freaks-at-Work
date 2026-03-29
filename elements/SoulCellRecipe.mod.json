@@ -7,9 +7,6 @@
     "group": "",
     "unlockingItems": [
       {
-        "value": "CUSTOM:JumperCables"
-      },
-      {
         "value": "CUSTOM:SoulPower"
       }
     ],
@@ -20,37 +17,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.REDSTONE"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "CUSTOM:CoasitineShard"
-      },
-      {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": "CUSTOM:SoulCell"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:SoulPower"
       },
       {
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": ""
+        "value": "CUSTOM:SoulPower"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:SoulPower"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "CUSTOM:SoulPower"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Stunstick"
+      "value": "CUSTOM:SoulCell"
     },
-    "name": "stunstick_recipe",
+    "name": "soul_cell_recipe",
     "namespace": "mod"
   }
 }

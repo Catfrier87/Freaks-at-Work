@@ -1,6 +1,9 @@
 {
   "type": "neoforge:add_features",
-  "biomes": "dream_projection:abyss",
+  "biomes": [
+    "dream_projection:abyss",
+    "dream_projection:epidermis"
+  ],
   "features": "dream_projection:nutrient_sac",
   "step": "underground_ores"
 }

@@ -143,8 +143,16 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Epidermis"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:SkinBlock"
+      }
+    ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 5,
     "frequencyOnChunk": 16,

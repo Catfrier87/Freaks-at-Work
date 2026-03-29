@@ -7,10 +7,7 @@
     "group": "",
     "unlockingItems": [
       {
-        "value": "CUSTOM:JumperCables"
-      },
-      {
-        "value": "CUSTOM:SoulPower"
+        "value": "CUSTOM:PureDarkness"
       }
     ],
     "cookingBookCategory": "MISC",
@@ -20,37 +17,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:PureDarkness"
       },
       {
-        "value": "CUSTOM:CoasitineShard"
+        "value": "Items.COAL#0"
       },
       {
-        "value": "Items.REDSTONE"
+        "value": "CUSTOM:PureDarkness"
       },
       {
-        "value": "Items.COPPER_INGOT"
+        "value": "Items.COAL#0"
       },
       {
-        "value": "CUSTOM:SoulCell"
+        "value": "Blocks.BONE_BLOCK"
       },
       {
-        "value": "Items.COPPER_INGOT"
+        "value": "Items.COAL#0"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.COAL#0"
       },
       {
-        "value": ""
+        "value": "Items.BONE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Stunstick"
+      "value": "Blocks.SKULL#1"
     },
-    "name": "stunstick_recipe",
+    "name": "wither_skull_recipe",
     "namespace": "mod"
   }
 }

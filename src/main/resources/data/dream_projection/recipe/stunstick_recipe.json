@@ -7,10 +7,10 @@
     " e "
   ],
   "key": {
-    "a": "dream_projection:soul_power",
+    "a": "minecraft:redstone",
     "b": "dream_projection:coasitine_shard",
     "c": "minecraft:copper_ingot",
-    "d": "minecraft:redstone",
+    "d": "dream_projection:soul_cell",
     "e": "minecraft:iron_ingot"
   },
   "result": {

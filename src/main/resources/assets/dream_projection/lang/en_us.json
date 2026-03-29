@@ -98,5 +98,7 @@
   "item.dream_projection.biofuel_charger": "Biofuel Soul Conversion Charger",
   "item.dream_projection.stunstick": "Stunstick",
   "advancements.stunstick_crafted.title": "Tyranny\u0027s Parade",
-  "advancements.stunstick_crafted.descr": "There are armies fighting on the streets"
+  "advancements.stunstick_crafted.descr": "There are armies fighting on the streets",
+  "item.dream_projection.car_battery": "Car Battery",
+  "item.dream_projection.soul_cell": "Soul Cell"
 }

@@ -2364,6 +2364,77 @@
         ]
       },
       "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "CarBattery",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/car_battery.json",
+          "src/main/resources/assets/dream_projection/models/item/car_battery.json",
+          "src/main/java/net/mcreator/dreamprojection/item/CarBatteryItem.java"
+        ]
+      },
+      "path": "~/Overworld/Items/Crafting"
+    },
+    {
+      "name": "SoulCell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_cell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/SoulCellItem.java",
+          "src/main/resources/assets/dream_projection/items/soul_cell.json",
+          "src/main/resources/assets/dream_projection/models/item/soul_cell.json"
+        ]
+      },
+      "path": "~/Overworld/Items/Crafting"
+    },
+    {
+      "name": "CarBatteryRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_battery_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/car_battery_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "SoulCellRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_cell_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/soul_cell_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/soul_cell_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "WitherSkullRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_skull_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/wither_skull_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/wither_skull_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
     }
   ],
   "variable_elements": [],
@@ -2655,7 +2726,9 @@
       "item.dream_projection.biofuel_charger": "Biofuel Soul Conversion Charger",
       "item.dream_projection.stunstick": "Stunstick",
       "advancements.stunstick_crafted.title": "Tyranny\u0027s Parade",
-      "advancements.stunstick_crafted.descr": "There are armies fighting on the streets"
+      "advancements.stunstick_crafted.descr": "There are armies fighting on the streets",
+      "item.dream_projection.car_battery": "Car Battery",
+      "item.dream_projection.soul_cell": "Soul Cell"
     }
   },
   "metadata": {

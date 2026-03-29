@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": "dream_projection:pure_darkness",
+    "b": "minecraft:coal",
+    "c": "minecraft:bone_block",
+    "d": "minecraft:bone"
+  },
+  "result": {
+    "id": "minecraft:wither_skeleton_skull",
+    "count": 1
+  }
+}

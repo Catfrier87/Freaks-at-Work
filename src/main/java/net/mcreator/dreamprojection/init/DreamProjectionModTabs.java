@@ -28,6 +28,8 @@ public class DreamProjectionModTabs {
 				tabData.accept(DreamProjectionModItems.JUMPER_CABLES.get());
 				tabData.accept(DreamProjectionModItems.SOUL_POWER.get());
 				tabData.accept(DreamProjectionModItems.BIOFUEL_CHARGER.get());
+				tabData.accept(DreamProjectionModItems.CAR_BATTERY.get());
+				tabData.accept(DreamProjectionModItems.SOUL_CELL.get());
 			}).build());
 
 	@SubscribeEvent
@@ -64,6 +66,8 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.POOP.get());
 			tabData.accept(DreamProjectionModItems.JUMPER_CABLES.get());
 			tabData.accept(DreamProjectionModItems.SOUL_POWER.get());
+			tabData.accept(DreamProjectionModItems.CAR_BATTERY.get());
+			tabData.accept(DreamProjectionModItems.SOUL_CELL.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.EYES.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
