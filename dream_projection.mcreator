@@ -1118,8 +1118,7 @@
       "registry_name": "dream_projector_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/dream_projector_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/dream_projector_recipe.json"
+          "src/main/resources/data/dream_projection/recipe/dream_projector_recipe.json"
         ]
       }
     },
@@ -2622,6 +2621,13 @@
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:Stunstick",
       "~CUSTOM:BiofuelCharger"
+    ],
+    "ITEMS:mod:projectible": [
+      "CUSTOM:Meat",
+      "CUSTOM:PureDarkness",
+      "CUSTOM:CoasitineShard",
+      "CUSTOM:Corn",
+      "CUSTOM:SoulPower"
     ]
   },
   "tab_element_order": {},
@@ -2905,15 +2911,18 @@
     "modid": "dream_projection",
     "modName": "Dream Projection",
     "version": "1.0.0",
-    "author": "MCreator",
+    "description": "Dream like never before!",
+    "author": "Tsaawlnoise",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
     "serverSideOnly": false,
+    "modPicture": "googie",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.dreamprojection"
   },
   "mcreatorVersion": 202500345720

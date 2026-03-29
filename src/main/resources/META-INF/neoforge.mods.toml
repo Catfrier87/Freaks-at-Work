@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="dream_projection"
 version="1.0.0"
 displayName="Dream Projection"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+authors="Tsaawlnoise"
+description="Dream like never before!"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
