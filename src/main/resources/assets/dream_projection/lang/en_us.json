@@ -23,7 +23,6 @@
   "item.dream_projection.meat_shot": "Meat Shot",
   "item.dream_projection.cluster_spawn_egg": "Cluster Spawn Egg",
   "entity.dream_projection.cluster": "Cluster",
-  "item.dream_projection.beast_dimension": "Dream Projector",
   "item.dream_projection.vein_cutter": "Vein Cutter",
   "item.dream_projection.misery_axe": "Spectrum of Misery",
   "item.dream_projection.deaths_touch": "Death\u0027s Touch",
@@ -101,5 +100,11 @@
   "advancements.stunstick_crafted.descr": "There are armies fighting on the streets",
   "item.dream_projection.car_battery": "Car Battery",
   "item.dream_projection.soul_cell": "Soul Cell",
-  "item.dream_projection.taser": "Stun Cannon"
+  "item.dream_projection.taser": "Stun Cannon",
+  "advancements.dream_projector_crafted.title": "Dream Projection",
+  "advancements.dream_projector_crafted.descr": "Eternal Suffering",
+  "item.dream_projection.dream_projector": "Dream Projector NEW",
+  "item.dream_projection.pangea_crate": "Reality Warping Crate",
+  "biome.dream_projection.pangea_prison_biome": "Pangeaic Prison",
+  "item.dream_projection.charged_boots_boots": "Charged Boots"
 }

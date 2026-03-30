@@ -1,0 +1,65 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "dream_projection:wheat_wind",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "dust_plume"
+      },
+      "probability": 0.002
+    },
+    "foliage_color": -16777216,
+    "grass_color": -16777216,
+    "sky_color": -16777216,
+    "fog_color": -16777216,
+    "water_color": -16777216,
+    "water_fog_color": -16777216
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue",
+      "minecraft:forest_rock"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

@@ -37,7 +37,6 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> CORPSE_ARMOR_BOOTS;
 	public static final DeferredItem<Item> MEAT_SHOT;
 	public static final DeferredItem<Item> CLUSTER_SPAWN_EGG;
-	public static final DeferredItem<Item> BEAST_DIMENSION;
 	public static final DeferredItem<Item> VEIN_CUTTER;
 	public static final DeferredItem<Item> MISERY_AXE;
 	public static final DeferredItem<Item> DEATHS_TOUCH;
@@ -82,6 +81,9 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> CAR_BATTERY;
 	public static final DeferredItem<Item> SOUL_CELL;
 	public static final DeferredItem<Item> TASER;
+	public static final DeferredItem<Item> DREAM_PROJECTOR;
+	public static final DeferredItem<Item> PANGEA_CRATE;
+	public static final DeferredItem<Item> CHARGED_BOOTS_BOOTS;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -101,7 +103,6 @@ public class DreamProjectionModItems {
 		CORPSE_ARMOR_BOOTS = register("corpse_armor_boots", CorpseArmorItem.Boots::new);
 		MEAT_SHOT = register("meat_shot", MeatShotItem::new);
 		CLUSTER_SPAWN_EGG = register("cluster_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.CLUSTER.get(), properties));
-		BEAST_DIMENSION = register("beast_dimension", BeastDimensionItem::new);
 		VEIN_CUTTER = register("vein_cutter", VeinCutterItem::new);
 		MISERY_AXE = register("misery_axe", MiseryAxeItem::new);
 		DEATHS_TOUCH = register("deaths_touch", DeathsTouchItem::new);
@@ -146,6 +147,9 @@ public class DreamProjectionModItems {
 		CAR_BATTERY = register("car_battery", CarBatteryItem::new);
 		SOUL_CELL = register("soul_cell", SoulCellItem::new);
 		TASER = register("taser", TaserItem::new);
+		DREAM_PROJECTOR = register("dream_projector", DreamProjectorItem::new);
+		PANGEA_CRATE = block(DreamProjectionModBlocks.PANGEA_CRATE);
+		CHARGED_BOOTS_BOOTS = register("charged_boots_boots", ChargedBootsItem.Boots::new);
 	}
 
 	// Start of user code block custom items

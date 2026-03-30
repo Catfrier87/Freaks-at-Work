@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "dream_projection:beast_dimension"
+    },
+    "title": {
+      "translate": "advancements.dream_projector_crafted.title"
+    },
+    "description": {
+      "translate": "advancements.dream_projector_crafted.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dream_projector_crafted_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dream_projection:beast_dimension"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

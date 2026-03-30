@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dream_projection:charged_boots_boots",
     "dream_projection:corpse_armor_boots"
   ]
 }

@@ -9,11 +9,12 @@ import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.dreamprojection.init.DreamProjectionModBlocks;
 
 import com.mojang.serialization.MapCodec;
 
@@ -67,10 +68,10 @@ public class PangeaBiomeLeaveDecorator extends LeaveVineDecorator {
 	}
 
 	private static void addVine(BlockPos pos, Direction direction, TreeDecorator.Context context) {
-		context.setBlock(pos, Blocks.GOLD_BLOCK.defaultBlockState());
+		context.setBlock(pos, DreamProjectionModBlocks.PANGEA_CRATE.get().defaultBlockState());
 		int i = 4;
 		for (BlockPos blockpos = pos.below(); context.isAir(blockpos) && i > 0; --i) {
-			context.setBlock(blockpos, oriented(Blocks.GOLD_BLOCK.defaultBlockState(), direction));
+			context.setBlock(blockpos, oriented(DreamProjectionModBlocks.PANGEA_CRATE.get().defaultBlockState(), direction));
 			blockpos = blockpos.below();
 		}
 	}

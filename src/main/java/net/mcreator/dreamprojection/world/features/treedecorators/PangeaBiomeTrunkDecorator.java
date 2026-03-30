@@ -9,11 +9,12 @@ import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorTy
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.dreamprojection.init.DreamProjectionModBlocks;
 
 import com.mojang.serialization.MapCodec;
 
@@ -38,25 +39,25 @@ public class PangeaBiomeTrunkDecorator extends TrunkVineDecorator {
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.west();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.GOLD_BLOCK.defaultBlockState(), Direction.EAST));
+					context.setBlock(pos, oriented(DreamProjectionModBlocks.PANGEA_CRATE.get().defaultBlockState(), Direction.EAST));
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.east();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.GOLD_BLOCK.defaultBlockState(), Direction.WEST));
+					context.setBlock(pos, oriented(DreamProjectionModBlocks.PANGEA_CRATE.get().defaultBlockState(), Direction.WEST));
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.north();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.GOLD_BLOCK.defaultBlockState(), Direction.SOUTH));
+					context.setBlock(pos, oriented(DreamProjectionModBlocks.PANGEA_CRATE.get().defaultBlockState(), Direction.SOUTH));
 				}
 			}
 			if (context.random().nextInt(3) > 0) {
 				BlockPos pos = blockpos.south();
 				if (context.isAir(pos)) {
-					context.setBlock(pos, oriented(Blocks.GOLD_BLOCK.defaultBlockState(), Direction.NORTH));
+					context.setBlock(pos, oriented(DreamProjectionModBlocks.PANGEA_CRATE.get().defaultBlockState(), Direction.NORTH));
 				}
 			}
 		});

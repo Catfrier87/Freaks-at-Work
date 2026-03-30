@@ -396,17 +396,14 @@
       "registry_name": "beast_dimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/beast_dimension.json",
           "src/main/java/net/mcreator/dreamprojection/block/BeastDimensionPortalBlock.java",
           "src/main/resources/data/dream_projection/dimension/beast_dimension.json",
           "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ns.json",
           "src/main/java/net/mcreator/dreamprojection/world/dimension/BeastDimensionDimension.java",
           "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ew.json",
           "src/main/resources/data/dream_projection/dimension_type/beast_dimension.json",
-          "src/main/java/net/mcreator/dreamprojection/item/BeastDimensionItem.java",
           "src/main/resources/assets/dream_projection/blockstates/beast_dimension_portal.json",
           "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionTeleporter.java",
-          "src/main/resources/assets/dream_projection/models/item/beast_dimension.json",
           "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionPortalShape.java"
         ]
       },
@@ -1041,7 +1038,8 @@
           "src/main/resources/assets/dream_projection/models/item/h_7362_spawn_egg.json",
           "src/main/resources/assets/dream_projection/items/h_7362_spawn_egg.json"
         ]
-      }
+      },
+      "path": "~/Dissociation"
     },
     {
       "name": "Insomnia",
@@ -1792,7 +1790,7 @@
           "src/main/resources/data/dream_projection/advancement/recipes/englobed_shade_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "NoosphericOrbRecipe",
@@ -1806,7 +1804,7 @@
           "src/main/resources/data/dream_projection/recipe/noospheric_orb_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "DarkMatterRecipe",
@@ -1820,7 +1818,7 @@
           "src/main/resources/data/dream_projection/advancement/recipes/dark_matter_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "DawnsEndRecipe",
@@ -1834,7 +1832,7 @@
           "src/main/resources/data/dream_projection/recipe/dawns_end_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "PhoticJadeRecipe",
@@ -1848,7 +1846,7 @@
           "src/main/resources/data/dream_projection/advancement/recipes/photic_jade_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "StatePhasureRecipe",
@@ -1862,7 +1860,7 @@
           "src/main/resources/data/dream_projection/advancement/recipes/state_phasure_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "NovaeReclaimentRecipe",
@@ -1876,7 +1874,7 @@
           "src/main/resources/data/dream_projection/recipe/novae_reclaiment_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "ModifiedQuantaRecipe",
@@ -1890,7 +1888,7 @@
           "src/main/resources/data/dream_projection/advancement/recipes/modified_quanta_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "ModifiedQuanta",
@@ -1919,7 +1917,7 @@
           "src/main/resources/data/dream_projection/recipe/sun_heart_recipe.json"
         ]
       },
-      "path": "~/Pangea/Recipes"
+      "path": "~/Pangea/Recipes/SunHeart"
     },
     {
       "name": "NightmareAnchor",
@@ -2518,6 +2516,132 @@
         ]
       },
       "path": "~/Overworld/Items"
+    },
+    {
+      "name": "DreamProjectorCrafted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_projector_crafted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/dream_projector_crafted.json"
+        ]
+      }
+    },
+    {
+      "name": "DreamProjectorCore",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_projector_core",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/DreamProjectorCoreProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DreamProjector",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_projector",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/dream_projector.json",
+          "src/main/resources/assets/dream_projection/models/item/dream_projector.json",
+          "src/main/java/net/mcreator/dreamprojection/item/DreamProjectorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PangeaCrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pangea_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/blockstates/pangea_crate.json",
+          "src/main/resources/assets/dream_projection/items/pangea_crate.json",
+          "src/main/resources/assets/dream_projection/models/item/pangea_crate.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/pangea_crate.json",
+          "src/main/java/net/mcreator/dreamprojection/block/PangeaCrateBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/pangea_crate.json"
+        ]
+      },
+      "path": "~/Pangea"
+    },
+    {
+      "name": "PangeaPrisonBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pangea_prison_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/biome/pangea_prison_biome.json"
+        ]
+      },
+      "path": "~/Pangea/Biomes"
+    },
+    {
+      "name": "ChargedBootsSpeed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_boots_speed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/ChargedBootsSpeedProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "ChargedBoots",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charged_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/ChargedBootsItem.java",
+          "src/main/resources/assets/dream_projection/equipment/charged_boots.json",
+          "src/main/resources/assets/dream_projection/items/charged_boots_chestplate.json",
+          "src/main/resources/assets/dream_projection/models/item/charged_boots_boots.json",
+          "src/main/resources/assets/dream_projection/items/charged_boots_helmet.json",
+          "src/main/resources/assets/dream_projection/items/charged_boots_leggings.json",
+          "src/main/resources/assets/dream_projection/items/charged_boots_boots.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/item/ChargedBootsArmor.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
     }
   ],
   "variable_elements": [],
@@ -2565,6 +2689,9 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.CONCRETE#15",
+      "~Blocks.REINFORCED_DEEPSLATE",
+      "~Blocks.BEDROCK",
       "~Blocks.MOSS_BLOCK",
       "~Blocks.DEAD_BUBBLE_CORAL_BLOCK",
       "~Blocks.STONE#0",
@@ -2605,6 +2732,7 @@
       "~CUSTOM:CorpseArmor.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:ChargedBoots.boots",
       "~CUSTOM:CorpseArmor.boots"
     ],
     "ITEMS:dream_projection:corpse_armor_repair_items": [
@@ -2681,6 +2809,7 @@
       "~CUSTOM:PangeaBiome"
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:PangeaPrisonBiome",
       "~CUSTOM:AlexCave",
       "~CUSTOM:PangeaBiome"
     ],
@@ -2712,6 +2841,10 @@
       "CUSTOM:CoasitineShard",
       "CUSTOM:Corn",
       "CUSTOM:SoulPower"
+    ],
+    "ITEMS:dream_projection:charged_boots_repair_items": [
+      "~CUSTOM:CoasitineShard",
+      "~CUSTOM:SoulCell"
     ]
   },
   "tab_element_order": {},
@@ -2741,7 +2874,6 @@
       "item.dream_projection.meat_shot": "Meat Shot",
       "item.dream_projection.cluster_spawn_egg": "Cluster Spawn Egg",
       "entity.dream_projection.cluster": "Cluster",
-      "item.dream_projection.beast_dimension": "Dream Projector",
       "item.dream_projection.vein_cutter": "Vein Cutter",
       "item.dream_projection.misery_axe": "Spectrum of Misery",
       "item.dream_projection.deaths_touch": "Death\u0027s Touch",
@@ -2819,7 +2951,13 @@
       "advancements.stunstick_crafted.descr": "There are armies fighting on the streets",
       "item.dream_projection.car_battery": "Car Battery",
       "item.dream_projection.soul_cell": "Soul Cell",
-      "item.dream_projection.taser": "Stun Cannon"
+      "item.dream_projection.taser": "Stun Cannon",
+      "advancements.dream_projector_crafted.title": "Dream Projection",
+      "advancements.dream_projector_crafted.descr": "Eternal Suffering",
+      "item.dream_projection.dream_projector": "Dream Projector NEW",
+      "item.dream_projection.pangea_crate": "Reality Warping Crate",
+      "biome.dream_projection.pangea_prison_biome": "Pangeaic Prison",
+      "item.dream_projection.charged_boots_boots": "Charged Boots"
     }
   },
   "metadata": {
@@ -2866,7 +3004,16 @@
           },
           {
             "name": "Recipes",
-            "children": []
+            "children": [
+              {
+                "name": "SunHeart",
+                "children": []
+              },
+              {
+                "name": "PangeaCrate",
+                "children": []
+              }
+            ]
           }
         ]
       },

@@ -24,7 +24,7 @@ public class SplungerRightclickedOnEntityProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _entUseItem0 ? _entUseItem0.getUseItem() : ItemStack.EMPTY).getItem() == DreamProjectionModItems.BEAST_DIMENSION.get()) {
+		if ((entity instanceof LivingEntity _entUseItem0 ? _entUseItem0.getUseItem() : ItemStack.EMPTY).getItem() == DreamProjectionModItems.DREAM_PROJECTOR.get()) {
 			if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _serverLevel) {
 				ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("dream_projection:forest_dimension"));
 				if (_player.level().dimension() == destinationType)

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "dream_projection:charged_boots"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "dream_projection:charged_boots"
+      }
+    ]
+  }
+}

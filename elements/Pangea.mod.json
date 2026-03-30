@@ -5,20 +5,23 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:PangeaBiome"
+      },
+      {
+        "value": "CUSTOM:PangeaPrisonBiome"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.BEDROCK"
     },
     "fluidBlock": {
-      "value": "Blocks.DIRT#1"
+      "value": "Blocks.MONSTER_EGG#3"
     },
-    "seaLevel": 16,
+    "seaLevel": 15,
     "generateOreVeins": true,
     "generateAquifers": true,
     "horizontalNoiseSize": 1,
-    "verticalNoiseSize": 2,
+    "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": true,

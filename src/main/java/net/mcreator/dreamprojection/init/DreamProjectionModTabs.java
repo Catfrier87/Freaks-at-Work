@@ -21,8 +21,7 @@ import net.mcreator.dreamprojection.DreamProjectionMod;
 public class DreamProjectionModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DreamProjectionMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DIVINITY_TAB = REGISTRY.register("divinity_tab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dream_projection.divinity_tab")).icon(() -> new ItemStack(DreamProjectionModItems.BEAST_DIMENSION.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(DreamProjectionModItems.BEAST_DIMENSION.get());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dream_projection.divinity_tab")).icon(() -> new ItemStack(DreamProjectionModItems.DREAM_PROJECTOR.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DreamProjectionModItems.SPLUNGER_SPAWN_EGG.get());
 				tabData.accept(DreamProjectionModItems.NIGHTMARE_ANCHOR.get());
 				tabData.accept(DreamProjectionModItems.JUMPER_CABLES.get());
@@ -31,6 +30,8 @@ public class DreamProjectionModTabs {
 				tabData.accept(DreamProjectionModItems.CAR_BATTERY.get());
 				tabData.accept(DreamProjectionModItems.SOUL_CELL.get());
 				tabData.accept(DreamProjectionModItems.TASER.get());
+				tabData.accept(DreamProjectionModItems.DREAM_PROJECTOR.get());
+				tabData.accept(DreamProjectionModBlocks.PANGEA_CRATE.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -100,6 +101,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.SMILE_HAMMER.get());
 			tabData.accept(DreamProjectionModItems.STUNSTICK.get());
 			tabData.accept(DreamProjectionModItems.TASER.get());
+			tabData.accept(DreamProjectionModItems.CHARGED_BOOTS_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DreamProjectionModItems.VOID_TOOL.get());
 			tabData.accept(DreamProjectionModItems.UNBLINKING_EYE.get());
@@ -107,6 +109,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.NIGHTMARE_ANCHOR.get());
 			tabData.accept(DreamProjectionModItems.POOP.get());
 			tabData.accept(DreamProjectionModItems.BIOFUEL_CHARGER.get());
+			tabData.accept(DreamProjectionModItems.DREAM_PROJECTOR.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARK_BELL.get().asItem());
 		}

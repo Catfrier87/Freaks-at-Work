@@ -41,7 +41,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BeastDimension"
+      "value": "CUSTOM:DreamProjector"
     },
     "name": "dream_projector_recipe",
     "namespace": "mod"

@@ -2,14 +2,17 @@
   "replace": false,
   "values": [
     "minecraft:grass_block",
-    "minecraft:farmland",
     "minecraft:dirt",
-    "dream_projection:skin_block",
     "minecraft:stone",
-    "dream_projection:porestone",
-    "minecraft:dead_bubble_coral_block",
     "dream_projection:darkness_block",
+    "minecraft:bedrock",
+    "minecraft:farmland",
+    "dream_projection:skin_block",
+    "dream_projection:porestone",
+    "minecraft:reinforced_deepslate",
+    "minecraft:dead_bubble_coral_block",
     "minecraft:quartz_block",
-    "minecraft:moss_block"
+    "minecraft:moss_block",
+    "minecraft:black_concrete"
   ]
 }

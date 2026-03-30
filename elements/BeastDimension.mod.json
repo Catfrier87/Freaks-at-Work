@@ -58,7 +58,7 @@
     "portalSound": {
       "value": "entity.warden.heartbeat"
     },
-    "enableIgniter": true,
+    "enableIgniter": false,
     "igniterName": "Dream Projector",
     "igniterRarity": "EPIC",
     "specialInformation": {
