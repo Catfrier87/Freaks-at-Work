@@ -57,6 +57,10 @@ public class DreamProjectionModEntities {
 					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<TaserShotEntity>> TASER_SHOT = register("taser_shot",
 			EntityType.Builder.<TaserShotEntity>of(TaserShotEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.2f, 0.2f));
+	public static final DeferredHolder<EntityType<?>, EntityType<CarrionCaptainEntity>> CARRION_CAPTAIN = register("carrion_captain",
+			EntityType.Builder.<CarrionCaptainEntity>of(CarrionCaptainEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+
+					.sized(0.6f, 2f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -74,6 +78,7 @@ public class DreamProjectionModEntities {
 		DynamiteSpawnerEntity.init(event);
 		SplungerEntity.init(event);
 		GreenManEntity.init(event);
+		CarrionCaptainEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -86,5 +91,6 @@ public class DreamProjectionModEntities {
 		event.put(DYNAMITE_SPAWNER.get(), DynamiteSpawnerEntity.createAttributes().build());
 		event.put(SPLUNGER.get(), SplungerEntity.createAttributes().build());
 		event.put(GREEN_MAN.get(), GreenManEntity.createAttributes().build());
+		event.put(CARRION_CAPTAIN.get(), CarrionCaptainEntity.createAttributes().build());
 	}
 }

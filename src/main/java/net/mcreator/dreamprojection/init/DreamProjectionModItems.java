@@ -84,6 +84,7 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> DREAM_PROJECTOR;
 	public static final DeferredItem<Item> PANGEA_CRATE;
 	public static final DeferredItem<Item> CHARGED_BOOTS_BOOTS;
+	public static final DeferredItem<Item> CARRION_CAPTAIN_SPAWN_EGG;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -150,6 +151,7 @@ public class DreamProjectionModItems {
 		DREAM_PROJECTOR = register("dream_projector", DreamProjectorItem::new);
 		PANGEA_CRATE = block(DreamProjectionModBlocks.PANGEA_CRATE);
 		CHARGED_BOOTS_BOOTS = register("charged_boots_boots", ChargedBootsItem.Boots::new);
+		CARRION_CAPTAIN_SPAWN_EGG = register("carrion_captain_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.CARRION_CAPTAIN.get(), properties));
 	}
 
 	// Start of user code block custom items

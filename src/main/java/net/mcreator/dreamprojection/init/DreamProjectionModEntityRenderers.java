@@ -26,5 +26,6 @@ public class DreamProjectionModEntityRenderers {
 		event.registerEntityRenderer(DreamProjectionModEntities.SPLUNGER.get(), SplungerRenderer::new);
 		event.registerEntityRenderer(DreamProjectionModEntities.GREEN_MAN.get(), GreenManRenderer::new);
 		event.registerEntityRenderer(DreamProjectionModEntities.TASER_SHOT.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DreamProjectionModEntities.CARRION_CAPTAIN.get(), CarrionCaptainRenderer::new);
 	}
 }

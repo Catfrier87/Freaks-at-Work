@@ -32,6 +32,7 @@ public class DreamProjectionModTabs {
 				tabData.accept(DreamProjectionModItems.TASER.get());
 				tabData.accept(DreamProjectionModItems.DREAM_PROJECTOR.get());
 				tabData.accept(DreamProjectionModBlocks.PANGEA_CRATE.get().asItem());
+				tabData.accept(DreamProjectionModItems.CARRION_CAPTAIN_SPAWN_EGG.get());
 			}).build());
 
 	@SubscribeEvent
@@ -45,6 +46,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.H_7362_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.DYNAMITE_SPAWNER_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.GREEN_MAN_SPAWN_EGG.get());
+			tabData.accept(DreamProjectionModItems.CARRION_CAPTAIN_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
 			tabData.accept(DreamProjectionModItems.POOP.get());
