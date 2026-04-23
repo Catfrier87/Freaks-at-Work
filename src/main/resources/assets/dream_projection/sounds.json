@@ -43,5 +43,21 @@
         "stream": false
       }
     ]
+  },
+  "ambient1": {
+    "sounds": [
+      {
+        "name": "dream_projection:ambient1",
+        "stream": false
+      }
+    ]
+  },
+  "anger1": {
+    "sounds": [
+      {
+        "name": "dream_projection:anger1",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1033,8 +1033,8 @@
       "registry_name": "h_7362",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/entity/H7362Entity.java",
           "src/main/java/net/mcreator/dreamprojection/client/renderer/H7362Renderer.java",
+          "src/main/java/net/mcreator/dreamprojection/entity/H7362Entity.java",
           "src/main/resources/assets/dream_projection/models/item/h_7362_spawn_egg.json",
           "src/main/resources/assets/dream_projection/items/h_7362_spawn_egg.json"
         ]
@@ -2945,6 +2945,51 @@
         ]
       },
       "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "Hbed",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hbed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/template_pool/hbed.json",
+          "src/main/resources/data/dream_projection/worldgen/structure/hbed.json",
+          "src/main/resources/data/dream_projection/worldgen/structure_set/hbed.json"
+        ]
+      },
+      "path": "~/Dissociation/houses"
+    },
+    {
+      "name": "HAbstract",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_abstract",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/template_pool/h_abstract.json",
+          "src/main/resources/data/dream_projection/worldgen/structure/h_abstract.json",
+          "src/main/resources/data/dream_projection/worldgen/structure_set/h_abstract.json"
+        ]
+      },
+      "path": "~/Dissociation/houses"
+    },
+    {
+      "name": "HLibrary",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_library",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/worldgen/structure_set/h_library.json",
+          "src/main/resources/data/dream_projection/worldgen/structure/h_library.json",
+          "src/main/resources/data/dream_projection/worldgen/template_pool/h_library.json"
+        ]
+      },
+      "path": "~/Dissociation/houses"
     }
   ],
   "variable_elements": [],
@@ -2988,6 +3033,22 @@
       ],
       "category": "ambient",
       "subtitle": "Brain Divided"
+    },
+    {
+      "name": "ambient1",
+      "files": [
+        "ambient1"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "anger1",
+      "files": [
+        "anger1"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -3308,14 +3369,16 @@
       "item.dream_projection.super_stunstick": "Mortality Melter",
       "advancements.super_stunstick_crafted.title": "National Nightmare",
       "advancements.super_stunstick_crafted.descr": "So precious is their freedom",
-      "item.dream_projection.super_taser": "Solidarity Shatterer"
+      "item.dream_projection.super_taser": "Solidarity Shatterer",
+      "subtitles.ambient1": "",
+      "subtitles.anger1": ""
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModAttributes.java",
-      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
+      "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
@@ -3324,15 +3387,15 @@
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
-      "src/main/resources/dream_projection.mixins.json",
-      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/dream_projection/sounds.json",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java"
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/dream_projection.mixins.json"
     ]
   },
   "foldersRoot": {
@@ -3407,7 +3470,12 @@
       },
       {
         "name": "Dissociation",
-        "children": []
+        "children": [
+          {
+            "name": "houses",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Wheatfield",

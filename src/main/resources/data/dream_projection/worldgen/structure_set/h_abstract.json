@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dream_projection:h_abstract",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 0,
+    "salt": 930414857
+  }
+}

@@ -120,5 +120,7 @@
   "item.dream_projection.super_stunstick": "Mortality Melter",
   "advancements.super_stunstick_crafted.title": "National Nightmare",
   "advancements.super_stunstick_crafted.descr": "So precious is their freedom",
-  "item.dream_projection.super_taser": "Solidarity Shatterer"
+  "item.dream_projection.super_taser": "Solidarity Shatterer",
+  "subtitles.ambient1": "",
+  "subtitles.anger1": ""
 }
