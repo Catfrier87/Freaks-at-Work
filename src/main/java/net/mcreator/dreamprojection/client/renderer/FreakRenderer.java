@@ -12,6 +12,7 @@ import net.mcreator.dreamprojection.entity.FreakEntity;
 
 public class FreakRenderer extends HumanoidMobRenderer<FreakEntity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private FreakEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/skin.png");
 
 	public FreakRenderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel<HumanoidRenderState>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
@@ -31,6 +32,6 @@ public class FreakRenderer extends HumanoidMobRenderer<FreakEntity, HumanoidRend
 
 	@Override
 	public ResourceLocation getTextureLocation(HumanoidRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/skin.png");
+		return entityTexture;
 	}
 }

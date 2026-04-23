@@ -10,6 +10,7 @@ import net.mcreator.dreamprojection.client.model.Modelcluster;
 
 public class ClusterRenderer extends MobRenderer<ClusterEntity, LivingEntityRenderState, Modelcluster> {
 	private ClusterEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/cluster.png");
 
 	public ClusterRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modelcluster(context.bakeLayer(Modelcluster.LAYER_LOCATION)), 1f);
@@ -28,6 +29,6 @@ public class ClusterRenderer extends MobRenderer<ClusterEntity, LivingEntityRend
 
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/cluster.png");
+		return entityTexture;
 	}
 }

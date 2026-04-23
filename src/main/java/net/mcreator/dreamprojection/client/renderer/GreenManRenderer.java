@@ -14,6 +14,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class GreenManRenderer extends HumanoidMobRenderer<GreenManEntity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private GreenManEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/greenman.png");
 
 	public GreenManRenderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel<HumanoidRenderState>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
@@ -33,7 +34,7 @@ public class GreenManRenderer extends HumanoidMobRenderer<GreenManEntity, Humano
 
 	@Override
 	public ResourceLocation getTextureLocation(HumanoidRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/greenman.png");
+		return entityTexture;
 	}
 
 	@Override

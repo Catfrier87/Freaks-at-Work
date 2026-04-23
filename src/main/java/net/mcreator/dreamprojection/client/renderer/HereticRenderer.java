@@ -12,6 +12,7 @@ import net.mcreator.dreamprojection.entity.HereticEntity;
 
 public class HereticRenderer extends HumanoidMobRenderer<HereticEntity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private HereticEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/heretic.png");
 
 	public HereticRenderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel<HumanoidRenderState>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
@@ -31,6 +32,6 @@ public class HereticRenderer extends HumanoidMobRenderer<HereticEntity, Humanoid
 
 	@Override
 	public ResourceLocation getTextureLocation(HumanoidRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/heretic.png");
+		return entityTexture;
 	}
 }

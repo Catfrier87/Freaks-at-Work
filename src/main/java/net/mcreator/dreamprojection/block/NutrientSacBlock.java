@@ -1,7 +1,5 @@
 package net.mcreator.dreamprojection.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class NutrientSacBlock extends Block {
 	public NutrientSacBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.SLIME_BLOCK).strength(0.5f, 0f).lightLevel(s -> 5).friction(1f));
+		super(properties.sound(SoundType.SLIME_BLOCK).strength(0.5f, 0f).lightLevel(blockstate -> 5).friction(1f));
 	}
 
 	@Override

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "cac"
+  ],
+  "key": {
+    "a": "minecraft:copper_ingot",
+    "b": "minecraft:dropper",
+    "c": "minecraft:iron_block",
+    "d": "dream_projection:coasitine_shard",
+    "e": "dream_projection:car_battery",
+    "f": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "dream_projection:terminator_kit",
+    "count": 1
+  }
+}

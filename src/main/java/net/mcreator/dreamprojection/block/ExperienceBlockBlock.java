@@ -16,11 +16,6 @@ public class ExperienceBlockBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
-		return 15;
-	}
-
-	@Override
 	public int getExpDrop(BlockState state, LevelAccessor level, BlockPos pos, BlockEntity blockEntity, Entity breaker, ItemStack tool) {
 		return 128;
 	}

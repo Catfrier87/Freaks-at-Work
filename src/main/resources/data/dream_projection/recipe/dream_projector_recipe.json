@@ -5,7 +5,7 @@
     "aa"
   ],
   "key": {
-    "a": "dream_projection:meat"
+    "a": "#dream_projection:projectible"
   },
   "result": {
     "id": "dream_projection:dream_projector",

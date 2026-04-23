@@ -35,7 +35,7 @@ public class TaserItem extends Item {
 	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
 		InteractionResult ar = InteractionResult.FAIL;
 		if (entity.getAbilities().instabuild || findAmmo(entity) != ItemStack.EMPTY) {
-			ar = InteractionResult.SUCCESS;
+			ar = InteractionResult.CONSUME;
 			entity.startUsingItem(hand);
 		}
 		return ar;

@@ -10,6 +10,7 @@ import net.mcreator.dreamprojection.client.model.Modelcarrioncaptain;
 
 public class CarrionCaptainRenderer extends MobRenderer<CarrionCaptainEntity, LivingEntityRenderState, Modelcarrioncaptain> {
 	private CarrionCaptainEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/carrioncaptain.png");
 
 	public CarrionCaptainRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modelcarrioncaptain(context.bakeLayer(Modelcarrioncaptain.LAYER_LOCATION)), 0.5f);
@@ -28,6 +29,6 @@ public class CarrionCaptainRenderer extends MobRenderer<CarrionCaptainEntity, Li
 
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/carrioncaptain.png");
+		return entityTexture;
 	}
 }

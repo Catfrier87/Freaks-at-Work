@@ -6,13 +6,17 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.animation.KeyframeAnimation;
+import net.minecraft.client.animation.AnimationDefinition;
 
 import net.mcreator.dreamprojection.entity.AbyssBossEntity;
 import net.mcreator.dreamprojection.client.model.animations.ZLYQAnimation;
 import net.mcreator.dreamprojection.client.model.ModelZLYQ;
 
+import java.util.Map;
+
 public class AbyssBossRenderer extends MobRenderer<AbyssBossEntity, LivingEntityRenderState, ModelZLYQ> {
 	private AbyssBossEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/abyssbosstexture.png");
 
 	public AbyssBossRenderer(EntityRendererProvider.Context context) {
 		super(context, new AnimatedModel(context.bakeLayer(ModelZLYQ.LAYER_LOCATION)), 1f);
@@ -34,7 +38,7 @@ public class AbyssBossRenderer extends MobRenderer<AbyssBossEntity, LivingEntity
 
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/abyssbosstexture.png");
+		return entityTexture;
 	}
 
 	private static final class AnimatedModel extends ModelZLYQ {
@@ -43,7 +47,15 @@ public class AbyssBossRenderer extends MobRenderer<AbyssBossEntity, LivingEntity
 
 		public AnimatedModel(ModelPart root) {
 			super(root);
-			this.keyframeAnimation0 = ZLYQAnimation.Run.bake(root);
+			this.keyframeAnimation0 = safeBake(ZLYQAnimation.Run);
+		}
+
+		private KeyframeAnimation safeBake(AnimationDefinition source) {
+			try {
+				return source.bake(root);
+			} catch (IllegalArgumentException e) {
+				return new AnimationDefinition(0, false, Map.of()).bake(root);
+			}
 		}
 
 		public void setEntity(AbyssBossEntity entity) {

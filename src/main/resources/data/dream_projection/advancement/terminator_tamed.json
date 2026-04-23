@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "dream_projection:terminator_kit"
+    },
+    "title": {
+      "translate": "advancements.terminator_tamed.title"
+    },
+    "description": {
+      "translate": "advancements.terminator_tamed.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "terminator_tamed_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "dream_projection:terminator_kit"
+        }
+      }
+    }
+  },
+  "parent": "minecraft:story/iron_tools"
+}

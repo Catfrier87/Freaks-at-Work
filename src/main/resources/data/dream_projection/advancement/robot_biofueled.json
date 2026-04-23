@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "dream_projection:biofuel_charger"
+    },
+    "title": {
+      "translate": "advancements.robot_biofueled.title"
+    },
+    "description": {
+      "translate": "advancements.robot_biofueled.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "robot_biofueled_0": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "minecraft:deepslate_diamond_ore",
+          "predicates": {
+            "minecraft:damage": {
+              "damage": {
+                "min": 99999,
+                "max": 99999
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "parent": "dream_projection:terminator_tamed"
+}

@@ -15,8 +15,6 @@ import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket;
 import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
 import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.multiplayer.PlayerInfo;
-import net.minecraft.client.Minecraft;
 
 import java.util.Set;
 
@@ -24,7 +22,7 @@ public class NightmaresEffectExpiresProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (!(getEntityGameType(entity) == GameType.CREATIVE)) {
+		if (!(entity instanceof Player _plr0 && _plr0.gameMode() == GameType.CREATIVE)) {
 			if (world.getBiome(BlockPos.containing(x, y, z)).is(ResourceLocation.parse("dream_projection:infinite_forest"))) {
 				if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _serverLevel) {
 					ResourceKey<Level> destinationType = Level.OVERWORLD;
@@ -70,16 +68,5 @@ public class NightmaresEffectExpiresProcedure {
 				}
 			}
 		}
-	}
-
-	private static GameType getEntityGameType(Entity entity) {
-		if (entity instanceof ServerPlayer serverPlayer) {
-			return serverPlayer.gameMode.getGameModeForPlayer();
-		} else if (entity instanceof Player player && player.level().isClientSide()) {
-			PlayerInfo playerInfo = Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId());
-			if (playerInfo != null)
-				return playerInfo.getGameMode();
-		}
-		return null;
 	}
 }

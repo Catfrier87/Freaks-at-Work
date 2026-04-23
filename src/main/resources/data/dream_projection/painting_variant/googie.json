@@ -3,9 +3,11 @@
   "height": 1,
   "width": 1,
   "title": {
+    "color": "yellow",
     "translate": "painting.dream_projection.googie.title"
   },
   "author": {
+    "color": "gray",
     "translate": "painting.dream_projection.googie.author"
   }
 }

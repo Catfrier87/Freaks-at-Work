@@ -1,0 +1,24 @@
+{
+  "_fv": 85,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Sloppenheimer",
+    "achievementDescription": "You've really done it now.",
+    "achievementIcon": {
+      "value": "CUSTOM:BiofuelCharger"
+    },
+    "background": "scaryjak.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:TerminatorSpawned"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"-394\" y=\"181\"><next><block type=\"item_damaged\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Blocks.DEEPSLATE_DIAMOND_ORE</field></block></value><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">99999</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">99999</field></block></value></block></next></block></xml>"
+  }
+}

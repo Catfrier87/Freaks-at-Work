@@ -85,6 +85,11 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> PANGEA_CRATE;
 	public static final DeferredItem<Item> CHARGED_BOOTS_BOOTS;
 	public static final DeferredItem<Item> CARRION_CAPTAIN_SPAWN_EGG;
+	public static final DeferredItem<Item> EXPANSION_PAK;
+	public static final DeferredItem<Item> TERMINATOR_SPAWN_EGG;
+	public static final DeferredItem<Item> TERMINATOR_KIT;
+	public static final DeferredItem<Item> SUPER_STUNSTICK;
+	public static final DeferredItem<Item> SUPER_TASER;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -152,6 +157,11 @@ public class DreamProjectionModItems {
 		PANGEA_CRATE = block(DreamProjectionModBlocks.PANGEA_CRATE);
 		CHARGED_BOOTS_BOOTS = register("charged_boots_boots", ChargedBootsItem.Boots::new);
 		CARRION_CAPTAIN_SPAWN_EGG = register("carrion_captain_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.CARRION_CAPTAIN.get(), properties));
+		EXPANSION_PAK = register("expansion_pak", ExpansionPakItem::new);
+		TERMINATOR_SPAWN_EGG = register("terminator_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.TERMINATOR.get(), properties));
+		TERMINATOR_KIT = register("terminator_kit", TerminatorKitItem::new);
+		SUPER_STUNSTICK = register("super_stunstick", SuperStunstickItem::new);
+		SUPER_TASER = register("super_taser", SuperTaserItem::new);
 	}
 
 	// Start of user code block custom items

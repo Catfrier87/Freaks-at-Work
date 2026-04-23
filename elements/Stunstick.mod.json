@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 85,
   "_type": "tool",
   "definition": {
     "toolType": "Special",
@@ -10,12 +10,16 @@
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
     "name": "Stunstick",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
         "value": "COMBAT"
+      },
+      {
+        "value": "CUSTOM:DivinityTab"
       }
     ],
     "efficiency": 4.0,
@@ -30,6 +34,7 @@
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {

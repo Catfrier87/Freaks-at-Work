@@ -2243,6 +2243,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -2658,6 +2662,289 @@
           "src/main/resources/assets/dream_projection/models/item/carrion_captain_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "AnimalExpanded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animal_expanded",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/AnimalExpandedProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "ExpansionPak",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expansion_pak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/expansion_pak.json",
+          "src/main/java/net/mcreator/dreamprojection/item/ExpansionPakItem.java",
+          "src/main/resources/assets/dream_projection/items/expansion_pak.json"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "ExpansionPakRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expansion_pak_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/expansion_pak_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/expansion_pak_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "Terminator",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/terminator_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/entity/TerminatorEntity.java",
+          "src/main/resources/assets/dream_projection/items/terminator_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/TerminatorRenderer.java"
+        ]
+      },
+      "path": "~/Overworld/Creatures"
+    },
+    {
+      "name": "TerminatorUnpacked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_unpacked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/TerminatorUnpackedProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "TerminatorKit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_kit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/terminator_kit.json",
+          "src/main/java/net/mcreator/dreamprojection/item/TerminatorKitItem.java",
+          "src/main/resources/assets/dream_projection/models/item/terminator_kit.json"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "TerminatorSpawned",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_tamed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/terminator_tamed.json"
+        ]
+      },
+      "path": "~/Overworld/Advancements"
+    },
+    {
+      "name": "TerminatorAssign",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_assign",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/TerminatorAssignProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Creatures"
+    },
+    {
+      "name": "TerminatorKitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_kit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/terminator_kit_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/terminator_kit_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "TerminatorShield",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terminator_shield",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/TerminatorShieldProcedure.java"
+        ]
+      },
+      "path": "~/Overworld/Creatures"
+    },
+    {
+      "name": "RobotBiofueled",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robot_biofueled",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/robot_biofueled.json"
+        ]
+      },
+      "path": "~/Overworld/Advancements"
+    },
+    {
+      "name": "SuperStunstick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_stunstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/item/super_stunstick.json",
+          "src/main/resources/assets/dream_projection/items/super_stunstick.json",
+          "src/main/java/net/mcreator/dreamprojection/item/SuperStunstickItem.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "SuperStunstickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_stunstick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/recipes/super_stunstick_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/super_stunstick_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "SuperStunstickCrafted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_stunstick_crafted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/advancement/super_stunstick_crafted.json"
+        ]
+      },
+      "path": "~/Overworld/Advancements"
+    },
+    {
+      "name": "SuperTaser",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_taser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/super_taser.json",
+          "src/main/resources/assets/dream_projection/models/item/super_taser.json",
+          "src/main/java/net/mcreator/dreamprojection/item/SuperTaserItem.java"
+        ]
+      },
+      "path": "~/Overworld/Items"
+    },
+    {
+      "name": "SuperTaserRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_taser_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/super_taser_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/super_taser_recipe.json"
+        ]
+      },
+      "path": "~/Overworld/Recipes"
     }
   ],
   "variable_elements": [],
@@ -2705,10 +2992,10 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.CONCRETE#15",
-      "~Blocks.REINFORCED_DEEPSLATE",
       "~Blocks.BEDROCK",
+      "~Blocks.CONCRETE#15",
       "~Blocks.MOSS_BLOCK",
+      "~Blocks.REINFORCED_DEEPSLATE",
       "~Blocks.DEAD_BUBBLE_CORAL_BLOCK",
       "~Blocks.STONE#0",
       "~Blocks.QUARTZ_BLOCK#3",
@@ -2848,6 +3135,7 @@
       "~CUSTOM:CornyPoop"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SuperStunstick",
       "~CUSTOM:Stunstick",
       "~CUSTOM:BiofuelCharger"
     ],
@@ -2864,6 +3152,36 @@
     ],
     "ENTITIES:minecraft:undead": [
       "~CUSTOM:CarrionCaptain"
+    ],
+    "ENTITIES:dream_projection:biofuel_incompatible": [
+      "EntityIronGolem",
+      "CUSTOM:Terminator",
+      "EntityAcaciaBoat",
+      "EntityAcaciaChestBoat",
+      "EntityBirchBoat",
+      "EntityBirchChestBoat",
+      "EntityCherryBoat",
+      "EntityCherryChestBoat",
+      "EntityDarkOakBoat",
+      "EntityDarkOakChestBoat",
+      "EntityBoat",
+      "EntityChestBoat",
+      "EntityJungleBoat",
+      "EntityJungleChestBoat",
+      "EntityMangroveBoat",
+      "EntityMangroveChestBoat",
+      "EntityPaleOakBoat",
+      "EntityPaleOakChestBoat",
+      "EntitySpruceBoat",
+      "EntitySpruceChestBoat",
+      "EntityArmorStand",
+      "EntityMinecart",
+      "EntityMinecartChest",
+      "EntityMinecartCommandBlock",
+      "EntityMinecartFurnace",
+      "EntityMinecartHopper",
+      "EntityMinecartMobSpawner",
+      "EntityMinecartTNT"
     ]
   },
   "tab_element_order": {},
@@ -2978,7 +3296,19 @@
       "biome.dream_projection.pangea_prison_biome": "Pangeaic Prison",
       "item.dream_projection.charged_boots_boots": "Charged Boots",
       "entity.dream_projection.carrion_captain": "Carrion Captain",
-      "item.dream_projection.carrion_captain_spawn_egg": "Carrion Captain Spawn Egg"
+      "item.dream_projection.carrion_captain_spawn_egg": "Carrion Captain Spawn Egg",
+      "item.dream_projection.expansion_pak": "Growth Hormones Expansion Pak",
+      "entity.dream_projection.terminator": "The Sloppinator",
+      "item.dream_projection.terminator_spawn_egg": "The Sloppinator Spawn Egg",
+      "item.dream_projection.terminator_kit": "Terminator Kit",
+      "advancements.robot_biofueled.descr": "You\u0027ve really done it now.",
+      "advancements.robot_biofueled.title": "Sloppenheimer",
+      "advancements.terminator_tamed.descr": "Homemade, not store bought.",
+      "advancements.terminator_tamed.title": "I Got A Robot.",
+      "item.dream_projection.super_stunstick": "Mortality Melter",
+      "advancements.super_stunstick_crafted.title": "National Nightmare",
+      "advancements.super_stunstick_crafted.descr": "So precious is their freedom",
+      "item.dream_projection.super_taser": "Solidarity Shatterer"
     }
   },
   "metadata": {
@@ -2987,22 +3317,22 @@
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModMobEffects.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
-      "src/main/resources/dream_projection.mixins.json",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
-      "src/main/resources/assets/dream_projection/sounds.json"
+      "src/main/resources/dream_projection.mixins.json",
+      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
+      "src/main/resources/assets/dream_projection/sounds.json",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -3178,5 +3508,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.dreamprojection"
   },
-  "mcreatorVersion": 202500345720
+  "mcreatorVersion": 202600114619
 }

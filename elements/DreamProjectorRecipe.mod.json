@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 85,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -13,10 +13,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Meat"
+        "value": "TAG:mod:projectible"
       },
       {
-        "value": "CUSTOM:Meat"
+        "value": "TAG:mod:projectible"
       },
       {
         "value": ""

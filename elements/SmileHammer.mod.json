@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 85,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -10,6 +10,7 @@
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
     "name": "Smile",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
@@ -34,6 +35,7 @@
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {

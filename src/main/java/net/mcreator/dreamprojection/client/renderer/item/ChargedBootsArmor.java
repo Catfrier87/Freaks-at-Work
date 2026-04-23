@@ -17,9 +17,11 @@ public class ChargedBootsArmor {
 	@SubscribeEvent
 	public static void registerItemExtensions(RegisterClientExtensionsEvent event) {
 		event.registerItem(new IClientItemExtensions() {
+			private final ResourceLocation armorTexture = ResourceLocation.parse("dream_projection:textures/models/armor/chargedarmor_layer_1.png");
+
 			@Override
-			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation _default) {
-				return ResourceLocation.parse("dream_projection:textures/models/armor/chargedarmor_layer_1.png");
+			public ResourceLocation getArmorTexture(ItemStack stack, EquipmentClientInfo.LayerType type, EquipmentClientInfo.Layer layer, ResourceLocation original) {
+				return armorTexture;
 			}
 		}, DreamProjectionModItems.CHARGED_BOOTS_BOOTS.get());
 	}

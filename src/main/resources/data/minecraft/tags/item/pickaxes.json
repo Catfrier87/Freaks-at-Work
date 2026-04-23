@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dream_projection:super_stunstick",
     "dream_projection:biofuel_charger",
     "dream_projection:stunstick"
   ]

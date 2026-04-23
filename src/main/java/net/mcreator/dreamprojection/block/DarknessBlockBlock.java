@@ -15,11 +15,6 @@ public class DarknessBlockBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
-		return 15;
-	}
-
-	@Override
 	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
 		return PathType.DANGER_POWDER_SNOW;
 	}

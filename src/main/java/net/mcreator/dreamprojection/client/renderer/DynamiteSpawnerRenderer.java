@@ -11,6 +11,7 @@ import net.mcreator.dreamprojection.entity.DynamiteSpawnerEntity;
 
 public class DynamiteSpawnerRenderer extends MobRenderer<DynamiteSpawnerEntity, ChickenRenderState, ChickenModel> {
 	private DynamiteSpawnerEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/twink_punch.png");
 
 	public DynamiteSpawnerRenderer(EntityRendererProvider.Context context) {
 		super(context, new ChickenModel(context.bakeLayer(ModelLayers.CHICKEN)), 0.5f);
@@ -29,6 +30,6 @@ public class DynamiteSpawnerRenderer extends MobRenderer<DynamiteSpawnerEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(ChickenRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/twink_punch.png");
+		return entityTexture;
 	}
 }

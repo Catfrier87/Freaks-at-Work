@@ -17,8 +17,6 @@ import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.multiplayer.PlayerInfo;
-import net.minecraft.client.Minecraft;
 
 import net.mcreator.dreamprojection.init.DreamProjectionModMobEffects;
 
@@ -45,7 +43,7 @@ public class DarkBellWarpProcedure {
 				}
 			}
 		} else {
-			if (getEntityGameType(entity) == GameType.CREATIVE) {
+			if (entity instanceof Player _plr2 && _plr2.gameMode() == GameType.CREATIVE) {
 				if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _serverLevel) {
 					ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("dream_projection:forest_dimension"));
 					if (_player.level().dimension() == destinationType)
@@ -67,16 +65,5 @@ public class DarkBellWarpProcedure {
 					_serverPlayer.awardRecipesByKey(Collections.singletonList(ResourceKey.create(Registries.RECIPE, ResourceLocation.parse("dream_projection:nightmare_anchor_recipe"))));
 			}
 		}
-	}
-
-	private static GameType getEntityGameType(Entity entity) {
-		if (entity instanceof ServerPlayer serverPlayer) {
-			return serverPlayer.gameMode.getGameModeForPlayer();
-		} else if (entity instanceof Player player && player.level().isClientSide()) {
-			PlayerInfo playerInfo = Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId());
-			if (playerInfo != null)
-				return playerInfo.getGameMode();
-		}
-		return null;
 	}
 }

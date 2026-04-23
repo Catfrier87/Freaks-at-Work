@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "chest_minecart",
+    "acacia_chest_boat",
+    "oak_boat",
+    "furnace_minecart",
+    "minecart",
+    "spawner_minecart",
+    "tnt_minecart",
+    "armor_stand",
+    "hopper_minecart",
+    "iron_golem",
+    "command_block_minecart",
+    "dream_projection:terminator"
+  ]
+}

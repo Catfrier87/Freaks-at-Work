@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cda",
+    "ef "
+  ],
+  "key": {
+    "a": "minecraft:copper_ingot",
+    "b": "dream_projection:coasitine_shard",
+    "c": "minecraft:redstone",
+    "d": "dream_projection:stunstick",
+    "e": "dream_projection:car_battery",
+    "f": "minecraft:redstone_torch"
+  },
+  "result": {
+    "id": "dream_projection:super_stunstick",
+    "count": 1
+  }
+}

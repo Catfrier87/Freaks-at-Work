@@ -12,6 +12,7 @@ import net.mcreator.dreamprojection.entity.H7362Entity;
 
 public class H7362Renderer extends HumanoidMobRenderer<H7362Entity, HumanoidRenderState, HumanoidModel<HumanoidRenderState>> {
 	private H7362Entity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/noeyes5.png");
 
 	public H7362Renderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel<HumanoidRenderState>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
@@ -31,6 +32,6 @@ public class H7362Renderer extends HumanoidMobRenderer<H7362Entity, HumanoidRend
 
 	@Override
 	public ResourceLocation getTextureLocation(HumanoidRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/noeyes5.png");
+		return entityTexture;
 	}
 }

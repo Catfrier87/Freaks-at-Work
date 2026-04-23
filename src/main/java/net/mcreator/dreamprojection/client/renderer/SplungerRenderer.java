@@ -12,6 +12,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class SplungerRenderer extends MobRenderer<SplungerEntity, LivingEntityRenderState, Modelsplunger> {
 	private SplungerEntity entity = null;
+	private final ResourceLocation entityTexture = ResourceLocation.parse("dream_projection:textures/entities/rollypolly.png");
 
 	public SplungerRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modelsplunger(context.bakeLayer(Modelsplunger.LAYER_LOCATION)), 0f);
@@ -30,7 +31,7 @@ public class SplungerRenderer extends MobRenderer<SplungerEntity, LivingEntityRe
 
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
-		return ResourceLocation.parse("dream_projection:textures/entities/rollypolly.png");
+		return entityTexture;
 	}
 
 	@Override

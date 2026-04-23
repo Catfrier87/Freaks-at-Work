@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    " gh"
+  ],
+  "key": {
+    "a": "minecraft:copper_ingot",
+    "b": "minecraft:repeater",
+    "c": "minecraft:lightning_rod",
+    "d": "dream_projection:coasitine_shard",
+    "e": "dream_projection:taser",
+    "f": "minecraft:redstone_block",
+    "g": "dream_projection:car_battery",
+    "h": "minecraft:redstone"
+  },
+  "result": {
+    "id": "dream_projection:super_taser",
+    "count": 1
+  }
+}

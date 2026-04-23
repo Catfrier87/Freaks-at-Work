@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": "minecraft:iron_nugget",
+    "b": "minecraft:copper_ingot",
+    "c": "dream_projection:soul_cell",
+    "d": "minecraft:iron_ingot",
+    "e": "minecraft:bone_meal"
+  },
+  "result": {
+    "id": "dream_projection:expansion_pak",
+    "count": 1
+  }
+}

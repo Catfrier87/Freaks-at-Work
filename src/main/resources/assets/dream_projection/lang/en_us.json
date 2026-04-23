@@ -108,5 +108,17 @@
   "biome.dream_projection.pangea_prison_biome": "Pangeaic Prison",
   "item.dream_projection.charged_boots_boots": "Charged Boots",
   "entity.dream_projection.carrion_captain": "Carrion Captain",
-  "item.dream_projection.carrion_captain_spawn_egg": "Carrion Captain Spawn Egg"
+  "item.dream_projection.carrion_captain_spawn_egg": "Carrion Captain Spawn Egg",
+  "item.dream_projection.expansion_pak": "Growth Hormones Expansion Pak",
+  "entity.dream_projection.terminator": "The Sloppinator",
+  "item.dream_projection.terminator_spawn_egg": "The Sloppinator Spawn Egg",
+  "item.dream_projection.terminator_kit": "Terminator Kit",
+  "advancements.robot_biofueled.descr": "You\u0027ve really done it now.",
+  "advancements.robot_biofueled.title": "Sloppenheimer",
+  "advancements.terminator_tamed.descr": "Homemade, not store bought.",
+  "advancements.terminator_tamed.title": "I Got A Robot.",
+  "item.dream_projection.super_stunstick": "Mortality Melter",
+  "advancements.super_stunstick_crafted.title": "National Nightmare",
+  "advancements.super_stunstick_crafted.descr": "So precious is their freedom",
+  "item.dream_projection.super_taser": "Solidarity Shatterer"
 }

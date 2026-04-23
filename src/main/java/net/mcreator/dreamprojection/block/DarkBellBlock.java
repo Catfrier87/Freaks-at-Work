@@ -43,7 +43,7 @@ public class DarkBellBlock extends Block implements SimpleWaterloggedBlock {
 
 	@Override
 	public int getLightBlock(BlockState state) {
-		return 0;
+		return propagatesSkylightDown(state) ? 0 : 1;
 	}
 
 	@Override

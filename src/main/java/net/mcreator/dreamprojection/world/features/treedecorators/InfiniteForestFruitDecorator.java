@@ -9,7 +9,6 @@ import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.CocoaBlock;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.util.RandomSource;
 import net.minecraft.resources.ResourceLocation;
@@ -53,7 +52,7 @@ public class InfiniteForestFruitDecorator extends CocoaDecorator {
 							Direction direction1 = direction.getOpposite();
 							BlockPos blockpos = p_226026_.offset(direction1.getStepX(), 0, direction1.getStepZ());
 							if (context.isAir(blockpos)) {
-								context.setBlock(blockpos, Blocks.COCOA.defaultBlockState().setValue(CocoaBlock.AGE, randomsource.nextInt(3)).setValue(CocoaBlock.FACING, direction));
+								context.setBlock(blockpos, oriented(Blocks.WALL_TORCH.defaultBlockState(), direction1));
 							}
 						}
 					}

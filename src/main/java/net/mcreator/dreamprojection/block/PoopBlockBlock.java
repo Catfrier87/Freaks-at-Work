@@ -19,9 +19,4 @@ public class PoopBlockBlock extends Block {
 	public Integer getBeaconColorMultiplier(BlockState state, LevelReader world, BlockPos pos, BlockPos beaconPos) {
 		return ARGB.opaque(-6724096);
 	}
-
-	@Override
-	public int getLightBlock(BlockState state) {
-		return 15;
-	}
 }
