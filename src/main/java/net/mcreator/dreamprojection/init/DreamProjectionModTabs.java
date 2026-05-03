@@ -38,6 +38,7 @@ public class DreamProjectionModTabs {
 				tabData.accept(DreamProjectionModItems.TERMINATOR_KIT.get());
 				tabData.accept(DreamProjectionModItems.SUPER_STUNSTICK.get());
 				tabData.accept(DreamProjectionModItems.SUPER_TASER.get());
+				tabData.accept(DreamProjectionModItems.LEXAPRO.get());
 			}).build());
 
 	@SubscribeEvent

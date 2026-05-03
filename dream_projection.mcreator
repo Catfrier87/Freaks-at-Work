@@ -1181,9 +1181,9 @@
       "registry_name": "dissociative_field",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/dimension/dissociative_field.json",
+          "src/main/resources/data/dream_projection/dimension_type/dissociative_field.json",
           "src/main/java/net/mcreator/dreamprojection/world/dimension/DissociativeFieldDimension.java",
-          "src/main/resources/data/dream_projection/dimension_type/dissociative_field.json"
+          "src/main/resources/data/dream_projection/dimension/dissociative_field.json"
         ]
       },
       "path": "~/Dissociation"
@@ -2990,6 +2990,40 @@
         ]
       },
       "path": "~/Dissociation/houses"
+    },
+    {
+      "name": "Lexapro",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lexapro",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/lexapro.json",
+          "src/main/resources/assets/dream_projection/models/item/lexapro.json",
+          "src/main/java/net/mcreator/dreamprojection/item/LexaproItem.java"
+        ]
+      },
+      "path": "~/Dissociation"
+    },
+    {
+      "name": "UseLexapro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_lexapro",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/UseLexaproProcedure.java"
+        ]
+      },
+      "path": "~/Dissociation"
     }
   ],
   "variable_elements": [],
@@ -3135,6 +3169,7 @@
       "~CUSTOM:Meat"
     ],
     "ITEMS:minecraft:meat": [
+      "~CUSTOM:Lexapro",
       "~CUSTOM:Meat"
     ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
@@ -3371,7 +3406,8 @@
       "advancements.super_stunstick_crafted.descr": "So precious is their freedom",
       "item.dream_projection.super_taser": "Solidarity Shatterer",
       "subtitles.ambient1": "",
-      "subtitles.anger1": ""
+      "subtitles.anger1": "",
+      "item.dream_projection.lexapro": "Lexapro"
     }
   },
   "metadata": {
