@@ -1539,11 +1539,11 @@
       "registry_name": "splunger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/splunger_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/items/splunger_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/client/renderer/SplungerRenderer.java",
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/splunger_biome_modifier.json",
           "src/main/java/net/mcreator/dreamprojection/entity/SplungerEntity.java",
-          "src/main/resources/assets/dream_projection/items/splunger_spawn_egg.json"
+          "src/main/resources/assets/dream_projection/models/item/splunger_spawn_egg.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/splunger_biome_modifier.json"
         ]
       }
     },
@@ -3017,6 +3017,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -3024,6 +3040,73 @@
         ]
       },
       "path": "~/Dissociation"
+    },
+    {
+      "name": "SurgeryTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgery_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/surgery_table.json",
+          "src/main/resources/assets/dream_projection/blockstates/surgery_table.json",
+          "src/main/resources/assets/dream_projection/models/item/surgery_table.json",
+          "src/main/java/net/mcreator/dreamprojection/block/SurgeryTableBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/surgery_table.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/surgery_table.json"
+        ]
+      },
+      "path": "~/Surgeries"
+    },
+    {
+      "name": "SugeryGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugery_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/client/gui/SugeryGUIScreen.java",
+          "src/main/java/net/mcreator/dreamprojection/world/inventory/SugeryGUIMenu.java"
+        ]
+      },
+      "path": "~/Surgeries"
+    },
+    {
+      "name": "OpenSurgeryUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_surgery_ui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/procedures/OpenSurgeryUIProcedure.java"
+        ]
+      },
+      "path": "~/Surgeries"
     }
   ],
   "variable_elements": [],
@@ -3278,6 +3361,9 @@
       "EntityMinecartHopper",
       "EntityMinecartMobSpawner",
       "EntityMinecartTNT"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SurgeryTable"
     ]
   },
   "tab_element_order": {},
@@ -3407,7 +3493,10 @@
       "item.dream_projection.super_taser": "Solidarity Shatterer",
       "subtitles.ambient1": "",
       "subtitles.anger1": "",
-      "item.dream_projection.lexapro": "Lexapro"
+      "item.dream_projection.lexapro": "Lexapro",
+      "item.dream_projection.surgery_table": "Surgery Table",
+      "gui.dream_projection.sugery_gui.tooltip_removes_the_viscera": "Removes the viscera",
+      "gui.dream_projection.sugery_gui.label_it_hurts": "it hurts"
     }
   },
   "metadata": {
@@ -3415,6 +3504,9 @@
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModAttributes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModScreens.java",
+      "src/main/java/net/mcreator/dreamprojection/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModMenus.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
@@ -3591,6 +3683,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Surgeries",
+        "children": []
       }
     ]
   },

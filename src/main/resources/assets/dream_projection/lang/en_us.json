@@ -123,5 +123,8 @@
   "item.dream_projection.super_taser": "Solidarity Shatterer",
   "subtitles.ambient1": "",
   "subtitles.anger1": "",
-  "item.dream_projection.lexapro": "Lexapro"
+  "item.dream_projection.lexapro": "Lexapro",
+  "item.dream_projection.surgery_table": "Surgery Table",
+  "gui.dream_projection.sugery_gui.tooltip_removes_the_viscera": "Removes the viscera",
+  "gui.dream_projection.sugery_gui.label_it_hurts": "it hurts"
 }

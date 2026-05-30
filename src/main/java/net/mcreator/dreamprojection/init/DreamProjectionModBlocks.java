@@ -33,6 +33,7 @@ public class DreamProjectionModBlocks {
 	public static final DeferredBlock<Block> POOP_BLOCK;
 	public static final DeferredBlock<Block> CORNY_POOP;
 	public static final DeferredBlock<Block> PANGEA_CRATE;
+	public static final DeferredBlock<Block> SURGERY_TABLE;
 	static {
 		EYES = register("eyes", EyesBlock::new);
 		DARKNESS_BLOCK = register("darkness_block", DarknessBlockBlock::new);
@@ -51,6 +52,7 @@ public class DreamProjectionModBlocks {
 		POOP_BLOCK = register("poop_block", PoopBlockBlock::new);
 		CORNY_POOP = register("corny_poop", CornyPoopBlock::new);
 		PANGEA_CRATE = register("pangea_crate", PangeaCrateBlock::new);
+		SURGERY_TABLE = register("surgery_table", SurgeryTableBlock::new);
 	}
 
 	// Start of user code block custom blocks

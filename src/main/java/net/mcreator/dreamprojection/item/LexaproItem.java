@@ -17,7 +17,7 @@ public class LexaproItem extends Item {
 	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
-		UseLexaproProcedure.execute(entity);
+		UseLexaproProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return retval;
 	}
 }
