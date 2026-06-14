@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "minecraft:block/jungle_leaves",
+    "bottom": "dream_projection:block/olddoorbottom",
+    "top": "dream_projection:block/olddoortop"
+  },
+  "render_type": "cutout"
+}

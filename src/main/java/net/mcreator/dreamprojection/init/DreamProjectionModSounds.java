@@ -19,4 +19,6 @@ public class DreamProjectionModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> ABYSSBOSSVOICE = REGISTRY.register("abyssbossvoice", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("dream_projection", "abyssbossvoice")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> MOSBSCREAM = REGISTRY.register("mosbscream", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("dream_projection", "mosbscream")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> NIGHTMARESOUND = REGISTRY.register("nightmaresound", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("dream_projection", "nightmaresound")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> GRIEF = REGISTRY.register("grief", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("dream_projection", "grief")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> GRIEF2 = REGISTRY.register("grief2", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("dream_projection", "grief2")));
 }

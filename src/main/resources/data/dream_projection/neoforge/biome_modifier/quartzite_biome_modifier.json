@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "savanna",
+  "features": "dream_projection:quartzite",
+  "step": "underground_ores"
+}

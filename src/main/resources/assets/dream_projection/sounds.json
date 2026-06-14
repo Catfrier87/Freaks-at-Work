@@ -43,5 +43,23 @@
         "stream": false
       }
     ]
+  },
+  "grief": {
+    "subtitle": "subtitles.grief",
+    "sounds": [
+      {
+        "name": "dream_projection:grief",
+        "stream": false
+      }
+    ]
+  },
+  "grief2": {
+    "subtitle": "subtitles.grief2",
+    "sounds": [
+      {
+        "name": "dream_projection:call_of_the_deep",
+        "stream": false
+      }
+    ]
   }
 }

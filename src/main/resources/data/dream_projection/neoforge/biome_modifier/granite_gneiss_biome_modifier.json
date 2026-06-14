@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "jungle",
+  "features": "dream_projection:granite_gneiss",
+  "step": "underground_ores"
+}

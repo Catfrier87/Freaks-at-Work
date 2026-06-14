@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dream_projection:block/griefstone",
+    "particle": "dream_projection:block/griefstone"
+  },
+  "render_type": "solid"
+}

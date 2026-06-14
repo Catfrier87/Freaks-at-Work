@@ -8,11 +8,11 @@
       "registry_name": "freak",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/entity/FreakEntity.java",
-          "src/main/resources/assets/dream_projection/models/item/freak_spawn_egg.json",
-          "src/main/resources/assets/dream_projection/items/freak_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/client/renderer/FreakRenderer.java",
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/freak_biome_modifier.json"
+          "src/main/java/net/mcreator/dreamprojection/entity/FreakEntity.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/freak_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/items/freak_spawn_egg.json",
+          "src/main/resources/assets/dream_projection/models/item/freak_spawn_egg.json"
         ]
       },
       "path": "~/Flesh/Creatures"
@@ -38,8 +38,8 @@
       "registry_name": "meat",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/MeatItem.java",
           "src/main/resources/assets/dream_projection/items/meat.json",
+          "src/main/java/net/mcreator/dreamprojection/item/MeatItem.java",
           "src/main/resources/assets/dream_projection/models/item/meat.json"
         ]
       },
@@ -67,8 +67,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/dream_projection/dimension_type/the_wheatfield.json",
-          "src/main/java/net/mcreator/dreamprojection/world/dimension/TheWheatfieldDimension.java",
-          "src/main/resources/data/dream_projection/dimension/the_wheatfield.json"
+          "src/main/resources/data/dream_projection/dimension/the_wheatfield.json",
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/TheWheatfieldDimension.java"
         ]
       },
       "path": "~/Wheatfield"
@@ -81,15 +81,15 @@
       "registry_name": "eyes",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dream_projection/items/eyes.json",
           "src/main/java/net/mcreator/dreamprojection/block/EyesBlock.java",
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/eyes_biome_modifier.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/eyes.json",
-          "src/main/resources/assets/dream_projection/blockstates/eyes.json",
           "src/main/resources/data/dream_projection/loot_table/blocks/eyes.json",
           "src/main/resources/data/dream_projection/worldgen/configured_feature/eyes.json",
-          "src/main/resources/assets/dream_projection/models/item/eyes.json",
-          "src/main/resources/assets/dream_projection/items/eyes.json",
-          "src/main/resources/assets/dream_projection/models/block/eyes.json"
+          "src/main/resources/assets/dream_projection/blockstates/eyes.json",
+          "src/main/resources/assets/dream_projection/models/block/eyes.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/eyes.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/eyes_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/models/item/eyes.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -102,12 +102,12 @@
       "registry_name": "darkness_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/block/DarknessBlockBlock.java",
-          "src/main/resources/assets/dream_projection/models/item/darkness_block.json",
-          "src/main/resources/assets/dream_projection/blockstates/darkness_block.json",
           "src/main/resources/data/dream_projection/loot_table/blocks/darkness_block.json",
           "src/main/resources/assets/dream_projection/items/darkness_block.json",
-          "src/main/resources/assets/dream_projection/models/block/darkness_block.json"
+          "src/main/resources/assets/dream_projection/models/block/darkness_block.json",
+          "src/main/java/net/mcreator/dreamprojection/block/DarknessBlockBlock.java",
+          "src/main/resources/assets/dream_projection/blockstates/darkness_block.json",
+          "src/main/resources/assets/dream_projection/models/item/darkness_block.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -120,12 +120,12 @@
       "registry_name": "skin_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/block/skin_block.json",
-          "src/main/java/net/mcreator/dreamprojection/block/SkinBlockBlock.java",
           "src/main/resources/data/dream_projection/loot_table/blocks/skin_block.json",
           "src/main/resources/assets/dream_projection/models/item/skin_block.json",
           "src/main/resources/assets/dream_projection/items/skin_block.json",
-          "src/main/resources/assets/dream_projection/blockstates/skin_block.json"
+          "src/main/java/net/mcreator/dreamprojection/block/SkinBlockBlock.java",
+          "src/main/resources/assets/dream_projection/blockstates/skin_block.json",
+          "src/main/resources/assets/dream_projection/models/block/skin_block.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -138,12 +138,12 @@
       "registry_name": "epidermis",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisTrunkDecorator.java",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisFruitDecorator.java",
           "src/main/resources/data/dream_projection/worldgen/placed_feature/epidermis_tree.json",
           "src/main/resources/data/dream_projection/worldgen/biome/epidermis.json",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisTrunkDecorator.java",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisLeaveDecorator.java",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisFruitDecorator.java",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/epidermis_tree.json"
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/epidermis_tree.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/EpidermisLeaveDecorator.java"
         ]
       },
       "path": "~/Flesh/Biomes"
@@ -156,14 +156,14 @@
       "registry_name": "blood_clot",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/blood_clot_biome_modifier.json",
-          "src/main/resources/assets/dream_projection/blockstates/blood_clot.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/blood_clot.json",
-          "src/main/resources/assets/dream_projection/models/item/blood_clot.json",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/blood_clot.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/blood_clot.json",
           "src/main/java/net/mcreator/dreamprojection/block/BloodClotBlock.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/blood_clot_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/models/item/blood_clot.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/blood_clot.json",
+          "src/main/resources/assets/dream_projection/blockstates/blood_clot.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/blood_clot.json",
           "src/main/resources/assets/dream_projection/items/blood_clot.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/blood_clot.json",
           "src/main/resources/assets/dream_projection/models/block/blood_clot.json"
         ]
       },
@@ -190,12 +190,12 @@
       "registry_name": "porestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/block/porestone.json",
-          "src/main/resources/assets/dream_projection/blockstates/porestone.json",
           "src/main/resources/assets/dream_projection/models/item/porestone.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/porestone.json",
+          "src/main/resources/assets/dream_projection/blockstates/porestone.json",
+          "src/main/resources/assets/dream_projection/models/block/porestone.json",
           "src/main/resources/assets/dream_projection/items/porestone.json",
-          "src/main/java/net/mcreator/dreamprojection/block/PorestoneBlock.java"
+          "src/main/java/net/mcreator/dreamprojection/block/PorestoneBlock.java",
+          "src/main/resources/data/dream_projection/loot_table/blocks/porestone.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -209,12 +209,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dream_projection/models/block/nutrient_sac.json",
-          "src/main/java/net/mcreator/dreamprojection/block/NutrientSacBlock.java",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/nutrient_sac.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/nutrient_sac.json",
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/nutrient_sac_biome_modifier.json",
           "src/main/resources/assets/dream_projection/items/nutrient_sac.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/nutrient_sac.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/nutrient_sac_biome_modifier.json",
           "src/main/resources/assets/dream_projection/models/item/nutrient_sac.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/nutrient_sac.json",
+          "src/main/java/net/mcreator/dreamprojection/block/NutrientSacBlock.java",
           "src/main/resources/assets/dream_projection/blockstates/nutrient_sac.json"
         ]
       },
@@ -241,8 +241,8 @@
       "registry_name": "wheatfieldbugfuckers",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/client/particle/WheatfieldbugfuckersParticle.java",
-          "src/main/resources/assets/dream_projection/particles/wheatfieldbugfuckers.json"
+          "src/main/resources/assets/dream_projection/particles/wheatfieldbugfuckers.json",
+          "src/main/java/net/mcreator/dreamprojection/client/particle/WheatfieldbugfuckersParticle.java"
         ]
       },
       "path": "~/Wheatfield"
@@ -256,8 +256,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dream_projection/models/item/scab.json",
-          "src/main/java/net/mcreator/dreamprojection/item/ScabItem.java",
-          "src/main/resources/assets/dream_projection/items/scab.json"
+          "src/main/resources/assets/dream_projection/items/scab.json",
+          "src/main/java/net/mcreator/dreamprojection/item/ScabItem.java"
         ]
       },
       "path": "~/Flesh/Craft"
@@ -270,9 +270,9 @@
       "registry_name": "tendons",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/TendonsItem.java",
           "src/main/resources/assets/dream_projection/models/item/tendons.json",
-          "src/main/resources/assets/dream_projection/items/tendons.json",
-          "src/main/java/net/mcreator/dreamprojection/item/TendonsItem.java"
+          "src/main/resources/assets/dream_projection/items/tendons.json"
         ]
       },
       "path": "~/Flesh/Craft"
@@ -285,8 +285,8 @@
       "registry_name": "pure_darkness",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/pure_darkness.json",
           "src/main/resources/assets/dream_projection/items/pure_darkness.json",
+          "src/main/resources/assets/dream_projection/models/item/pure_darkness.json",
           "src/main/java/net/mcreator/dreamprojection/item/PureDarknessItem.java"
         ]
       },
@@ -300,9 +300,9 @@
       "registry_name": "pupil",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/pupil.json",
+          "src/main/resources/assets/dream_projection/items/pupil.json",
           "src/main/java/net/mcreator/dreamprojection/item/PupilItem.java",
-          "src/main/resources/assets/dream_projection/items/pupil.json"
+          "src/main/resources/assets/dream_projection/models/item/pupil.json"
         ]
       },
       "path": "~/Flesh/Craft"
@@ -315,17 +315,17 @@
       "registry_name": "corpse_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/CorpseArmorItem.java",
-          "src/main/resources/assets/dream_projection/items/corpse_armor_helmet.json",
+          "src/main/resources/assets/dream_projection/items/corpse_armor_chestplate.json",
           "src/main/resources/assets/dream_projection/items/corpse_armor_leggings.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/item/CorpseArmorArmor.java",
+          "src/main/resources/assets/dream_projection/models/item/corpse_armor_helmet.json",
           "src/main/resources/assets/dream_projection/models/item/corpse_armor_leggings.json",
           "src/main/resources/assets/dream_projection/models/item/corpse_armor_boots.json",
           "src/main/resources/assets/dream_projection/equipment/corpse_armor.json",
-          "src/main/java/net/mcreator/dreamprojection/client/renderer/item/CorpseArmorArmor.java",
-          "src/main/resources/assets/dream_projection/items/corpse_armor_boots.json",
-          "src/main/resources/assets/dream_projection/models/item/corpse_armor_helmet.json",
-          "src/main/resources/assets/dream_projection/items/corpse_armor_chestplate.json",
-          "src/main/resources/assets/dream_projection/models/item/corpse_armor_chestplate.json"
+          "src/main/resources/assets/dream_projection/models/item/corpse_armor_chestplate.json",
+          "src/main/resources/assets/dream_projection/items/corpse_armor_helmet.json",
+          "src/main/java/net/mcreator/dreamprojection/item/CorpseArmorItem.java",
+          "src/main/resources/assets/dream_projection/items/corpse_armor_boots.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -339,8 +339,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dream_projection/items/meat_shot.json",
-          "src/main/resources/assets/dream_projection/models/item/meat_shot.json",
-          "src/main/java/net/mcreator/dreamprojection/item/MeatShotItem.java"
+          "src/main/java/net/mcreator/dreamprojection/item/MeatShotItem.java",
+          "src/main/resources/assets/dream_projection/models/item/meat_shot.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -366,11 +366,11 @@
       "registry_name": "cluster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/entity/ClusterEntity.java",
+          "src/main/resources/assets/dream_projection/models/item/cluster_spawn_egg.json",
           "src/main/resources/assets/dream_projection/items/cluster_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/client/renderer/ClusterRenderer.java",
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/cluster_biome_modifier.json",
-          "src/main/resources/assets/dream_projection/models/item/cluster_spawn_egg.json"
+          "src/main/java/net/mcreator/dreamprojection/entity/ClusterEntity.java"
         ]
       },
       "path": "~/Flesh/Creatures"
@@ -397,14 +397,14 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dreamprojection/block/BeastDimensionPortalBlock.java",
-          "src/main/resources/data/dream_projection/dimension/beast_dimension.json",
-          "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ns.json",
-          "src/main/java/net/mcreator/dreamprojection/world/dimension/BeastDimensionDimension.java",
-          "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ew.json",
-          "src/main/resources/data/dream_projection/dimension_type/beast_dimension.json",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionPortalShape.java",
           "src/main/resources/assets/dream_projection/blockstates/beast_dimension_portal.json",
+          "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ew.json",
+          "src/main/resources/assets/dream_projection/models/block/beast_dimension_portal_ns.json",
           "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionTeleporter.java",
-          "src/main/java/net/mcreator/dreamprojection/world/teleporter/BeastDimensionPortalShape.java"
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/BeastDimensionDimension.java",
+          "src/main/resources/data/dream_projection/dimension_type/beast_dimension.json",
+          "src/main/resources/data/dream_projection/dimension/beast_dimension.json"
         ]
       },
       "path": "~/Flesh"
@@ -418,8 +418,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dream_projection/models/item/vein_cutter.json",
-          "src/main/resources/assets/dream_projection/items/vein_cutter.json",
-          "src/main/java/net/mcreator/dreamprojection/item/VeinCutterItem.java"
+          "src/main/java/net/mcreator/dreamprojection/item/VeinCutterItem.java",
+          "src/main/resources/assets/dream_projection/items/vein_cutter.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -432,8 +432,8 @@
       "registry_name": "misery_axe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/misery_axe_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/misery_axe_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/misery_axe_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/misery_axe_recipe.json"
         ]
       },
       "path": "~/Flesh/Recipes"
@@ -446,8 +446,8 @@
       "registry_name": "meat_shot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/meat_shot_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/meat_shot_recipe.json"
+          "src/main/resources/data/dream_projection/recipe/meat_shot_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/meat_shot_recipe.json"
         ]
       },
       "path": "~/Flesh/Recipes"
@@ -474,8 +474,8 @@
       "registry_name": "corpse_chestplate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/corpse_chestplate_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/corpse_chestplate_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/corpse_chestplate_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/corpse_chestplate_recipe.json"
         ]
       },
       "path": "~/Flesh/Recipes"
@@ -488,8 +488,8 @@
       "registry_name": "vein_cutter_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/vein_cutter_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/vein_cutter_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/vein_cutter_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/vein_cutter_recipe.json"
         ]
       },
       "path": "~/Flesh/Recipes"
@@ -516,9 +516,9 @@
       "registry_name": "misery_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/misery_axe.json",
           "src/main/java/net/mcreator/dreamprojection/item/MiseryAxeItem.java",
-          "src/main/resources/assets/dream_projection/models/item/misery_axe.json"
+          "src/main/resources/assets/dream_projection/models/item/misery_axe.json",
+          "src/main/resources/assets/dream_projection/items/misery_axe.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -545,9 +545,9 @@
       "registry_name": "deaths_touch",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/DeathsTouchItem.java",
+          "src/main/resources/assets/dream_projection/items/deaths_touch.json",
           "src/main/resources/assets/dream_projection/models/item/deaths_touch.json",
-          "src/main/resources/assets/dream_projection/items/deaths_touch.json"
+          "src/main/java/net/mcreator/dreamprojection/item/DeathsTouchItem.java"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -614,9 +614,9 @@
       "registry_name": "void_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/VoidToolItem.java",
           "src/main/resources/assets/dream_projection/items/void_tool.json",
-          "src/main/resources/assets/dream_projection/models/item/void_tool.json"
+          "src/main/resources/assets/dream_projection/models/item/void_tool.json",
+          "src/main/java/net/mcreator/dreamprojection/item/VoidToolItem.java"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -629,9 +629,9 @@
       "registry_name": "abyss_spirit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/abyss_spirit.json",
+          "src/main/java/net/mcreator/dreamprojection/item/AbyssSpiritItem.java",
           "src/main/resources/assets/dream_projection/models/item/abyss_spirit.json",
-          "src/main/java/net/mcreator/dreamprojection/item/AbyssSpiritItem.java"
+          "src/main/resources/assets/dream_projection/items/abyss_spirit.json"
         ]
       },
       "path": "~/Flesh/Craft"
@@ -658,8 +658,8 @@
       "registry_name": "void_tool_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/void_tool_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/void_tool_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/void_tool_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/void_tool_recipe.json"
         ]
       },
       "path": "~/Flesh/Recipes"
@@ -703,10 +703,10 @@
       "registry_name": "abyss_boss",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/AbyssBossRenderer.java",
           "src/main/resources/assets/dream_projection/items/abyss_boss_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/entity/AbyssBossEntity.java",
-          "src/main/resources/assets/dream_projection/models/item/abyss_boss_spawn_egg.json",
-          "src/main/java/net/mcreator/dreamprojection/client/renderer/AbyssBossRenderer.java"
+          "src/main/resources/assets/dream_projection/models/item/abyss_boss_spawn_egg.json"
         ]
       },
       "path": "~/Flesh/Creatures"
@@ -754,9 +754,9 @@
       "registry_name": "death_certificate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/death_certificate.json",
+          "src/main/java/net/mcreator/dreamprojection/item/DeathCertificateItem.java",
           "src/main/resources/assets/dream_projection/items/death_certificate.json",
-          "src/main/java/net/mcreator/dreamprojection/item/DeathCertificateItem.java"
+          "src/main/resources/assets/dream_projection/models/item/death_certificate.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -796,9 +796,9 @@
       "registry_name": "heretic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/heretic_spawn_egg.json",
           "src/main/resources/assets/dream_projection/items/heretic_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/client/renderer/HereticRenderer.java",
+          "src/main/resources/assets/dream_projection/models/item/heretic_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/entity/HereticEntity.java"
         ]
       },
@@ -851,9 +851,9 @@
       "registry_name": "book_of_evil",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/BookOfEvilItem.java",
+          "src/main/resources/assets/dream_projection/items/book_of_evil.json",
           "src/main/resources/assets/dream_projection/models/item/book_of_evil.json",
-          "src/main/resources/assets/dream_projection/items/book_of_evil.json"
+          "src/main/java/net/mcreator/dreamprojection/item/BookOfEvilItem.java"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -866,9 +866,9 @@
       "registry_name": "heretic_dagger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/heretic_dagger.json",
           "src/main/java/net/mcreator/dreamprojection/item/HereticDaggerItem.java",
-          "src/main/resources/assets/dream_projection/items/heretic_dagger.json"
+          "src/main/resources/assets/dream_projection/items/heretic_dagger.json",
+          "src/main/resources/assets/dream_projection/models/item/heretic_dagger.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -939,9 +939,9 @@
       "registry_name": "smile_hammer",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dream_projection/models/item/smile_hammer.json",
           "src/main/java/net/mcreator/dreamprojection/item/SmileHammerItem.java",
-          "src/main/resources/assets/dream_projection/items/smile_hammer.json",
-          "src/main/resources/assets/dream_projection/models/item/smile_hammer.json"
+          "src/main/resources/assets/dream_projection/items/smile_hammer.json"
         ]
       },
       "path": "~/Flesh/Gear"
@@ -985,12 +985,12 @@
       "registry_name": "dark_bell",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dream_projection/models/item/dark_bell.json",
+          "src/main/java/net/mcreator/dreamprojection/block/DarkBellBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/dark_bell.json",
           "src/main/resources/assets/dream_projection/blockstates/dark_bell.json",
           "src/main/resources/data/dream_projection/loot_table/blocks/dark_bell.json",
-          "src/main/resources/assets/dream_projection/models/block/dark_bell.json",
-          "src/main/resources/assets/dream_projection/models/item/dark_bell.json",
-          "src/main/resources/assets/dream_projection/items/dark_bell.json",
-          "src/main/java/net/mcreator/dreamprojection/block/DarkBellBlock.java"
+          "src/main/resources/assets/dream_projection/items/dark_bell.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -1004,8 +1004,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/dream_projection/worldgen/structure_set/rib_church.json",
-          "src/main/resources/data/dream_projection/worldgen/structure/rib_church.json",
-          "src/main/resources/data/dream_projection/worldgen/template_pool/rib_church.json"
+          "src/main/resources/data/dream_projection/worldgen/template_pool/rib_church.json",
+          "src/main/resources/data/dream_projection/worldgen/structure/rib_church.json"
         ]
       },
       "path": "~/Flesh/Biomes"
@@ -1018,9 +1018,9 @@
       "registry_name": "bone_tree",
       "metadata": {
         "files": [
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/bone_tree.json",
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/bone_tree_biome_modifier.json",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/bone_tree.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/bone_tree.json"
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/bone_tree.json"
         ]
       },
       "path": "~/Flesh/Biomes"
@@ -1033,9 +1033,9 @@
       "registry_name": "h_7362",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dream_projection/models/item/h_7362_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/entity/H7362Entity.java",
           "src/main/java/net/mcreator/dreamprojection/client/renderer/H7362Renderer.java",
-          "src/main/resources/assets/dream_projection/models/item/h_7362_spawn_egg.json",
           "src/main/resources/assets/dream_projection/items/h_7362_spawn_egg.json"
         ]
       },
@@ -1080,14 +1080,14 @@
       "registry_name": "experience_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/experience_block.json",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/experience_block.json",
-          "src/main/resources/assets/dream_projection/models/item/experience_block.json",
-          "src/main/resources/assets/dream_projection/blockstates/experience_block.json",
           "src/main/java/net/mcreator/dreamprojection/block/ExperienceBlockBlock.java",
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/experience_block_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/blockstates/experience_block.json",
           "src/main/resources/assets/dream_projection/items/experience_block.json",
+          "src/main/resources/assets/dream_projection/models/item/experience_block.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/experience_block.json",
           "src/main/resources/assets/dream_projection/models/block/experience_block.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/experience_block.json",
           "src/main/resources/data/dream_projection/loot_table/blocks/experience_block.json"
         ]
       },
@@ -1101,8 +1101,8 @@
       "registry_name": "unblinking_eye",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/unblinking_eye.json",
           "src/main/resources/assets/dream_projection/models/item/unblinking_eye.json",
+          "src/main/resources/assets/dream_projection/items/unblinking_eye.json",
           "src/main/java/net/mcreator/dreamprojection/item/UnblinkingEyeItem.java"
         ]
       },
@@ -1147,15 +1147,15 @@
       "registry_name": "shadow_currant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/shadow_currant.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/shadow_currant.json",
-          "src/main/resources/assets/dream_projection/models/block/shadow_currant.json",
           "src/main/resources/assets/dream_projection/blockstates/shadow_currant.json",
           "src/main/resources/data/dream_projection/worldgen/configured_feature/shadow_currant.json",
-          "src/main/java/net/mcreator/dreamprojection/block/ShadowCurrantBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/shadow_currant.json",
           "src/main/resources/assets/dream_projection/models/item/shadow_currant.json",
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/shadow_currant_biome_modifier.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/shadow_currant.json"
+          "src/main/resources/assets/dream_projection/items/shadow_currant.json",
+          "src/main/java/net/mcreator/dreamprojection/block/ShadowCurrantBlock.java",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/shadow_currant.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/shadow_currant.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -1181,8 +1181,8 @@
       "registry_name": "dissociative_field",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/dimension/dissociative_field.json",
           "src/main/java/net/mcreator/dreamprojection/world/dimension/DissociativeFieldDimension.java",
+          "src/main/resources/data/dream_projection/dimension/dissociative_field.json",
           "src/main/resources/data/dream_projection/dimension_type/dissociative_field.json"
         ]
       },
@@ -1196,8 +1196,8 @@
       "registry_name": "darkness_block_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/darkness_block_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/darkness_block_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/darkness_block_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/darkness_block_recipe.json"
         ]
       },
       "path": "~/Flesh/Recipes"
@@ -1234,8 +1234,8 @@
       "registry_name": "scab_smelting",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/scab_smelting.json",
-          "src/main/resources/data/dream_projection/recipe/scab_smelting.json"
+          "src/main/resources/data/dream_projection/recipe/scab_smelting.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/scab_smelting.json"
         ]
       },
       "path": "~/Flesh/Recipes"
@@ -1297,14 +1297,14 @@
       "registry_name": "forest_dimension",
       "metadata": {
         "files": [
+          "src/main/resources/data/dream_projection/dimension_type/forest_dimension.json",
+          "src/main/java/net/mcreator/dreamprojection/block/ForestDimensionPortalBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/forest_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/ForestDimensionTeleporter.java",
           "src/main/resources/data/dream_projection/dimension/forest_dimension.json",
           "src/main/resources/assets/dream_projection/blockstates/forest_dimension_portal.json",
-          "src/main/java/net/mcreator/dreamprojection/world/teleporter/ForestDimensionTeleporter.java",
-          "src/main/java/net/mcreator/dreamprojection/world/teleporter/ForestDimensionPortalShape.java",
-          "src/main/resources/data/dream_projection/dimension_type/forest_dimension.json",
           "src/main/resources/assets/dream_projection/models/block/forest_dimension_portal_ns.json",
-          "src/main/resources/assets/dream_projection/models/block/forest_dimension_portal_ew.json",
-          "src/main/java/net/mcreator/dreamprojection/block/ForestDimensionPortalBlock.java"
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/ForestDimensionPortalShape.java"
         ]
       },
       "path": "~/The Forest"
@@ -1317,12 +1317,12 @@
       "registry_name": "infinite_forest",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/infinite_forest_tree.json",
           "src/main/resources/data/dream_projection/worldgen/biome/infinite_forest.json",
           "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestTrunkDecorator.java",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/infinite_forest_tree.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestLeaveDecorator.java",
           "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestFruitDecorator.java",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/InfiniteForestLeaveDecorator.java"
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/infinite_forest_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/infinite_forest_tree.json"
         ]
       },
       "path": "~/The Forest/Biomes"
@@ -1335,12 +1335,12 @@
       "registry_name": "finger_bone",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dream_projection/models/item/finger_bone.json",
+          "src/main/resources/assets/dream_projection/models/block/finger_bone.json",
+          "src/main/java/net/mcreator/dreamprojection/block/FingerBoneBlock.java",
           "src/main/resources/data/dream_projection/loot_table/blocks/finger_bone.json",
           "src/main/resources/assets/dream_projection/blockstates/finger_bone.json",
-          "src/main/resources/assets/dream_projection/models/block/finger_bone.json",
-          "src/main/resources/assets/dream_projection/items/finger_bone.json",
-          "src/main/resources/assets/dream_projection/models/item/finger_bone.json",
-          "src/main/java/net/mcreator/dreamprojection/block/FingerBoneBlock.java"
+          "src/main/resources/assets/dream_projection/items/finger_bone.json"
         ]
       },
       "path": "~/Flesh/Blocks"
@@ -1388,9 +1388,9 @@
       "registry_name": "tricks_structure",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/structure_set/tricks_structure.json",
           "src/main/resources/data/dream_projection/worldgen/template_pool/tricks_structure.json",
-          "src/main/resources/data/dream_projection/worldgen/structure/tricks_structure.json"
+          "src/main/resources/data/dream_projection/worldgen/structure/tricks_structure.json",
+          "src/main/resources/data/dream_projection/worldgen/structure_set/tricks_structure.json"
         ]
       },
       "path": "~/Overworld"
@@ -1454,9 +1454,9 @@
       "registry_name": "coasitine_shard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/coasitine_shard.json",
+          "src/main/java/net/mcreator/dreamprojection/item/CoasitineShardItem.java",
           "src/main/resources/assets/dream_projection/items/coasitine_shard.json",
-          "src/main/java/net/mcreator/dreamprojection/item/CoasitineShardItem.java"
+          "src/main/resources/assets/dream_projection/models/item/coasitine_shard.json"
         ]
       },
       "path": "~/Overworld/Items/Crafting"
@@ -1469,15 +1469,15 @@
       "registry_name": "coasitine_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/block/CoasitineOreBlock.java",
-          "src/main/resources/assets/dream_projection/blockstates/coasitine_ore.json",
-          "src/main/resources/assets/dream_projection/models/item/coasitine_ore.json",
-          "src/main/resources/assets/dream_projection/items/coasitine_ore.json",
-          "src/main/resources/data/dream_projection/worldgen/configured_feature/coasitine_ore.json",
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/coasitine_ore_biome_modifier.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/coasitine_ore.json",
           "src/main/resources/data/dream_projection/loot_table/blocks/coasitine_ore.json",
-          "src/main/resources/assets/dream_projection/models/block/coasitine_ore.json"
+          "src/main/resources/assets/dream_projection/items/coasitine_ore.json",
+          "src/main/resources/assets/dream_projection/models/block/coasitine_ore.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/coasitine_ore.json",
+          "src/main/resources/assets/dream_projection/models/item/coasitine_ore.json",
+          "src/main/resources/assets/dream_projection/blockstates/coasitine_ore.json",
+          "src/main/java/net/mcreator/dreamprojection/block/CoasitineOreBlock.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/coasitine_ore_biome_modifier.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/coasitine_ore.json"
         ]
       },
       "path": "~/Overworld/Blocks"
@@ -1539,9 +1539,9 @@
       "registry_name": "splunger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/splunger_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/client/renderer/SplungerRenderer.java",
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/splunger_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/models/item/splunger_spawn_egg.json",
           "src/main/java/net/mcreator/dreamprojection/entity/SplungerEntity.java",
           "src/main/resources/assets/dream_projection/items/splunger_spawn_egg.json"
         ]
@@ -1555,12 +1555,12 @@
       "registry_name": "pangea_biome",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeLeaveDecorator.java",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeFruitDecorator.java",
           "src/main/resources/data/dream_projection/worldgen/configured_feature/pangea_biome_tree.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeTrunkDecorator.java",
           "src/main/resources/data/dream_projection/worldgen/placed_feature/pangea_biome_tree.json",
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeFruitDecorator.java",
           "src/main/resources/data/dream_projection/worldgen/biome/pangea_biome.json",
-          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeTrunkDecorator.java"
+          "src/main/java/net/mcreator/dreamprojection/world/features/treedecorators/PangeaBiomeLeaveDecorator.java"
         ]
       },
       "path": "~/Pangea/Biomes"
@@ -1574,8 +1574,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dreamprojection/item/NoosphericOrbItem.java",
-          "src/main/resources/assets/dream_projection/models/item/noospheric_orb.json",
-          "src/main/resources/assets/dream_projection/items/noospheric_orb.json"
+          "src/main/resources/assets/dream_projection/items/noospheric_orb.json",
+          "src/main/resources/assets/dream_projection/models/item/noospheric_orb.json"
         ]
       },
       "path": "~/Pangea/Items"
@@ -1588,9 +1588,9 @@
       "registry_name": "nanode_stronghold",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/structure_set/nanode_stronghold.json",
           "src/main/resources/data/dream_projection/worldgen/template_pool/nanode_stronghold.json",
-          "src/main/resources/data/dream_projection/worldgen/structure/nanode_stronghold.json"
+          "src/main/resources/data/dream_projection/worldgen/structure/nanode_stronghold.json",
+          "src/main/resources/data/dream_projection/worldgen/structure_set/nanode_stronghold.json"
         ]
       },
       "path": "~/The Forest/Structures"
@@ -1603,18 +1603,18 @@
       "registry_name": "pangea",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/PangeaItem.java",
-          "src/main/resources/data/dream_projection/dimension_type/pangea.json",
-          "src/main/java/net/mcreator/dreamprojection/world/teleporter/PangeaPortalShape.java",
-          "src/main/java/net/mcreator/dreamprojection/block/PangeaPortalBlock.java",
-          "src/main/resources/assets/dream_projection/models/block/pangea_portal_ew.json",
-          "src/main/resources/assets/dream_projection/models/item/pangea.json",
           "src/main/resources/assets/dream_projection/items/pangea.json",
-          "src/main/java/net/mcreator/dreamprojection/world/teleporter/PangeaTeleporter.java",
-          "src/main/java/net/mcreator/dreamprojection/world/dimension/PangeaDimension.java",
+          "src/main/resources/assets/dream_projection/blockstates/pangea_portal.json",
           "src/main/resources/data/dream_projection/dimension/pangea.json",
           "src/main/resources/assets/dream_projection/models/block/pangea_portal_ns.json",
-          "src/main/resources/assets/dream_projection/blockstates/pangea_portal.json"
+          "src/main/java/net/mcreator/dreamprojection/item/PangeaItem.java",
+          "src/main/resources/assets/dream_projection/models/item/pangea.json",
+          "src/main/java/net/mcreator/dreamprojection/block/PangeaPortalBlock.java",
+          "src/main/java/net/mcreator/dreamprojection/world/dimension/PangeaDimension.java",
+          "src/main/resources/data/dream_projection/dimension_type/pangea.json",
+          "src/main/resources/assets/dream_projection/models/block/pangea_portal_ew.json",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/PangeaPortalShape.java",
+          "src/main/java/net/mcreator/dreamprojection/world/teleporter/PangeaTeleporter.java"
         ]
       },
       "path": "~/Pangea"
@@ -1627,8 +1627,8 @@
       "registry_name": "novae_reclaiment",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/NovaeReclaimentItem.java",
           "src/main/resources/assets/dream_projection/items/novae_reclaiment.json",
+          "src/main/java/net/mcreator/dreamprojection/item/NovaeReclaimentItem.java",
           "src/main/resources/assets/dream_projection/models/item/novae_reclaiment.json"
         ]
       },
@@ -1657,8 +1657,8 @@
       "registry_name": "englobed_shade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/englobed_shade.json",
           "src/main/resources/assets/dream_projection/items/englobed_shade.json",
+          "src/main/resources/assets/dream_projection/models/item/englobed_shade.json",
           "src/main/java/net/mcreator/dreamprojection/item/EnglobedShadeItem.java"
         ]
       },
@@ -1672,9 +1672,9 @@
       "registry_name": "state_phasure",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/StatePhasureItem.java",
           "src/main/resources/assets/dream_projection/items/state_phasure.json",
-          "src/main/resources/assets/dream_projection/models/item/state_phasure.json"
+          "src/main/resources/assets/dream_projection/models/item/state_phasure.json",
+          "src/main/java/net/mcreator/dreamprojection/item/StatePhasureItem.java"
         ]
       },
       "path": "~/Pangea/Items"
@@ -1687,9 +1687,9 @@
       "registry_name": "dark_matter",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/DarkMatterItem.java",
+          "src/main/resources/assets/dream_projection/items/dark_matter.json",
           "src/main/resources/assets/dream_projection/models/item/dark_matter.json",
-          "src/main/resources/assets/dream_projection/items/dark_matter.json"
+          "src/main/java/net/mcreator/dreamprojection/item/DarkMatterItem.java"
         ]
       },
       "path": "~/Pangea/Items"
@@ -1743,8 +1743,8 @@
       "registry_name": "dawns_end",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/dawns_end.json",
           "src/main/java/net/mcreator/dreamprojection/item/DawnsEndItem.java",
+          "src/main/resources/assets/dream_projection/models/item/dawns_end.json",
           "src/main/resources/assets/dream_projection/items/dawns_end.json"
         ]
       },
@@ -1786,8 +1786,8 @@
       "registry_name": "englobed_shade_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/englobed_shade_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/englobed_shade_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/englobed_shade_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/englobed_shade_recipe.json"
         ]
       },
       "path": "~/Pangea/Recipes/SunHeart"
@@ -1828,8 +1828,8 @@
       "registry_name": "dawns_end_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/dawns_end_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/dawns_end_recipe.json"
+          "src/main/resources/data/dream_projection/recipe/dawns_end_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/dawns_end_recipe.json"
         ]
       },
       "path": "~/Pangea/Recipes/SunHeart"
@@ -1842,8 +1842,8 @@
       "registry_name": "photic_jade_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/photic_jade_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/photic_jade_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/photic_jade_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/photic_jade_recipe.json"
         ]
       },
       "path": "~/Pangea/Recipes/SunHeart"
@@ -1870,8 +1870,8 @@
       "registry_name": "novae_reclaiment_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/novae_reclaiment_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/novae_reclaiment_recipe.json"
+          "src/main/resources/data/dream_projection/recipe/novae_reclaiment_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/novae_reclaiment_recipe.json"
         ]
       },
       "path": "~/Pangea/Recipes/SunHeart"
@@ -1884,8 +1884,8 @@
       "registry_name": "modified_quanta_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/modified_quanta_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/modified_quanta_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/modified_quanta_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/modified_quanta_recipe.json"
         ]
       },
       "path": "~/Pangea/Recipes/SunHeart"
@@ -1898,9 +1898,9 @@
       "registry_name": "modified_quanta",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/ModifiedQuantaItem.java",
           "src/main/resources/assets/dream_projection/items/modified_quanta.json",
-          "src/main/resources/assets/dream_projection/models/item/modified_quanta.json"
+          "src/main/resources/assets/dream_projection/models/item/modified_quanta.json",
+          "src/main/java/net/mcreator/dreamprojection/item/ModifiedQuantaItem.java"
         ]
       },
       "path": "~/Pangea/Items"
@@ -1913,8 +1913,8 @@
       "registry_name": "sun_heart_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/sun_heart_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/sun_heart_recipe.json"
+          "src/main/resources/data/dream_projection/recipe/sun_heart_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/sun_heart_recipe.json"
         ]
       },
       "path": "~/Pangea/Recipes/SunHeart"
@@ -1927,9 +1927,9 @@
       "registry_name": "nightmare_anchor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dream_projection/items/nightmare_anchor.json",
           "src/main/java/net/mcreator/dreamprojection/item/NightmareAnchorItem.java",
-          "src/main/resources/assets/dream_projection/models/item/nightmare_anchor.json",
-          "src/main/resources/assets/dream_projection/items/nightmare_anchor.json"
+          "src/main/resources/assets/dream_projection/models/item/nightmare_anchor.json"
         ]
       },
       "path": "~/The Forest/Items"
@@ -2041,8 +2041,8 @@
       "registry_name": "poop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/PoopItem.java",
           "src/main/resources/assets/dream_projection/models/item/poop.json",
+          "src/main/java/net/mcreator/dreamprojection/item/PoopItem.java",
           "src/main/resources/assets/dream_projection/items/poop.json"
         ]
       },
@@ -2056,12 +2056,12 @@
       "registry_name": "poop_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/poop_block.json",
           "src/main/resources/assets/dream_projection/blockstates/poop_block.json",
+          "src/main/resources/assets/dream_projection/models/block/poop_block.json",
+          "src/main/resources/assets/dream_projection/models/item/poop_block.json",
           "src/main/resources/data/dream_projection/loot_table/blocks/poop_block.json",
           "src/main/resources/assets/dream_projection/items/poop_block.json",
-          "src/main/java/net/mcreator/dreamprojection/block/PoopBlockBlock.java",
-          "src/main/resources/assets/dream_projection/models/block/poop_block.json"
+          "src/main/java/net/mcreator/dreamprojection/block/PoopBlockBlock.java"
         ]
       },
       "path": "~/Overworld/Blocks"
@@ -2074,8 +2074,8 @@
       "registry_name": "alex_cave",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/biome/alex_cave.json",
           "src/main/resources/data/dream_projection/worldgen/placed_feature/alex_cave_tree.json",
+          "src/main/resources/data/dream_projection/worldgen/biome/alex_cave.json",
           "src/main/resources/data/dream_projection/worldgen/configured_feature/alex_cave_tree.json"
         ]
       },
@@ -2102,8 +2102,8 @@
       "registry_name": "corn",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/corn.json",
           "src/main/java/net/mcreator/dreamprojection/item/CornItem.java",
+          "src/main/resources/assets/dream_projection/items/corn.json",
           "src/main/resources/assets/dream_projection/models/item/corn.json"
         ]
       },
@@ -2117,15 +2117,15 @@
       "registry_name": "corny_poop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/block/CornyPoopBlock.java",
           "src/main/resources/data/dream_projection/worldgen/configured_feature/corny_poop.json",
           "src/main/resources/assets/dream_projection/models/item/corny_poop.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/corny_poop.json",
           "src/main/resources/assets/dream_projection/blockstates/corny_poop.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/corny_poop.json",
-          "src/main/resources/assets/dream_projection/items/corny_poop.json",
           "src/main/resources/assets/dream_projection/models/block/corny_poop.json",
           "src/main/resources/data/dream_projection/neoforge/biome_modifier/corny_poop_biome_modifier.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/corny_poop.json"
+          "src/main/java/net/mcreator/dreamprojection/block/CornyPoopBlock.java",
+          "src/main/resources/assets/dream_projection/items/corny_poop.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/corny_poop.json"
         ]
       },
       "path": "~/Overworld/Blocks"
@@ -2138,9 +2138,9 @@
       "registry_name": "moldy_cave",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/worldgen/biome/moldy_cave.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/moldy_cave_tree.json",
           "src/main/resources/data/dream_projection/worldgen/configured_feature/moldy_cave_tree.json",
-          "src/main/resources/data/dream_projection/worldgen/placed_feature/moldy_cave_tree.json"
+          "src/main/resources/data/dream_projection/worldgen/biome/moldy_cave.json"
         ]
       },
       "path": "~/Overworld/Biomes"
@@ -2153,9 +2153,9 @@
       "registry_name": "green_man",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/GreenManRenderer.java",
           "src/main/resources/assets/dream_projection/items/green_man_spawn_egg.json",
           "src/main/resources/assets/dream_projection/models/item/green_man_spawn_egg.json",
-          "src/main/java/net/mcreator/dreamprojection/client/renderer/GreenManRenderer.java",
           "src/main/java/net/mcreator/dreamprojection/entity/GreenManEntity.java"
         ]
       },
@@ -2182,8 +2182,8 @@
       "registry_name": "jumper_cables",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/jumper_cables.json",
           "src/main/resources/assets/dream_projection/items/jumper_cables.json",
+          "src/main/resources/assets/dream_projection/models/item/jumper_cables.json",
           "src/main/java/net/mcreator/dreamprojection/item/JumperCablesItem.java"
         ]
       },
@@ -2224,8 +2224,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dream_projection/items/soul_power.json",
-          "src/main/java/net/mcreator/dreamprojection/item/SoulPowerItem.java",
-          "src/main/resources/assets/dream_projection/models/item/soul_power.json"
+          "src/main/resources/assets/dream_projection/models/item/soul_power.json",
+          "src/main/java/net/mcreator/dreamprojection/item/SoulPowerItem.java"
         ]
       },
       "path": "~/Overworld/Items/Crafting"
@@ -2278,8 +2278,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dreamprojection/item/BiofuelChargerItem.java",
-          "src/main/resources/assets/dream_projection/models/item/biofuel_charger.json",
-          "src/main/resources/assets/dream_projection/items/biofuel_charger.json"
+          "src/main/resources/assets/dream_projection/items/biofuel_charger.json",
+          "src/main/resources/assets/dream_projection/models/item/biofuel_charger.json"
         ]
       },
       "path": "~/Overworld/Items"
@@ -2417,8 +2417,8 @@
       "registry_name": "soul_cell_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/soul_cell_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/soul_cell_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/soul_cell_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/soul_cell_recipe.json"
         ]
       },
       "path": "~/Overworld/Recipes"
@@ -2431,8 +2431,8 @@
       "registry_name": "wither_skull_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/advancement/recipes/wither_skull_recipe.json",
-          "src/main/resources/data/dream_projection/recipe/wither_skull_recipe.json"
+          "src/main/resources/data/dream_projection/recipe/wither_skull_recipe.json",
+          "src/main/resources/data/dream_projection/advancement/recipes/wither_skull_recipe.json"
         ]
       },
       "path": "~/Overworld/Recipes"
@@ -2458,9 +2458,9 @@
       "registry_name": "taser",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/dreamprojection/item/TaserItem.java",
           "src/main/resources/assets/dream_projection/models/item/taser.json",
-          "src/main/resources/assets/dream_projection/items/taser.json",
-          "src/main/java/net/mcreator/dreamprojection/item/TaserItem.java"
+          "src/main/resources/assets/dream_projection/items/taser.json"
         ]
       },
       "path": "~/Overworld/Items"
@@ -2572,8 +2572,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dream_projection/items/dream_projector.json",
-          "src/main/resources/assets/dream_projection/models/item/dream_projector.json",
-          "src/main/java/net/mcreator/dreamprojection/item/DreamProjectorItem.java"
+          "src/main/java/net/mcreator/dreamprojection/item/DreamProjectorItem.java",
+          "src/main/resources/assets/dream_projection/models/item/dream_projector.json"
         ]
       }
     },
@@ -2585,11 +2585,11 @@
       "registry_name": "pangea_crate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/blockstates/pangea_crate.json",
-          "src/main/resources/assets/dream_projection/items/pangea_crate.json",
-          "src/main/resources/assets/dream_projection/models/item/pangea_crate.json",
-          "src/main/resources/data/dream_projection/loot_table/blocks/pangea_crate.json",
           "src/main/java/net/mcreator/dreamprojection/block/PangeaCrateBlock.java",
+          "src/main/resources/assets/dream_projection/models/item/pangea_crate.json",
+          "src/main/resources/assets/dream_projection/blockstates/pangea_crate.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/pangea_crate.json",
+          "src/main/resources/assets/dream_projection/items/pangea_crate.json",
           "src/main/resources/assets/dream_projection/models/block/pangea_crate.json"
         ]
       },
@@ -2635,14 +2635,14 @@
       "registry_name": "charged_boots",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dreamprojection/item/ChargedBootsItem.java",
-          "src/main/resources/assets/dream_projection/equipment/charged_boots.json",
-          "src/main/resources/assets/dream_projection/items/charged_boots_chestplate.json",
           "src/main/resources/assets/dream_projection/models/item/charged_boots_boots.json",
-          "src/main/resources/assets/dream_projection/items/charged_boots_helmet.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/item/ChargedBootsArmor.java",
+          "src/main/java/net/mcreator/dreamprojection/item/ChargedBootsItem.java",
           "src/main/resources/assets/dream_projection/items/charged_boots_leggings.json",
           "src/main/resources/assets/dream_projection/items/charged_boots_boots.json",
-          "src/main/java/net/mcreator/dreamprojection/client/renderer/item/ChargedBootsArmor.java"
+          "src/main/resources/assets/dream_projection/equipment/charged_boots.json",
+          "src/main/resources/assets/dream_projection/items/charged_boots_helmet.json",
+          "src/main/resources/assets/dream_projection/items/charged_boots_chestplate.json"
         ]
       },
       "path": "~/Overworld/Items"
@@ -2657,9 +2657,9 @@
         "files": [
           "src/main/java/net/mcreator/dreamprojection/client/renderer/CarrionCaptainRenderer.java",
           "src/main/java/net/mcreator/dreamprojection/entity/CarrionCaptainEntity.java",
+          "src/main/resources/assets/dream_projection/models/item/carrion_captain_spawn_egg.json",
           "src/main/resources/assets/dream_projection/items/carrion_captain_spawn_egg.json",
-          "src/main/resources/data/dream_projection/neoforge/biome_modifier/carrion_captain_biome_modifier.json",
-          "src/main/resources/assets/dream_projection/models/item/carrion_captain_spawn_egg.json"
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/carrion_captain_biome_modifier.json"
         ]
       }
     },
@@ -2717,8 +2717,8 @@
       "registry_name": "expansion_pak_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/expansion_pak_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/expansion_pak_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/expansion_pak_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/expansion_pak_recipe.json"
         ]
       },
       "path": "~/Overworld/Recipes"
@@ -2731,10 +2731,10 @@
       "registry_name": "terminator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/terminator_spawn_egg.json",
-          "src/main/java/net/mcreator/dreamprojection/entity/TerminatorEntity.java",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/TerminatorRenderer.java",
           "src/main/resources/assets/dream_projection/items/terminator_spawn_egg.json",
-          "src/main/java/net/mcreator/dreamprojection/client/renderer/TerminatorRenderer.java"
+          "src/main/java/net/mcreator/dreamprojection/entity/TerminatorEntity.java",
+          "src/main/resources/assets/dream_projection/models/item/terminator_spawn_egg.json"
         ]
       },
       "path": "~/Overworld/Creatures"
@@ -2782,9 +2782,9 @@
       "registry_name": "terminator_kit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/items/terminator_kit.json",
+          "src/main/resources/assets/dream_projection/models/item/terminator_kit.json",
           "src/main/java/net/mcreator/dreamprojection/item/TerminatorKitItem.java",
-          "src/main/resources/assets/dream_projection/models/item/terminator_kit.json"
+          "src/main/resources/assets/dream_projection/items/terminator_kit.json"
         ]
       },
       "path": "~/Overworld/Items"
@@ -2883,9 +2883,9 @@
       "registry_name": "super_stunstick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dream_projection/models/item/super_stunstick.json",
+          "src/main/java/net/mcreator/dreamprojection/item/SuperStunstickItem.java",
           "src/main/resources/assets/dream_projection/items/super_stunstick.json",
-          "src/main/java/net/mcreator/dreamprojection/item/SuperStunstickItem.java"
+          "src/main/resources/assets/dream_projection/models/item/super_stunstick.json"
         ]
       },
       "path": "~/Overworld/Items"
@@ -2940,11 +2940,207 @@
       "registry_name": "super_taser_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/dream_projection/recipe/super_taser_recipe.json",
-          "src/main/resources/data/dream_projection/advancement/recipes/super_taser_recipe.json"
+          "src/main/resources/data/dream_projection/advancement/recipes/super_taser_recipe.json",
+          "src/main/resources/data/dream_projection/recipe/super_taser_recipe.json"
         ]
       },
       "path": "~/Overworld/Recipes"
+    },
+    {
+      "name": "Raine",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/entity/RaineEntity.java",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/raine_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/models/item/raine_spawn_egg.json",
+          "src/main/java/net/mcreator/dreamprojection/client/renderer/RaineRenderer.java",
+          "src/main/resources/assets/dream_projection/items/raine_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "CarrionCaptainTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrion_captain_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/loot_table/entities/carrion_captain.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneChair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/items/bone_chair.json",
+          "src/main/resources/assets/dream_projection/blockstates/bone_chair.json",
+          "src/main/java/net/mcreator/dreamprojection/block/BoneChairBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/bone_chair.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/bone_chair.json",
+          "src/main/resources/assets/dream_projection/models/item/bone_chair.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneChairRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_chair_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/recipe/bone_chair_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Marble",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/blockstates/marble.json",
+          "src/main/java/net/mcreator/dreamprojection/block/MarbleBlock.java",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/marble.json",
+          "src/main/resources/assets/dream_projection/models/item/marble.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/marble.json",
+          "src/main/resources/assets/dream_projection/items/marble.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/marble.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/marble_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/models/block/marble.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks/Metamorphosis"
+    },
+    {
+      "name": "Quartzite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartzite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/blockstates/quartzite.json",
+          "src/main/resources/assets/dream_projection/models/item/quartzite.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/quartzite_biome_modifier.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/quartzite.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/quartzite.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/quartzite.json",
+          "src/main/resources/assets/dream_projection/items/quartzite.json",
+          "src/main/java/net/mcreator/dreamprojection/block/QuartziteBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/quartzite.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks/Metamorphosis"
+    },
+    {
+      "name": "Hornfels",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hornfels",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/hornfels_biome_modifier.json",
+          "src/main/resources/assets/dream_projection/models/block/hornfels.json",
+          "src/main/java/net/mcreator/dreamprojection/block/HornfelsBlock.java",
+          "src/main/resources/assets/dream_projection/items/hornfels.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/hornfels.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/hornfels.json",
+          "src/main/resources/assets/dream_projection/models/item/hornfels.json",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/hornfels.json",
+          "src/main/resources/assets/dream_projection/blockstates/hornfels.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks/Metamorphosis"
+    },
+    {
+      "name": "GraniteGneiss",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_gneiss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/block/granite_gneiss.json",
+          "src/main/java/net/mcreator/dreamprojection/block/GraniteGneissBlock.java",
+          "src/main/resources/data/dream_projection/worldgen/placed_feature/granite_gneiss.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/granite_gneiss.json",
+          "src/main/resources/data/dream_projection/neoforge/biome_modifier/granite_gneiss_biome_modifier.json",
+          "src/main/resources/data/dream_projection/worldgen/configured_feature/granite_gneiss.json",
+          "src/main/resources/assets/dream_projection/models/item/granite_gneiss.json",
+          "src/main/resources/assets/dream_projection/blockstates/granite_gneiss.json",
+          "src/main/resources/assets/dream_projection/items/granite_gneiss.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks/Metamorphosis"
+    },
+    {
+      "name": "Griefstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "griefstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreamprojection/block/GriefstoneBlock.java",
+          "src/main/resources/assets/dream_projection/models/item/griefstone.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/griefstone.json",
+          "src/main/resources/assets/dream_projection/items/griefstone.json",
+          "src/main/resources/assets/dream_projection/blockstates/griefstone.json",
+          "src/main/resources/assets/dream_projection/models/block/griefstone.json"
+        ]
+      },
+      "path": "~/Overworld/Blocks/Metamorphosis"
+    },
+    {
+      "name": "OldDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dream_projection/models/block/old_door_bottom_left.json",
+          "src/main/java/net/mcreator/dreamprojection/block/OldDoorBlock.java",
+          "src/main/resources/assets/dream_projection/models/block/old_door_top_left.json",
+          "src/main/resources/assets/dream_projection/models/block/old_door_bottom_right.json",
+          "src/main/resources/assets/dream_projection/models/block/old_door_top_right.json",
+          "src/main/resources/assets/dream_projection/models/block/old_door_top_left_open.json",
+          "src/main/resources/data/dream_projection/loot_table/blocks/old_door.json",
+          "src/main/resources/assets/dream_projection/items/old_door.json",
+          "src/main/resources/assets/dream_projection/blockstates/old_door.json",
+          "src/main/resources/assets/dream_projection/models/block/old_door_bottom_left_open.json",
+          "src/main/resources/assets/dream_projection/models/block/old_door_top_right_open.json",
+          "src/main/resources/assets/dream_projection/models/item/old_door.json",
+          "src/main/resources/assets/dream_projection/models/block/old_door_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "BeaconRecipeNew",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_recipe_new",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipe/beacon_recipe_new.json"
+        ]
+      },
+      "path": "~/Overworld"
     }
   ],
   "variable_elements": [],
@@ -2988,6 +3184,22 @@
       ],
       "category": "ambient",
       "subtitle": "Brain Divided"
+    },
+    {
+      "name": "grief",
+      "files": [
+        "grief"
+      ],
+      "category": "block",
+      "subtitle": "AGONY AND SUFFERING"
+    },
+    {
+      "name": "grief2",
+      "files": [
+        "call_of_the_deep"
+      ],
+      "category": "block",
+      "subtitle": "Pure Rage"
     }
   ],
   "tag_elements": {
@@ -3013,6 +3225,12 @@
       "~CUSTOM:SkinBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Griefstone",
+      "~CUSTOM:GraniteGneiss",
+      "~CUSTOM:Hornfels",
+      "~CUSTOM:Quartzite",
+      "~CUSTOM:Marble",
+      "~CUSTOM:BoneChair",
       "~CUSTOM:CoasitineOre",
       "~CUSTOM:ExperienceBlock",
       "~CUSTOM:DarkBell",
@@ -3045,6 +3263,7 @@
       "~CUSTOM:MeatShot"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Griefstone",
       "~CUSTOM:CoasitineOre",
       "~CUSTOM:DarkBell",
       "~CUSTOM:Eyes"
@@ -3182,6 +3401,15 @@
       "EntityMinecartHopper",
       "EntityMinecartMobSpawner",
       "EntityMinecartTNT"
+    ],
+    "ITEMS:dream_projection:protolith": [
+      "Blocks.SANDSTONE#0",
+      "Blocks.STONE#0",
+      "Blocks.BASALT",
+      "Blocks.MOSS_BLOCK"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:OldDoor"
     ]
   },
   "tab_element_order": {},
@@ -3308,7 +3536,18 @@
       "item.dream_projection.super_stunstick": "Mortality Melter",
       "advancements.super_stunstick_crafted.title": "National Nightmare",
       "advancements.super_stunstick_crafted.descr": "So precious is their freedom",
-      "item.dream_projection.super_taser": "Solidarity Shatterer"
+      "item.dream_projection.super_taser": "Solidarity Shatterer",
+      "item.dream_projection.raine_spawn_egg": "Raine Spawn Egg",
+      "entity.dream_projection.raine": "Raine",
+      "item.dream_projection.bone_chair": "Chibi Reviews\u0027 Brother",
+      "item.dream_projection.marble": "Marble",
+      "item.dream_projection.quartzite": "Quartzite",
+      "item.dream_projection.hornfels": "Hornfels",
+      "item.dream_projection.granite_gneiss": "Granite Gneiss",
+      "subtitles.grief": "AGONY AND SUFFERING",
+      "subtitles.grief2": "Pure Rage",
+      "item.dream_projection.griefstone": "Griefstone",
+      "item.dream_projection.old_door": "Old Door"
     }
   },
   "metadata": {
@@ -3317,22 +3556,22 @@
       "src/main/java/net/mcreator/dreamprojection/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBiomes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticles.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModParticleTypes.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModMobEffects.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModBlocks.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModItems.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
       "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntityRenderers.java",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModEntities.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
-      "src/main/resources/dream_projection.mixins.json",
-      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/dream_projection/sounds.json",
-      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java"
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModTabs.java",
+      "src/main/java/net/mcreator/dreamprojection/init/DreamProjectionModModels.java",
+      "src/main/java/net/mcreator/dreamprojection/DreamProjectionMod.java",
+      "src/main/resources/dream_projection.mixins.json"
     ]
   },
   "foldersRoot": {
@@ -3447,7 +3686,12 @@
         "children": [
           {
             "name": "Blocks",
-            "children": []
+            "children": [
+              {
+                "name": "Metamorphosis",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Creatures",

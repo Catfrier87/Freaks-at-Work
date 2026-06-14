@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:bone"
+  },
+  "result": {
+    "id": "dream_projection:bone_chair",
+    "count": 1
+  }
+}
