@@ -36,7 +36,7 @@
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,
-    "coordinateScale": 1.0,
+    "coordinateScale": 0.01,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": true,
     "hasSkyLight": false,

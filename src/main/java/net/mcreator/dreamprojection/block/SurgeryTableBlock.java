@@ -1,5 +1,7 @@
 package net.mcreator.dreamprojection.block;
 
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
@@ -16,13 +18,20 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.dreamprojection.procedures.OpenSurgeryUIProcedure;
+import net.mcreator.dreamprojection.init.DreamProjectionModBlocks;
 
 public class SurgeryTableBlock extends UntintedParticleLeavesBlock {
 	public SurgeryTableBlock(BlockBehaviour.Properties properties) {
 		super(0.01f, ParticleTypes.SONIC_BOOM, properties.sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava()
 				.instrument(NoteBlockInstrument.WITHER_SKELETON).isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
+	}
+
+	@Override
+	public int getLightBlock(BlockState state) {
+		return 4;
 	}
 
 	@Override
@@ -42,5 +51,11 @@ public class SurgeryTableBlock extends UntintedParticleLeavesBlock {
 		Direction direction = hit.getDirection();
 		OpenSurgeryUIProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
+	}
+
+	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+		event.register((bs, world, pos, index) -> {
+			return world != null && pos != null ? Minecraft.getInstance().level.getBiome(pos).value().getFogColor() : 12638463;
+		}, DreamProjectionModBlocks.SURGERY_TABLE.get());
 	}
 }

@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
-    "height": 166,
+    "width": 190,
+    "height": 190,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -22,28 +22,148 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "x": 13,
-          "y": 9,
+          "x": 195,
+          "y": 219,
           "locked": false
         }
       },
       {
-        "type": "tooltip",
+        "type": "label",
         "data": {
-          "name": "tooltip_removes_the_viscera",
+          "name": "label_resources",
           "text": {
-            "fixedValue": "Removes the viscera"
+            "fixedValue": "Resources:"
           },
-          "width": 88,
-          "height": 47,
-          "x": 167,
-          "y": 92,
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 188,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "<",
+          "isUndecorated": false,
+          "width": 30,
+          "height": 20,
+          "x": 124,
+          "y": 43,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": ">",
+          "isUndecorated": false,
+          "width": 30,
+          "height": 20,
+          "x": 274,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_initiate_procedure",
+          "text": "Initiate Procedure ",
+          "isUndecorated": false,
+          "width": 121,
+          "height": 20,
+          "x": 154,
+          "y": 190,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_systemic_lethargy_05",
+          "text": {
+            "fixedValue": "Systemic Lethargy: 0/5"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 155,
+          "y": 176,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_pooplol",
+          "text": {
+            "fixedValue": "Procedure:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 187,
+          "y": 30,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lobotomy",
+          "text": {
+            "fixedValue": "Lobotomy"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 192,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "red_cross.png",
+          "use1Xscale": true,
+          "x": 6,
+          "y": 4,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_05",
+          "text": {
+            "fixedValue": "0/5"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 205,
+          "y": 61,
           "locked": false
         }
       }
     ],
     "gridSettings": {
-      "sx": 18,
+      "sx": 17,
       "sy": 18,
       "ox": 11,
       "oy": 15,

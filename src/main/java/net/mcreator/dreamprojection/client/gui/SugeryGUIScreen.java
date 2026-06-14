@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.dreamprojection.world.inventory.SugeryGUIMenu;
@@ -17,7 +18,11 @@ public class SugeryGUIScreen extends AbstractContainerScreen<SugeryGUIMenu> impl
 	private final int x, y, z;
 	private final Player entity;
 	private boolean menuStateUpdateActive = false;
+	private Button button_empty1;
+	private Button button_empty;
+	private Button button_initiate_procedure;
 	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("dream_projection:textures/screens/sugery_gui.png");
+	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("dream_projection:textures/screens/red_cross.png");
 
 	public SugeryGUIScreen(SugeryGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -26,8 +31,8 @@ public class SugeryGUIScreen extends AbstractContainerScreen<SugeryGUIMenu> impl
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageWidth = 190;
+		this.imageHeight = 190;
 	}
 
 	@Override
@@ -39,18 +44,13 @@ public class SugeryGUIScreen extends AbstractContainerScreen<SugeryGUIMenu> impl
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-		boolean customTooltipShown = false;
-		if (mouseX > leftPos + 41 && mouseX < leftPos + 129 && mouseY > topPos + 55 && mouseY < topPos + 102) {
-			guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.dream_projection.sugery_gui.tooltip_removes_the_viscera"), mouseX, mouseY);
-			customTooltipShown = true;
-		}
-		if (!customTooltipShown)
-			this.renderTooltip(guiGraphics, mouseX, mouseY);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + -113, this.topPos + -21, 0, 0, 156, 51, 156, 51);
 	}
 
 	@Override
@@ -64,11 +64,25 @@ public class SugeryGUIScreen extends AbstractContainerScreen<SugeryGUIMenu> impl
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.dream_projection.sugery_gui.label_it_hurts"), -113, -28, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dream_projection.sugery_gui.label_it_hurts"), 76, 194, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dream_projection.sugery_gui.label_resources"), 69, 56, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dream_projection.sugery_gui.label_systemic_lethargy_05"), 36, 151, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dream_projection.sugery_gui.label_pooplol"), 68, 5, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dream_projection.sugery_gui.label_lobotomy"), 73, 23, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.dream_projection.sugery_gui.label_05"), 86, 36, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
+		button_empty1 = Button.builder(Component.translatable("gui.dream_projection.sugery_gui.button_empty1"), e -> {
+		}).bounds(this.leftPos + 5, this.topPos + 18, 30, 20).build();
+		this.addRenderableWidget(button_empty1);
+		button_empty = Button.builder(Component.translatable("gui.dream_projection.sugery_gui.button_empty"), e -> {
+		}).bounds(this.leftPos + 155, this.topPos + 19, 30, 20).build();
+		this.addRenderableWidget(button_empty);
+		button_initiate_procedure = Button.builder(Component.translatable("gui.dream_projection.sugery_gui.button_initiate_procedure"), e -> {
+		}).bounds(this.leftPos + 35, this.topPos + 165, 121, 20).build();
+		this.addRenderableWidget(button_initiate_procedure);
 	}
 }

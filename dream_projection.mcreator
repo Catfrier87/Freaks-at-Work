@@ -3496,7 +3496,17 @@
       "item.dream_projection.lexapro": "Lexapro",
       "item.dream_projection.surgery_table": "Surgery Table",
       "gui.dream_projection.sugery_gui.tooltip_removes_the_viscera": "Removes the viscera",
-      "gui.dream_projection.sugery_gui.label_it_hurts": "it hurts"
+      "gui.dream_projection.sugery_gui.label_it_hurts": "it hurts",
+      "gui.dream_projection.sugery_gui.label_resources": "Resources:",
+      "gui.dream_projection.sugery_gui.label_lobotomy": "Lobotomy",
+      "gui.dream_projection.sugery_gui.button_empty1": "\u003c",
+      "gui.dream_projection.sugery_gui.label_sugery_table": "sUGERY tAbLe",
+      "gui.dream_projection.sugery_gui.button_empty": "\u003e",
+      "gui.dream_projection.sugery_gui.label_00": "0/0",
+      "gui.dream_projection.sugery_gui.button_initiate_procedure": "Initiate Procedure ",
+      "gui.dream_projection.sugery_gui.label_pooplol": "Procedure:",
+      "gui.dream_projection.sugery_gui.label_systemic_lethargy_05": "Systemic Lethargy: 0/5",
+      "gui.dream_projection.sugery_gui.label_05": "0/5"
     }
   },
   "metadata": {
