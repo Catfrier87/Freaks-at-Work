@@ -106,13 +106,13 @@
       "value": ""
     },
     "livingSound": {
-      "value": "CUSTOM:abyssbossvoice"
+      "value": "CUSTOM:ambient1"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": ""
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:anger1"
     },
     "stepSound": {
       "value": ""
