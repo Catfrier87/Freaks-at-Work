@@ -38,7 +38,13 @@ public class DreamProjectionModTabs {
 				tabData.accept(DreamProjectionModItems.TERMINATOR_KIT.get());
 				tabData.accept(DreamProjectionModItems.SUPER_STUNSTICK.get());
 				tabData.accept(DreamProjectionModItems.SUPER_TASER.get());
-				tabData.accept(DreamProjectionModItems.LEXAPRO.get());
+				tabData.accept(DreamProjectionModItems.RAINE_SPAWN_EGG.get());
+				tabData.accept(DreamProjectionModBlocks.BONE_CHAIR.get().asItem());
+				tabData.accept(DreamProjectionModBlocks.MARBLE.get().asItem());
+				tabData.accept(DreamProjectionModBlocks.QUARTZITE.get().asItem());
+				tabData.accept(DreamProjectionModBlocks.HORNFELS.get().asItem());
+				tabData.accept(DreamProjectionModBlocks.GRANITE_GNEISS.get().asItem());
+				tabData.accept(DreamProjectionModBlocks.GRIEFSTONE.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -55,6 +61,7 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModItems.CARRION_CAPTAIN_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.TERMINATOR_SPAWN_EGG.get());
 			tabData.accept(DreamProjectionModItems.TERMINATOR_KIT.get());
+			tabData.accept(DreamProjectionModItems.RAINE_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DreamProjectionModItems.MEAT.get());
 			tabData.accept(DreamProjectionModItems.POOP.get());
@@ -92,11 +99,17 @@ public class DreamProjectionModTabs {
 			tabData.accept(DreamProjectionModBlocks.COASITINE_ORE.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.POOP_BLOCK.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.CORNY_POOP.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.MARBLE.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.QUARTZITE.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.HORNFELS.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.GRANITE_GNEISS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DreamProjectionModBlocks.DARKNESS_BLOCK.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.SKIN_BLOCK.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.BLOOD_CLOT.get().asItem());
 			tabData.accept(DreamProjectionModBlocks.PORESTONE.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.BONE_CHAIR.get().asItem());
+			tabData.accept(DreamProjectionModBlocks.GRIEFSTONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_HELMET.get());
 			tabData.accept(DreamProjectionModItems.CORPSE_ARMOR_CHESTPLATE.get());

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": "minecraft:sand",
+    "b": "dream_projection:car_battery",
+    "c": "minecraft:coal_block"
+  },
+  "result": {
+    "id": "minecraft:beacon",
+    "count": 1
+  }
+}

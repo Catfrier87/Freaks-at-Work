@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:bone_block_side",
+        "1": "minecraft:black_wool"
+      }
+    }
+  }
+}

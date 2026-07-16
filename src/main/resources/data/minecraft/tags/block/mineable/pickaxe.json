@@ -3,8 +3,14 @@
   "values": [
     "dream_projection:coasitine_ore",
     "dream_projection:blood_clot",
+    "dream_projection:griefstone",
+    "dream_projection:granite_gneiss",
+    "dream_projection:hornfels",
+    "dream_projection:bone_chair",
     "dream_projection:porestone",
+    "dream_projection:quartzite",
     "dream_projection:dark_bell",
+    "dream_projection:marble",
     "dream_projection:experience_block",
     "dream_projection:eyes"
   ]

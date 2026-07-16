@@ -63,6 +63,10 @@ public class DreamProjectionModEntities {
 					.sized(0.6f, 2f));
 	public static final DeferredHolder<EntityType<?>, EntityType<TerminatorEntity>> TERMINATOR = register("terminator",
 			EntityType.Builder.<TerminatorEntity>of(TerminatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().ridingOffset(-0.6f).sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<RaineEntity>> RAINE = register("raine",
+			EntityType.Builder.<RaineEntity>of(RaineEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.ridingOffset(-0.6f).sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -82,6 +86,7 @@ public class DreamProjectionModEntities {
 		GreenManEntity.init(event);
 		CarrionCaptainEntity.init(event);
 		TerminatorEntity.init(event);
+		RaineEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -96,5 +101,6 @@ public class DreamProjectionModEntities {
 		event.put(GREEN_MAN.get(), GreenManEntity.createAttributes().build());
 		event.put(CARRION_CAPTAIN.get(), CarrionCaptainEntity.createAttributes().build());
 		event.put(TERMINATOR.get(), TerminatorEntity.createAttributes().build());
+		event.put(RAINE.get(), RaineEntity.createAttributes().build());
 	}
 }

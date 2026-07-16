@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "dream_projection:blocks/old_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dream_projection:old_door",
+          "conditions": [
+            {
+              "block": "dream_projection:old_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
