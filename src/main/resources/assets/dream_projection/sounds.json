@@ -44,20 +44,18 @@
       }
     ]
   },
-  "grief": {
-    "subtitle": "subtitles.grief",
+  "ambient1": {
     "sounds": [
       {
-        "name": "dream_projection:grief",
+        "name": "dream_projection:ambient1",
         "stream": false
       }
     ]
   },
-  "grief2": {
-    "subtitle": "subtitles.grief2",
+  "anger1": {
     "sounds": [
       {
-        "name": "dream_projection:call_of_the_deep",
+        "name": "dream_projection:anger1",
         "stream": false
       }
     ]

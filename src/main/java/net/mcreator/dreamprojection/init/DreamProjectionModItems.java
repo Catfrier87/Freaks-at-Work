@@ -9,9 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.dreamprojection.item.*;
@@ -92,14 +90,8 @@ public class DreamProjectionModItems {
 	public static final DeferredItem<Item> TERMINATOR_KIT;
 	public static final DeferredItem<Item> SUPER_STUNSTICK;
 	public static final DeferredItem<Item> SUPER_TASER;
-	public static final DeferredItem<Item> RAINE_SPAWN_EGG;
-	public static final DeferredItem<Item> BONE_CHAIR;
-	public static final DeferredItem<Item> MARBLE;
-	public static final DeferredItem<Item> QUARTZITE;
-	public static final DeferredItem<Item> HORNFELS;
-	public static final DeferredItem<Item> GRANITE_GNEISS;
-	public static final DeferredItem<Item> GRIEFSTONE;
-	public static final DeferredItem<Item> OLD_DOOR;
+	public static final DeferredItem<Item> LEXAPRO;
+	public static final DeferredItem<Item> SURGERY_TABLE;
 	static {
 		FREAK_SPAWN_EGG = register("freak_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.FREAK.get(), properties));
 		MEAT = register("meat", MeatItem::new);
@@ -172,14 +164,8 @@ public class DreamProjectionModItems {
 		TERMINATOR_KIT = register("terminator_kit", TerminatorKitItem::new);
 		SUPER_STUNSTICK = register("super_stunstick", SuperStunstickItem::new);
 		SUPER_TASER = register("super_taser", SuperTaserItem::new);
-		RAINE_SPAWN_EGG = register("raine_spawn_egg", properties -> new SpawnEggItem(DreamProjectionModEntities.RAINE.get(), properties));
-		BONE_CHAIR = block(DreamProjectionModBlocks.BONE_CHAIR);
-		MARBLE = block(DreamProjectionModBlocks.MARBLE);
-		QUARTZITE = block(DreamProjectionModBlocks.QUARTZITE);
-		HORNFELS = block(DreamProjectionModBlocks.HORNFELS);
-		GRANITE_GNEISS = block(DreamProjectionModBlocks.GRANITE_GNEISS);
-		GRIEFSTONE = block(DreamProjectionModBlocks.GRIEFSTONE, new Item.Properties().rarity(Rarity.UNCOMMON));
-		OLD_DOOR = doubleBlock(DreamProjectionModBlocks.OLD_DOOR);
+		LEXAPRO = register("lexapro", LexaproItem::new);
+		SURGERY_TABLE = block(DreamProjectionModBlocks.SURGERY_TABLE);
 	}
 
 	// Start of user code block custom items
@@ -194,13 +180,5 @@ public class DreamProjectionModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
-	}
-
-	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
-		return doubleBlock(block, new Item.Properties());
-	}
-
-	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
 	}
 }

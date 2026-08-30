@@ -37,13 +37,7 @@ public class DreamProjectionModBlocks {
 	public static final DeferredBlock<Block> POOP_BLOCK;
 	public static final DeferredBlock<Block> CORNY_POOP;
 	public static final DeferredBlock<Block> PANGEA_CRATE;
-	public static final DeferredBlock<Block> BONE_CHAIR;
-	public static final DeferredBlock<Block> MARBLE;
-	public static final DeferredBlock<Block> QUARTZITE;
-	public static final DeferredBlock<Block> HORNFELS;
-	public static final DeferredBlock<Block> GRANITE_GNEISS;
-	public static final DeferredBlock<Block> GRIEFSTONE;
-	public static final DeferredBlock<Block> OLD_DOOR;
+	public static final DeferredBlock<Block> SURGERY_TABLE;
 	static {
 		EYES = register("eyes", EyesBlock::new);
 		DARKNESS_BLOCK = register("darkness_block", DarknessBlockBlock::new);
@@ -62,13 +56,7 @@ public class DreamProjectionModBlocks {
 		POOP_BLOCK = register("poop_block", PoopBlockBlock::new);
 		CORNY_POOP = register("corny_poop", CornyPoopBlock::new);
 		PANGEA_CRATE = register("pangea_crate", PangeaCrateBlock::new);
-		BONE_CHAIR = register("bone_chair", BoneChairBlock::new);
-		MARBLE = register("marble", MarbleBlock::new);
-		QUARTZITE = register("quartzite", QuartziteBlock::new);
-		HORNFELS = register("hornfels", HornfelsBlock::new);
-		GRANITE_GNEISS = register("granite_gneiss", GraniteGneissBlock::new);
-		GRIEFSTONE = register("griefstone", GriefstoneBlock::new);
-		OLD_DOOR = register("old_door", OldDoorBlock::new);
+		SURGERY_TABLE = register("surgery_table", SurgeryTableBlock::new);
 	}
 
 	// Start of user code block custom blocks
